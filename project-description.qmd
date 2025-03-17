@@ -1,33 +1,61 @@
 ---
-title: "Project Overview"
+title: "Project Overview
 ---
 
 ## Introduction
 
-**TL;DR**: *Identify a business process that can be enhanced through generative AI agents, design and implement a Python-based solution using modern AI frameworks and frontend technologies, and demonstrate its business impact.*
+**TL;DR**: *As AI consultants to Global Bike Inc. (GBI), identify a business process that can be enhanced through generative AI agents, design and implement a Python-based solution using modern AI frameworks and frontend technologies, and demonstrate its business impact.*
 
-The goal of this project is to develop a generative AI solution that leverages agent-based systems to automate operational business tasks. You will apply concepts and technologies covered in our course to create a functional prototype that demonstrates integration with business processes and provides measurable improvements in efficiency or quality.
+The goal of this project is to develop a generative AI solution that leverages agent-based systems to automate operational business tasks for Global Bike Inc. (GBI). You will act as AI consultants to this company, applying concepts and technologies covered in our course to create a functional prototype that demonstrates integration with GBI's business processes and provides measurable improvements in efficiency or quality.
 
 Your project should utilize Python as the primary programming language and incorporate frameworks from leading AI providers (OpenAI, Anthropic, or HuggingFace) along with modern frontend solutions (Gradio, Streamlit, or NextJS). All components of your project **must be reproducible** and should be included in your GitHub repository, with the exception of the final presentation.
+
+### About Global Bike Inc. (GBI)
+
+SAP's **Global Bike Inc. (GBI)** is a comprehensive case study designed for enterprise resource planning (ERP) education. This fictional company manufactures high-quality bicycles and accessories, serving as an ideal model for our AI implementation project.
+
+**Company Profile:**
+- **Industry**: Bicycle manufacturing and accessories
+- **Market Position**: Premium high-quality bikes for professional and recreational use
+- **Global Presence**: Manufacturing and sales operations across multiple regions
+
+**Key Business Areas:**
+- **Sales and Distribution**: Customer relationship management, order processing, delivery, and billing
+- **Materials Management**: Procurement, inventory management, and warehouse operations
+- **Production Planning**: Demand forecasting, manufacturing resource planning, and production order management
+- **Finance and Controlling**: Financial accounting, cost center accounting, and profitability analysis
+- **Human Resources**: Personnel management, time management, and payroll
+
+**Available Resources:**
+For this project, you will have access to GBI's Microsost SQL server containing sample data across these business domains. This will serve as the foundation for identifying promising AI agent implementation opportunities and developing your solution.
 
 ## Project Phases
 
 ### 1. Use Case Identification (Weeks 1-2)
 
-Begin by identifying three potential business use cases where generative AI agents could provide significant value. Evaluate each option based on:
+Begin by exploring GBI's business operations through the provided SQL server data. Identify three potential business use cases where generative AI agents could provide significant value to GBI. Focus on areas such as:
 
-- Business relevance and potential impact
+- **Sales process optimization**: Enhancing customer interactions, order processing, or sales forecasting
+- **Supply chain intelligence**: Improving inventory management, procurement, or supplier communications
+- **Production efficiency**: Optimizing manufacturing processes, quality control, or maintenance scheduling
+- **Customer service automation**: Creating intelligent support systems for customer inquiries or warranty claims
+- **Product development**: Assisting in market analysis, design feedback, or feature prioritization
+
+Evaluate each option based on:
+- Business relevance and potential impact for GBI
 - Technical feasibility within the course timeframe
-- Availability of necessary data and resources
+- Availability of necessary data in the GBI SQL server
 - Alignment with course concepts
 
-Submit a brief analysis (1-2 pages) of your three ideas with justification for each. We will discuss the options and select one use case to pursue.
+Submit a brief analysis (1-2 pages) of your three ideas with justification for each, explaining how they could enhance GBI's operations. We will discuss the options and select one use case to pursue.
 
 ### 2. Business Context Development (Weeks 2-3)
 
 Once your use case is approved, develop a comprehensive business context presentation using [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an appropriate [business template](https://slidesgo.com/themes). Your 10-minute presentation should include:
 
 - Business Model Canvas for the organization
+- Strategy Map showing how the AI solution supports organizational goals
+- Value Creation Optimization analysis (if applicable)
 - Value Proposition Canvas for the AI solution
 - User Personas for primary stakeholders/users
 - Specific KPIs that will measure success
@@ -47,15 +75,20 @@ Submit a design document (3-5 pages) and architecture diagram for feedback befor
 
 ### 4. Technical Implementation (Weeks 6-9)
 
-Implement your generative AI agent system following these guidelines:
+Implement your generative AI agent system for GBI following these guidelines:
 
 - Develop in Python with modular, well-documented code
 - Implement using selected AI frameworks (OpenAI, Anthropic, or HuggingFace)
 - Create an intuitive user interface using one of the specified frontend solutions
 - Include comprehensive error handling and robustness measures
-- Establish integration points with business processes
+- Establish integration points with GBI's business processes
+- Implement connection to the GBI SQL Server to access and process relevant business data
+- Design database queries that efficiently extract the necessary information
+- Consider implementation of new systems (like CRM, analytics dashboards, etc.) if appropriate for your solution
 - Implement metrics tracking for performance evaluation
 - Set up a GitHub repository with clear documentation
+
+Your solution should either integrate with GBI's existing data structure or propose new systems that would enhance their operations. While you will use the SQL Server as your primary data source, you are encouraged to explore implementing complementary systems that would address gaps in GBI's current operations.
 
 Weekly code reviews will be conducted to provide feedback and guidance.
 
@@ -97,12 +130,56 @@ Your project must include:
 
 1. **Python-based implementation** with clean, well-documented code
 2. **Integration of at least one LLM** from OpenAI, Anthropic, or HuggingFace
-3. **Agent-based architecture** for task automation
-4. **User interface** built with Gradio, Streamlit, or NextJS
-5. **Business process integration** points
-6. **Metrics tracking** for performance evaluation
-7. **Comprehensive documentation** in the GitHub repository
-8. **Reproducible setup** that can be deployed by others
+3. **Agent-based architecture** for task automation within GBI's business context
+4. **User interface** built with Gradio, Streamlit, or NextJS that aligns with GBI's business users' needs
+5. **Data integration** with the GBI SQL Server
+6. **Business process integration** points that demonstrate how the solution would connect with GBI's operations
+7. **Metrics tracking** for performance evaluation and business impact measurement
+8. **Consideration of new complementary systems** (CRM, Analytics, etc.) where appropriate
+9. **Comprehensive documentation** in the GitHub repository including:
+   - Technical implementation details
+   - Business process analysis
+   - Recommendations for GBI's AI strategy beyond this specific solution
+10. **Reproducible setup** that can be deployed by others
+
+As AI consultants to GBI, your solution should demonstrate not only technical proficiency but also an understanding of how your solution adds value to GBI's business operations. You are encouraged to propose and implement new systems that would complement the existing SQL Server data when appropriate for your chosen use case.
+
+## Evaluation
+
+Your project will be evaluated according to the grading criteria provided separately, which includes assessment of:
+
+- Business use case definition
+- Generative AI system design
+- Technical implementation
+- User interface implementation
+- Business process integration
+- Documentation and presentation
+
+## Resources
+
+### Course Resources
+- Course materials and lecture notes
+- Access credentials to GBI SQL server with sample data
+- GBI business process documentation and organizational charts
+
+### AI Development Resources
+- [OpenAI API Documentation](https://platform.openai.com/docs/api-reference)
+- [Anthropic Claude API Documentation](https://docs.anthropic.com/claude/reference/getting-started-with-the-api)
+- [HuggingFace Transformers Documentation](https://huggingface.co/docs/transformers/index)
+
+### Frontend Development Resources
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Gradio Documentation](https://www.gradio.app/docs/)
+- [NextJS Documentation](https://nextjs.org/docs)
+
+### Database and Integration Resources
+- GBI SQL Server schema documentation
+- Sample database entity relationship diagrams
+- GBI business process flowcharts
+- [Microsoft SQL Server Documentation](https://learn.microsoft.com/en-us/sql/sql-server/)
+- Various CRM/ERP system documentation (depending on your proposed solution)
+
+Additional resources will be shared throughout the course
 
 ## Evaluation
 
