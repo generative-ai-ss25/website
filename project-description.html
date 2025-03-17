@@ -200,28 +200,39 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p><strong>TL;DR</strong>: <em>Identify a business process that can be enhanced through generative AI agents, design and implement a Python-based solution using modern AI frameworks and frontend technologies, and demonstrate its business impact.</em></p>
-<p>The goal of this project is to develop a generative AI solution that leverages agent-based systems to automate operational business tasks. You will apply concepts and technologies covered in our course to create a functional prototype that demonstrates integration with business processes and provides measurable improvements in efficiency or quality.</p>
+<p><strong>TL;DR</strong>: <em>As AI consultants to Global Bike Inc.&nbsp;(GBI), identify a business process that can be enhanced through generative AI agents, design and implement a Python-based solution using modern AI frameworks and frontend technologies, and demonstrate its business impact.</em></p>
+<p>The goal of this project is to develop a generative AI solution that leverages agent-based systems to automate operational business tasks for Global Bike Inc.&nbsp;(GBI). You will act as AI consultants to this company, applying concepts and technologies covered in our course to create a functional prototype that demonstrates integration with GBI’s business processes and provides measurable improvements in efficiency or quality.</p>
 <p>Your project should utilize Python as the primary programming language and incorporate frameworks from leading AI providers (OpenAI, Anthropic, or HuggingFace) along with modern frontend solutions (Gradio, Streamlit, or NextJS). All components of your project <strong>must be reproducible</strong> and should be included in your GitHub repository, with the exception of the final presentation.</p>
+<section id="about-global-bike-inc.-gbi" class="level3">
+<h3 class="anchored" data-anchor-id="about-global-bike-inc.-gbi">About Global Bike Inc.&nbsp;(GBI)</h3>
+<p>SAP’s <strong>Global Bike Inc.&nbsp;(GBI)</strong> is a comprehensive case study designed for enterprise resource planning (ERP) education. This fictional company manufactures high-quality bicycles and accessories, serving as an ideal model for our AI implementation project.</p>
+<p><strong>Company Profile:</strong> - <strong>Industry</strong>: Bicycle manufacturing and accessories - <strong>Market Position</strong>: Premium high-quality bikes for professional and recreational use - <strong>Global Presence</strong>: Manufacturing and sales operations across multiple regions</p>
+<p><strong>Key Business Areas:</strong> - <strong>Sales and Distribution</strong>: Customer relationship management, order processing, delivery, and billing - <strong>Materials Management</strong>: Procurement, inventory management, and warehouse operations - <strong>Production Planning</strong>: Demand forecasting, manufacturing resource planning, and production order management - <strong>Finance and Controlling</strong>: Financial accounting, cost center accounting, and profitability analysis - <strong>Human Resources</strong>: Personnel management, time management, and payroll</p>
+<p><strong>Available Resources:</strong> For this project, you will have access to GBI’s Microsost SQL server containing sample data across these business domains. This will serve as the foundation for identifying promising AI agent implementation opportunities and developing your solution.</p>
+</section>
 </section>
 <section id="project-phases" class="level2">
 <h2 class="anchored" data-anchor-id="project-phases">Project Phases</h2>
 <section id="use-case-identification-weeks-1-2" class="level3">
 <h3 class="anchored" data-anchor-id="use-case-identification-weeks-1-2">1. Use Case Identification (Weeks 1-2)</h3>
-<p>Begin by identifying three potential business use cases where generative AI agents could provide significant value. Evaluate each option based on:</p>
+<p>Begin by exploring GBI’s business operations through the provided SQL server data. Identify three potential business use cases where generative AI agents could provide significant value to GBI. Focus on areas such as:</p>
 <ul>
-<li>Business relevance and potential impact</li>
-<li>Technical feasibility within the course timeframe</li>
-<li>Availability of necessary data and resources</li>
-<li>Alignment with course concepts</li>
+<li><strong>Sales process optimization</strong>: Enhancing customer interactions, order processing, or sales forecasting</li>
+<li><strong>Supply chain intelligence</strong>: Improving inventory management, procurement, or supplier communications</li>
+<li><strong>Production efficiency</strong>: Optimizing manufacturing processes, quality control, or maintenance scheduling</li>
+<li><strong>Customer service automation</strong>: Creating intelligent support systems for customer inquiries or warranty claims</li>
+<li><strong>Product development</strong>: Assisting in market analysis, design feedback, or feature prioritization</li>
 </ul>
-<p>Submit a brief analysis (1-2 pages) of your three ideas with justification for each. We will discuss the options and select one use case to pursue.</p>
+<p>Evaluate each option based on: - Business relevance and potential impact for GBI - Technical feasibility within the course timeframe - Availability of necessary data in the GBI SQL server - Alignment with course concepts</p>
+<p>Submit a brief analysis (1-2 pages) of your three ideas with justification for each, explaining how they could enhance GBI’s operations. We will discuss the options and select one use case to pursue.</p>
 </section>
 <section id="business-context-development-weeks-2-3" class="level3">
 <h3 class="anchored" data-anchor-id="business-context-development-weeks-2-3">2. Business Context Development (Weeks 2-3)</h3>
 <p>Once your use case is approved, develop a comprehensive business context presentation using <a href="https://www.google.com/intl/en_en/slides/about/">Google Slides</a> with an appropriate <a href="https://slidesgo.com/themes">business template</a>. Your 10-minute presentation should include:</p>
 <ul>
 <li>Business Model Canvas for the organization</li>
+<li>Strategy Map showing how the AI solution supports organizational goals</li>
+<li>Value Creation Optimization analysis (if applicable)</li>
 <li>Value Proposition Canvas for the AI solution</li>
 <li>User Personas for primary stakeholders/users</li>
 <li>Specific KPIs that will measure success</li>
@@ -242,16 +253,20 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="technical-implementation-weeks-6-9" class="level3">
 <h3 class="anchored" data-anchor-id="technical-implementation-weeks-6-9">4. Technical Implementation (Weeks 6-9)</h3>
-<p>Implement your generative AI agent system following these guidelines:</p>
+<p>Implement your generative AI agent system for GBI following these guidelines:</p>
 <ul>
 <li>Develop in Python with modular, well-documented code</li>
 <li>Implement using selected AI frameworks (OpenAI, Anthropic, or HuggingFace)</li>
 <li>Create an intuitive user interface using one of the specified frontend solutions</li>
 <li>Include comprehensive error handling and robustness measures</li>
-<li>Establish integration points with business processes</li>
+<li>Establish integration points with GBI’s business processes</li>
+<li>Implement connection to the GBI SQL Server to access and process relevant business data</li>
+<li>Design database queries that efficiently extract the necessary information</li>
+<li>Consider implementation of new systems (like CRM, analytics dashboards, etc.) if appropriate for your solution</li>
 <li>Implement metrics tracking for performance evaluation</li>
 <li>Set up a GitHub repository with clear documentation</li>
 </ul>
+<p>Your solution should either integrate with GBI’s existing data structure or propose new systems that would enhance their operations. While you will use the SQL Server as your primary data source, you are encouraged to explore implementing complementary systems that would address gaps in GBI’s current operations.</p>
 <p>Weekly code reviews will be conducted to provide feedback and guidance.</p>
 </section>
 <section id="testing-and-evaluation-weeks-10-11" class="level3">
@@ -297,16 +312,74 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><strong>Python-based implementation</strong> with clean, well-documented code</li>
 <li><strong>Integration of at least one LLM</strong> from OpenAI, Anthropic, or HuggingFace</li>
-<li><strong>Agent-based architecture</strong> for task automation</li>
-<li><strong>User interface</strong> built with Gradio, Streamlit, or NextJS</li>
-<li><strong>Business process integration</strong> points</li>
-<li><strong>Metrics tracking</strong> for performance evaluation</li>
-<li><strong>Comprehensive documentation</strong> in the GitHub repository</li>
+<li><strong>Agent-based architecture</strong> for task automation within GBI’s business context</li>
+<li><strong>User interface</strong> built with Gradio, Streamlit, or NextJS that aligns with GBI’s business users’ needs</li>
+<li><strong>Data integration</strong> with the GBI SQL Server</li>
+<li><strong>Business process integration</strong> points that demonstrate how the solution would connect with GBI’s operations</li>
+<li><strong>Metrics tracking</strong> for performance evaluation and business impact measurement</li>
+<li><strong>Consideration of new complementary systems</strong> (CRM, Analytics, etc.) where appropriate</li>
+<li><strong>Comprehensive documentation</strong> in the GitHub repository including:
+<ul>
+<li>Technical implementation details</li>
+<li>Business process analysis</li>
+<li>Recommendations for GBI’s AI strategy beyond this specific solution</li>
+</ul></li>
 <li><strong>Reproducible setup</strong> that can be deployed by others</li>
 </ol>
+<p>As AI consultants to GBI, your solution should demonstrate not only technical proficiency but also an understanding of how your solution adds value to GBI’s business operations. You are encouraged to propose and implement new systems that would complement the existing SQL Server data when appropriate for your chosen use case.</p>
 </section>
 <section id="evaluation" class="level2">
 <h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
+<p>Your project will be evaluated according to the grading criteria provided separately, which includes assessment of:</p>
+<ul>
+<li>Business use case definition</li>
+<li>Generative AI system design</li>
+<li>Technical implementation</li>
+<li>User interface implementation</li>
+<li>Business process integration</li>
+<li>Documentation and presentation</li>
+</ul>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<section id="course-resources" class="level3">
+<h3 class="anchored" data-anchor-id="course-resources">Course Resources</h3>
+<ul>
+<li>Course materials and lecture notes</li>
+<li>Access credentials to GBI SQL server with sample data</li>
+<li>GBI business process documentation and organizational charts</li>
+</ul>
+</section>
+<section id="ai-development-resources" class="level3">
+<h3 class="anchored" data-anchor-id="ai-development-resources">AI Development Resources</h3>
+<ul>
+<li><a href="https://platform.openai.com/docs/api-reference">OpenAI API Documentation</a></li>
+<li><a href="https://docs.anthropic.com/claude/reference/getting-started-with-the-api">Anthropic Claude API Documentation</a></li>
+<li><a href="https://huggingface.co/docs/transformers/index">HuggingFace Transformers Documentation</a></li>
+</ul>
+</section>
+<section id="frontend-development-resources" class="level3">
+<h3 class="anchored" data-anchor-id="frontend-development-resources">Frontend Development Resources</h3>
+<ul>
+<li><a href="https://docs.streamlit.io/">Streamlit Documentation</a></li>
+<li><a href="https://www.gradio.app/docs/">Gradio Documentation</a></li>
+<li><a href="https://nextjs.org/docs">NextJS Documentation</a></li>
+</ul>
+</section>
+<section id="database-and-integration-resources" class="level3">
+<h3 class="anchored" data-anchor-id="database-and-integration-resources">Database and Integration Resources</h3>
+<ul>
+<li>GBI SQL Server schema documentation</li>
+<li>Sample database entity relationship diagrams</li>
+<li>GBI business process flowcharts</li>
+<li><a href="https://learn.microsoft.com/en-us/sql/sql-server/">Microsoft SQL Server Documentation</a></li>
+<li>Various CRM/ERP system documentation (depending on your proposed solution)</li>
+</ul>
+<p>Additional resources will be shared throughout the course</p>
+</section>
+</section>
+<section id="evaluation-1" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-1">Evaluation</h2>
 <p>Your project will be evaluated according to the grading criteria provided separately, which includes assessment of:</p>
 <ul>
 <li>Business use case definition</li>
@@ -601,8 +674,8 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </section>
 </section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<section id="resources-1" class="level2">
+<h2 class="anchored" data-anchor-id="resources-1">Resources</h2>
 <ul>
 <li>Course materials and lecture notes</li>
 <li><a href="https://platform.openai.com/docs/api-reference">OpenAI API Documentation</a></li>
