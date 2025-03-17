@@ -1,0 +1,169 @@
+---
+title: "Syllabus"
+---
+
+
+## Course info
+
+|           | Day       | Time              | Location |
+|-----------|-----------|-------------------|----------|
+| Lecture   |  Wednesday   | 08:15  - 10:30  |  [Room S205](https://www.hdm-stuttgart.de/horst)  |
+
+
+
+## Learning objectives
+
+The course focuses on exploring and realizing the potential of LLMs to automate various business tasks. In particular, we will investigate how LLMs can be used to automate routine tasks such as composing emails and creating reports.
+
+By the end of the semester, you will be able to use popular frameworks like OpenAI Models and Gradio to build agentic LLM applications.
+
+
+## Teams
+
+You will be assigned to a team at the beginning of the semester.
+
+All team members are expected to contribute equally to the completion of the project and you will be asked to evaluate your team members throughout the semester. Failure to adequately contribute to an assignment will result in a penalty to your mark relative to the team's overall mark.
+
+You are expected to make use of the provided GitHub repository as the central collaborative platform. [Commits](https://github.com/git-guides/git-commit) to this repository will be used as a metric (one of several) of each team member's relative contribution for each project.
+
+
+## Assessment
+
+Assessment for the course is comprised of two components:
+
+- Acquisition of a skill badge (ungraded)
+- Project (all prototypes must be done in Python, and all components of the project **must be reproducible** (with the exception of the final presentation) placed inside a GitHub repo.
+)
+
+
+**Skill badge**
+
+Earn a Google Cloud skill badge by completing the [Introduction to Generative AI, Introduction to Large Language Models and Introduction to Responsible AI](https://www.cloudskillsboost.google/course_templates/556) courses. 
+
+By passing the final quiz, you'll demonstrate your understanding of foundational concepts in generative AI.
+
+A skill badge is a digital badge issued by Google Cloud in recognition of your knowledge of Google Cloud products and services. 
+
+## Project
+
+The purpose of the project is to build and present an agentic LLM application. The project will be completed in teams.
+
+
+
+
+### Grade
+
+The final course grade will be calculated based on the following criteria:
+
+| Criteria & Sub-Criteria                                      | Exceptional      | Proficient       | Basic            | Needs Improvement |
+|--------------------------------------------------------------|------------------|------------------|------------------|-------------------|
+| **Business Use Case Definition**                             |                  |                  |                  |                   |
+| 1. Problem Identification and Business Relevance             | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| 2. Scope Definition and Expected Business Impact             | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| **Generative AI System Design**                              |                  |                  |                  |                   |
+| 3. Agent Architecture Design                                 | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| 4. LLM Selection and Integration Strategy                    | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| **Technical Implementation**                                 |                  |                  |                  |                   |
+| 5. Python Code Quality and Structure                         | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| 6. Framework Selection and Implementation (OpenAI/Anthropic/HuggingFace) | 8-10 points | 5-7 points | 3-4 points | 0-2 points |
+| 7. Error Handling and Robustness                             | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| **User Interface Implementation**                            |                  |                  |                  |                   |
+| 8. Frontend Solution Quality (Gradio/Streamlit/NextJS)       | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| 9. User Experience and Interaction Design                    | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| **Business Process Integration**                             |                  |                  |                  |                   |
+| 10. Integration with Existing Business Processes             | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| 11. Efficiency and Quality Improvement Metrics               | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| **Documentation and Presentation**                           |                  |                  |                  |                   |
+| 12. Technical Documentation and System Architecture          | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+| 13. Project Presentation and Demonstration                   | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
+
+
+### Detailed Evaluation Criteria
+
+#### Business Use Case Definition
+- **Problem Identification and Business Relevance**: Identification of a meaningful business problem solvable through generative AI agents. Evaluation of the problem's significance and impact on business operations.
+- **Scope Definition and Expected Business Impact**: Clear definition of project boundaries, feasibility analysis, and projected business value (e.g., time savings, quality improvements, cost reduction).
+
+#### Generative AI System Design
+- **Agent Architecture Design**: Architecture design that demonstrates understanding of agent-based systems, including components for perception, reasoning, action, and learning.
+- **LLM Selection and Integration Strategy**: Appropriate selection of LLM(s) (OpenAI, Anthropic, HuggingFace) with justification, prompt engineering strategy, and integration approach.
+
+#### Technical Implementation
+- **Python Code Quality and Structure**: Quality of Python implementation, including code organization, readability, best practices, and modularity.
+- **Framework Selection and Implementation**: Effective use of chosen AI frameworks, proper implementation of generative AI capabilities, and customization for the specific use case.
+- **Error Handling and Robustness**: Implementation of comprehensive error handling, edge case management, and system reliability features.
+
+#### User Interface Implementation
+- **Frontend Solution Quality**: Implementation quality of the chosen frontend solution (Gradio, Streamlit, or NextJS), including code structure and technical correctness.
+- **User Experience and Interaction Design**: Usability, intuitiveness, and appropriateness of the interface for the target users and business context.
+
+#### Business Process Integration
+- **Integration with Existing Business Processes**: Strategy and implementation for integrating the solution with existing business workflows, systems, or databases.
+- **Efficiency and Quality Improvement Metrics**: Definition and measurement of KPIs demonstrating system impact on operational efficiency and output quality.
+
+#### Documentation and Presentation
+- **Technical Documentation and System Architecture**: Comprehensive documentation of system architecture, components, implementation decisions, and potential future improvements.
+- **Project Presentation and Demonstration**: Clarity, professionalism, and effectiveness in presenting the solution, including live demonstration of functionality.
+
+### Achievement Levels
+
+Total Points: 100
+- **Exceptional**: 80-100 points
+- **Proficient**: 65-79 points
+- **Basic**: 50-64 points
+- **Needs Improvement**: 0-49 points
+
+#### Exceptional (80-100%)
+Solution demonstrates outstanding mastery of generative AI agent implementation, innovative application to business problems, professional-grade implementation, and quantifiable business impact.
+
+#### Proficient (60-79%)
+Solution shows solid understanding of generative AI concepts, competent implementation of agent-based system, good business integration, and clear potential for business improvement.
+
+#### Basic (40-59%)
+Solution implements fundamental generative AI capabilities with functional but limited agent capabilities, basic business application, and minimal integration with business processes.
+
+### Needs Improvement (0-39%)
+Solution has significant gaps in implementation, limited AI agent functionality, poor business relevance, or inadequate technical quality.
+
+
+
+### Final Grade Conversion
+
+|  Grade       | Final Course Grade |
+|--------------|--------------------|
+| 1.0          | 96 - 100           |
+| 1.3          | 91 - 95            |
+| 1.7          | 85 - 90            |
+| 2.0          | 80 - 84            |
+| 2.3          | 75 - 79            |
+| 2.7          | 70 - 74            |
+| 3.0          | 65 - 69            |
+| 3.3          | 60 - 64            |
+| 3.7          | 55 - 59            |
+| 4.0          | 50 - 54            |
+| 4.7          | 15 - 49            |
+| 5.0          | 0 - 14             |
+
+
+## Course policies
+
+### Academic integrity
+
+**TL;DR: Don't cheat!**
+
+All students must adhere to the academic integrity standard. Students affirm their commitment to uphold the values by signing a pledge that states:
+
+-   I will not lie, cheat, or steal in my academic endeavors;
+-   I will conduct myself honorably in all my endeavors;
+-   I will act if the standard is compromised
+
+Regardless of the course delivery format, it is your responsibility to understand and follow HdM policies regarding academic integrity, including doing one's own work, following proper citation of sources, and adhering to guidance around group work projects.
+
+
+### Where to get help
+
+- If you have a question during lecture, feel free to ask it! 
+- Outside of class, any general questions about course content or assignments should be posted on the Moodle course forum.
+- Emails should be reserved for questions not appropriate for the public forum. **If you email me, please include the name of our course in the subject line.** 
+
+Check out the [Support](course-support.qmd) page for more resources.

@@ -1,0 +1,12 @@
+---
+title: "Course overview"
+---
+
+
+The course Generative AI for Business Applications focuses on exploring and realizing the potential of LLMs to automate various business tasks. In particular, we will investigate how agentic LLM workflows can be used to automate routine tasks such as composing emails and creating reports. 
+
+:::{.callout-tip}
+## Goal
+The goal is to increase productivity and efficiency in companies while ensuring the quality and consistency of the content generated. 
+:::
+

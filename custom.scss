@@ -1,0 +1,99 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapisom/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+$line-height-base: 1.5;
+$letter-spacing: -0.015em;
+
+/*-- scss:rules --*/
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: $letter-spacing;
+}
+
+/* Features */
+.features {
+  padding-bottom: 2em;
+  
+  @media (min-width: 800px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 0 0 -30px;
+    width: calc(100% + 30px);
+  }
+}
+
+.features .feature {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to bottom right, #FFD700, #FFA500);
+  color: #333333;
+  width: calc(33% - 30px);
+  margin: 20px 0 0 30px;
+  transition: all 0.3s ease-in-out !important;
+  
+  &:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin: 1em;
+    padding: 0 10px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.feature-header {
+  text-align: center;
+  margin-bottom: 1em;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #333;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+
+
+// Footnotes
+
+// .reveal {
+//   .footnote {
+//     font-size: 70%; // Verkleinert die Schriftgröße der Fußnote
+//     color: gray;    // Optional: Farbe anpassen
+//   }
+
+//   .footnote-ref {
+//     font-size: 80%; // Falls du die hochgestellten Referenzen ebenfalls anpassen möchtest
+//   }
+// }
+
+
+// Citation
+
+.reveal {
+  .citation {
+    font-size: 20%;  // Spezifisch für Zitationen
+  }
+}
