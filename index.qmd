@@ -1,5 +1,5 @@
 ---
-title: "LLM Applications"
+title: "GenAI Project"
 subtitle: "Content overview"
 ---
 
@@ -9,7 +9,7 @@ This page contains an outline of the topics and content for the course.
 This schedule will be updated as the semester progresses.
 :::
 
-|	Nr	|	Topic & Deadline	|	Material	|	Source	|	
+|	Nr	|	Topic 	|	Material	|	More resources	|	
 |	---	|	---	|	---	|	---	|	
 |		|	**Introduction** 	|		|		|	
 |	1	|	Project introduction	|	[📑](https://docs.google.com/presentation/d/1_8gaysH0zhJ5HK4VG989ONsF5uSb99HKvTbhCn1fCew/edit?usp=sharing)	|		|	

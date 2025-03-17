@@ -47,18 +47,19 @@ website:
 
     style: docked
     search: true
-    collapse-level: 1
+    collapse-level: 2
     contents:
       - section: "Course information"
         contents:
+          - href: index.qmd
+            text: Schedule        
           - href: course-overview.qmd
             text: Overview
           - href: course-syllabus.qmd
             text: Syllabus
           - href: course-support.qmd
             text: Support
-          - href: index.qmd
-            text: Schedule
+
       - section: "Project"
         contents:
           - href: project-description.qmd
@@ -67,15 +68,16 @@ website:
             text: Tips + resources
 
 
-html:
-  toc: false
-  theme: cosmo
-  css: custom.scss
-  code-copy: true
-  highlight-style: github-dark
-  code-overflow: wrap
-  author-meta: "Jan Kirenz"
-  callout-appearance: simple
-  include-in-header:
-    - text: |
-        <script src="password.js"></script>
+format:
+  html:
+    toc: false
+    theme: cosmo
+    css: custom.scss
+    code-copy: true
+    highlight-style: github-dark
+    code-overflow: wrap
+    author-meta: "Jan Kirenz"
+    callout-appearance: simple
+    include-in-header:
+      - text: |
+          <script src="password.js"></script>
