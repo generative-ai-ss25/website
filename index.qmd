@@ -16,6 +16,8 @@ This schedule will be updated as the semester progresses.
 |	2	|	Generative AI	|	[🖥️ Slides](https://kirenz.github.io/slides/genai/genai)	|		|	
 |	3	|	Large Language Models	|	[🖥️ Slides](https://kirenz.github.io/slides/llm/llm)	|		|	
 |	4	|	Programming toolkit lab	|	[💻 Online-Book](https://kirenz.github.io/toolkit-de/)	|		|	
+|		|	**Agents** 	|		|		|	
+|	1	|	Agentic Systems	|	[📑](https://kirenz.github.io/agents/agents-systems#/title-slide)	|		|	
 
 
 <!-- 
