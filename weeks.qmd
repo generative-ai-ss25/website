@@ -14,7 +14,7 @@ Introduction and project overview.
 ## Week 2
 
 
-### Theoretical frameworks 
+### Business frameworks 
 
 - Business model canvas
 - User persona
