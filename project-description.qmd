@@ -14,12 +14,14 @@ Your project should utilize Python as the primary programming language and incor
 
 SAP's **Global Bike Inc. (GBI)** is a comprehensive case study designed for enterprise resource planning (ERP) education. This fictional company manufactures high-quality bicycles and accessories, serving as an ideal model for our AI implementation project.
 
-**Company Profile:**  
-- **Industry**: Bicycle manufacturing and accessories
+**Company Profile:** 
+
+- **Industry**: Bicycle manufacturing and accessories  
 - **Market Position**: Premium high-quality bikes for professional and recreational use
 - **Global Presence**: Manufacturing and sales operations across multiple regions
 
 **Key Business Areas:**  
+
 - **Sales and Distribution**: Customer relationship management, order processing, delivery, and billing
 - **Materials Management**: Procurement, inventory management, and warehouse operations
 - **Production Planning**: Demand forecasting, manufacturing resource planning, and production order management
@@ -145,14 +147,7 @@ As AI consultants to GBI, your solution should demonstrate not only technical pr
 
 ## Evaluation
 
-Your project will be evaluated according to the grading criteria provided in the [syllabus](course-syllabus.qmd), which includes assessment of:
-
-- Business use case definition
-- Generative AI system design
-- Technical implementation
-- User interface implementation
-- Business process integration
-- Documentation and presentation
+Your project will be evaluated according to the grading criteria provided in the [syllabus](course-syllabus#assessment.qmd).
 
 ## Resources
 
