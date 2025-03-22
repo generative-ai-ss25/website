@@ -133,22 +133,11 @@
     ]
   },
   {
-    "objectID": "course-syllabus.html#project",
-    "href": "course-syllabus.html#project",
+    "objectID": "course-syllabus.html#project-grade",
+    "href": "course-syllabus.html#project-grade",
     "title": "Syllabus",
-    "section": "Project",
-    "text": "Project\nThe purpose of the project is to build and present an agentic LLM application. The project will be completed in teams.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#grade",
-    "href": "course-syllabus.html#grade",
-    "title": "Syllabus",
-    "section": "Grade",
-    "text": "Grade\nThe final course grade will be calculated based on the following criteria:\n\n\n\n\n\n\n\n\n\n\nCriteria & Sub-Criteria\nExceptional\nProficient\nBasic\nNeeds Improvement\n\n\n\n\nBusiness Use Case Definition\n\n\n\n\n\n\n1. Problem Identification and Business Relevance\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n2. Scope Definition and Expected Business Impact\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\nGenerative AI System Design\n\n\n\n\n\n\n3. Agent Architecture Design\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n4. LLM Selection and Integration Strategy\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\nTechnical Implementation\n\n\n\n\n\n\n5. Python Code Quality and Structure\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n6. Framework Selection and Implementation (OpenAI/Anthropic/HuggingFace)\n8-10 points\n5-7 points\n3-4 points\n0-2 points\n\n\n7. Error Handling and Robustness\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\nUser Interface Implementation\n\n\n\n\n\n\n8. Frontend Solution Quality (Gradio/Streamlit/NextJS)\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n9. User Experience and Interaction Design\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\nBusiness Process Integration\n\n\n\n\n\n\n10. Integration with Existing Business Processes\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n11. Efficiency and Quality Improvement Metrics\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\nDocumentation and Presentation\n\n\n\n\n\n\n12. Technical Documentation and System Architecture\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n13. Project Presentation and Demonstration\n6-8 points\n4-5 points\n2-3 points\n0-1 points",
+    "section": "Project grade",
+    "text": "Project grade\nThe final course grade will be calculated based on the following criteria:\n\n\n\n\n\n\n\n\n\n\nCriteria & Sub-Criteria\nExceptional\nProficient\nBasic\nNeeds Improvement\n\n\n\n\nBusiness Use Case Definition\n\n\n\n\n\n\n1. Problem Identification and Business Relevance\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n2. Scope Definition and Expected Business Impact\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\nGenerative AI System Design\n\n\n\n\n\n\n3. Agent Architecture Design\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n4. LLM Selection and Integration Strategy\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\nTechnical Implementation\n\n\n\n\n\n\n5. Python Code Quality and Structure\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n6. Framework Selection and Implementation (OpenAI/Anthropic/HuggingFace)\n8-10 points\n5-7 points\n3-4 points\n0-2 points\n\n\n7. Error Handling and Robustness\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\nUser Interface Implementation\n\n\n\n\n\n\n8. Frontend Solution Quality (Gradio/Streamlit/NextJS)\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n9. User Experience and Interaction Design\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\nBusiness Process Integration\n\n\n\n\n\n\n10. Integration with Existing Business Processes\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n11. Efficiency and Quality Improvement Metrics\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\nDocumentation and Presentation\n\n\n\n\n\n\n12. Technical Documentation and System Architecture\n6-8 points\n4-5 points\n2-3 points\n0-1 points\n\n\n13. Project Presentation and Demonstration\n6-8 points\n4-5 points\n2-3 points\n0-1 points",
     "crumbs": [
       "Course information",
       "Syllabus"
@@ -170,18 +159,7 @@
     "href": "course-syllabus.html#achievement-levels",
     "title": "Syllabus",
     "section": "Achievement Levels",
-    "text": "Achievement Levels\nTotal Points: 100 - Exceptional: 80-100 points - Proficient: 65-79 points - Basic: 50-64 points - Needs Improvement: 0-49 points\n\nExceptional (80-100%)\nSolution demonstrates outstanding mastery of generative AI agent implementation, innovative application to business problems, professional-grade implementation, and quantifiable business impact.\n\n\nProficient (60-79%)\nSolution shows solid understanding of generative AI concepts, competent implementation of agent-based system, good business integration, and clear potential for business improvement.\n\n\nBasic (40-59%)\nSolution implements fundamental generative AI capabilities with functional but limited agent capabilities, basic business application, and minimal integration with business processes.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#needs-improvement-0-39",
-    "href": "course-syllabus.html#needs-improvement-0-39",
-    "title": "Syllabus",
-    "section": "Needs Improvement (0-39%)",
-    "text": "Needs Improvement (0-39%)\nSolution has significant gaps in implementation, limited AI agent functionality, poor business relevance, or inadequate technical quality.",
+    "text": "Achievement Levels\nTotal Points: 100\n- Exceptional: 80-100 points - Proficient: 65-79 points - Basic: 50-64 points - Needs Improvement: 0-49 points\n\nExceptional (80-100%)\nSolution demonstrates outstanding mastery of generative AI agent implementation, innovative application to business problems, professional-grade implementation, and quantifiable business impact.\n\n\nProficient (60-79%)\nSolution shows solid understanding of generative AI concepts, competent implementation of agent-based system, good business integration, and clear potential for business improvement.\n\n\nBasic (40-59%)\nSolution implements fundamental generative AI capabilities with functional but limited agent capabilities, basic business application, and minimal integration with business processes.\n\n\nNeeds Improvement (0-39%)\nSolution has significant gaps in implementation, limited AI agent functionality, poor business relevance, or inadequate technical quality.",
     "crumbs": [
       "Course information",
       "Syllabus"
