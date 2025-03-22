@@ -8,7 +8,18 @@ toc: true
 
 Introduction and project overview.
 
+- Make sure to read the [syllabus](course-syllabus.qmd) and [project description](project-description.qmd).
+
+
 # Week 2
+
+
+## Theoretical frameworks 
+
+- Business model canvas
+- User persona
+- Value proposition canvas
+- Jobs to be Done
 
 ## Python Setup with uv
 
