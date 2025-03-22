@@ -12,9 +12,9 @@ This schedule will be updated as the semester progresses.
 |Week |	Nr	|	Topic            	|	Material	                                                                                                |
 | --- |	---	|	---	                |	---	                                                                                                        |	
 |  1  |		|	**Introduction** 	|		                                                                                                        |
-|     |	0	|	Project overview	|	[📑](https://docs.google.com/presentation/d/1_8gaysH0zhJ5HK4VG989ONsF5uSb99HKvTbhCn1fCew/edit?usp=sharing)	|
+|     |	0	|	Project overview	|	[📑 Slides](https://docs.google.com/presentation/d/1_8gaysH0zhJ5HK4VG989ONsF5uSb99HKvTbhCn1fCew/edit?usp=sharing)	|
 |     | 1	|	Introduction        |	[📄 PDF](slides/01-intro-genai.pdf)                                                                           |	
-|     |	2	|	Agentic Systems	    |	[📑](https://kirenz.github.io/agents/agents-systems#/title-slide)	|
+|     |	2	|	Agentic Systems	    |	[📑 Web](https://kirenz.github.io/agents/agents-systems#/title-slide)	|
 
 
 

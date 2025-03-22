@@ -1,8 +1,7 @@
 ---
-title: "Project Overview"
+title: "Project Description"
 ---
 
-## Introduction
 
 **TL;DR**: *As AI consultants to Global Bike Inc. (GBI), identify a business process that can be enhanced through generative AI agents, design and implement a Python-based solution using modern AI frameworks and frontend technologies, and demonstrate its business impact.*
 
@@ -10,28 +9,28 @@ The goal of this project is to develop a generative AI solution that leverages a
 
 Your project should utilize Python as the primary programming language and incorporate frameworks from leading AI providers (OpenAI, Anthropic, or HuggingFace) along with modern frontend solutions (Gradio, Streamlit, or NextJS). All components of your project **must be reproducible** and should be included in your GitHub repository, with the exception of the final presentation.
 
-### About Global Bike Inc. (GBI)
+# About Global Bike Inc. (GBI)
 
 SAP's **Global Bike Inc. (GBI)** is a comprehensive case study designed for enterprise resource planning (ERP) education. This fictional company manufactures high-quality bicycles and accessories, serving as an ideal model for our AI implementation project.
 
-**Company Profile:**
+**Company Profile:**  
 - **Industry**: Bicycle manufacturing and accessories
 - **Market Position**: Premium high-quality bikes for professional and recreational use
 - **Global Presence**: Manufacturing and sales operations across multiple regions
 
-**Key Business Areas:**
+**Key Business Areas:**  
 - **Sales and Distribution**: Customer relationship management, order processing, delivery, and billing
 - **Materials Management**: Procurement, inventory management, and warehouse operations
 - **Production Planning**: Demand forecasting, manufacturing resource planning, and production order management
 - **Finance and Controlling**: Financial accounting, cost center accounting, and profitability analysis
 - **Human Resources**: Personnel management, time management, and payroll
 
-**Available Resources:**
+**Available Resources:**  
 For this project, you will have access to GBI's Microsost SQL server containing sample data across these business domains. This will serve as the foundation for identifying promising AI agent implementation opportunities and developing your solution.
 
-## Project Phases
+# Project Phases
 
-### 1. Use Case Identification (Weeks 1-2)
+## Use Case Identification (Weeks 1-2)
 
 Begin by exploring GBI's business operations through the provided SQL server data. Identify three potential business use cases where generative AI agents could provide significant value to GBI. Focus on areas such as:
 
@@ -41,7 +40,8 @@ Begin by exploring GBI's business operations through the provided SQL server dat
 - **Customer service automation**: Creating intelligent support systems for customer inquiries or warranty claims
 - **Product development**: Assisting in market analysis, design feedback, or feature prioritization
 
-Evaluate each option based on:
+Evaluate each option based on:  
+
 - Business relevance and potential impact for GBI
 - Technical feasibility within the course timeframe
 - Availability of necessary data in the GBI SQL server
@@ -49,7 +49,7 @@ Evaluate each option based on:
 
 Submit a brief analysis (1-2 pages) of your three ideas with justification for each, explaining how they could enhance GBI's operations. We will discuss the options and select one use case to pursue.
 
-### 2. Business Context Development (Weeks 2-3)
+## Business Context Development (Weeks 2-3)
 
 Once your use case is approved, develop a comprehensive business context presentation using [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an appropriate [business template](https://slidesgo.com/themes). Your 10-minute presentation should include:
 
@@ -58,7 +58,7 @@ Once your use case is approved, develop a comprehensive business context present
 - [Value Proposition Canvas](value-proposition.qmd) and the [Jobs-to-be-done Framework](jobs-to-be-done.qmd) for the AI solution
 - Specific KPIs that will measure success
 
-### 3. Agent System Design (Weeks 4-6)
+## Agent System Design (Weeks 4-6)
 
 Design your generative AI agent system, focusing on:
 
@@ -71,7 +71,7 @@ Design your generative AI agent system, focusing on:
 
 Submit a design document (3-5 pages) and architecture diagram for feedback before proceeding to implementation.
 
-### 4. Technical Implementation (Weeks 7-11)
+## Technical Implementation (Weeks 7-11)
 
 Implement your generative AI agent system for GBI following these guidelines:
 
@@ -90,7 +90,7 @@ Your solution should either integrate with GBI's existing data structure or prop
 
 Weekly code reviews will be conducted to provide feedback and guidance.
 
-### 5. Testing and Evaluation (Weeks 12-13)
+## Testing and Evaluation (Weeks 12-13)
 
 Thoroughly test your system and evaluate its performance:
 
@@ -103,7 +103,7 @@ Thoroughly test your system and evaluate its performance:
 
 Submit a testing report (2-3 pages) documenting your findings.
 
-### 6. Final Documentation and Presentation (Weeks 14-15)
+## Final Documentation and Presentation (Weeks 14-15)
 
 Prepare comprehensive documentation and a final presentation:
 
@@ -122,7 +122,7 @@ Prepare comprehensive documentation and a final presentation:
   - Discusses challenges and lessons learned
   - Outlines potential future developments
 
-## Technical Requirements
+# Technical Requirements
 
 Your project must include:
 
@@ -142,9 +142,9 @@ Your project must include:
 
 As AI consultants to GBI, your solution should demonstrate not only technical proficiency but also an understanding of how your solution adds value to GBI's business operations. You are encouraged to propose and implement new systems that would complement the existing SQL Server data when appropriate for your chosen use case.
 
-## Evaluation
+# Evaluation
 
-Your project will be evaluated according to the grading criteria provided separately, which includes assessment of:
+Your project will be evaluated according to the grading criteria provided in the [syllabus](course-syllabus.qmd), which includes assessment of:
 
 - Business use case definition
 - Generative AI system design
@@ -153,147 +153,14 @@ Your project will be evaluated according to the grading criteria provided separa
 - Business process integration
 - Documentation and presentation
 
-## Resources
+# Resources
 
-### Course Resources
-- Course materials and lecture notes
-- Access credentials to GBI SQL server with sample data
-- GBI business process documentation and organizational charts
 
-### AI Development Resources
-- [OpenAI API Documentation](https://platform.openai.com/docs/api-reference)
+- [OpenAI API Documentation](https://platform.openai.com/docs/api-reference/responses)
 - [Anthropic Claude API Documentation](https://docs.anthropic.com/claude/reference/getting-started-with-the-api)
 - [HuggingFace Transformers Documentation](https://huggingface.co/docs/transformers/index)
-
-### Frontend Development Resources
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Gradio Documentation](https://www.gradio.app/docs/)
 - [NextJS Documentation](https://nextjs.org/docs)
-
-### Database and Integration Resources
-- GBI SQL Server schema documentation
-- Sample database entity relationship diagrams
-- GBI business process flowcharts
-- [Microsoft SQL Server Documentation](https://learn.microsoft.com/en-us/sql/sql-server/)
-- Various CRM/ERP system documentation (depending on your proposed solution)
 
 Additional resources will be shared throughout the course
-
-## Evaluation
-
-Your project will be evaluated according to the grading criteria provided separately, which includes assessment of:
-
-- Business use case definition
-- Generative AI system design
-- Technical implementation
-- User interface implementation
-- Business process integration
-- Documentation and presentation
-
-
-### Grade
-
-The final course grade will be calculated based on the following criteria:
-
-| Criteria & Sub-Criteria                                      | Exceptional      | Proficient       | Basic            | Needs Improvement |
-|--------------------------------------------------------------|------------------|------------------|------------------|-------------------|
-| **Business Use Case Definition**                             |                  |                  |                  |                   |
-| 1. Problem Identification and Business Relevance             | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| 2. Scope Definition and Expected Business Impact             | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| **Generative AI System Design**                              |                  |                  |                  |                   |
-| 3. Agent Architecture Design                                 | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| 4. LLM Selection and Integration Strategy                    | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| **Technical Implementation**                                 |                  |                  |                  |                   |
-| 5. Python Code Quality and Structure                         | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| 6. Framework Selection and Implementation (OpenAI/Anthropic/HuggingFace) | 8-10 points | 5-7 points | 3-4 points | 0-2 points |
-| 7. Error Handling and Robustness                             | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| **User Interface Implementation**                            |                  |                  |                  |                   |
-| 8. Frontend Solution Quality (Gradio/Streamlit/NextJS)       | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| 9. User Experience and Interaction Design                    | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| **Business Process Integration**                             |                  |                  |                  |                   |
-| 10. Integration with Existing Business Processes             | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| 11. Efficiency and Quality Improvement Metrics               | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| **Documentation and Presentation**                           |                  |                  |                  |                   |
-| 12. Technical Documentation and System Architecture          | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-| 13. Project Presentation and Demonstration                   | 6-8 points       | 4-5 points       | 2-3 points       | 0-1 points        |
-
-
-### Detailed Evaluation Criteria
-
-#### Business Use Case Definition
-- **Problem Identification and Business Relevance**: Identification of a meaningful business problem solvable through generative AI agents. Evaluation of the problem's significance and impact on business operations.
-- **Scope Definition and Expected Business Impact**: Clear definition of project boundaries, feasibility analysis, and projected business value (e.g., time savings, quality improvements, cost reduction).
-
-#### Generative AI System Design
-- **Agent Architecture Design**: Architecture design that demonstrates understanding of agent-based systems, including components for perception, reasoning, action, and learning.
-- **LLM Selection and Integration Strategy**: Appropriate selection of LLM(s) (OpenAI, Anthropic, HuggingFace) with justification, prompt engineering strategy, and integration approach.
-
-#### Technical Implementation
-- **Python Code Quality and Structure**: Quality of Python implementation, including code organization, readability, best practices, and modularity.
-- **Framework Selection and Implementation**: Effective use of chosen AI frameworks, proper implementation of generative AI capabilities, and customization for the specific use case.
-- **Error Handling and Robustness**: Implementation of comprehensive error handling, edge case management, and system reliability features.
-
-#### User Interface Implementation
-- **Frontend Solution Quality**: Implementation quality of the chosen frontend solution (Gradio, Streamlit, or NextJS), including code structure and technical correctness.
-- **User Experience and Interaction Design**: Usability, intuitiveness, and appropriateness of the interface for the target users and business context.
-
-#### Business Process Integration
-- **Integration with Existing Business Processes**: Strategy and implementation for integrating the solution with existing business workflows, systems, or databases.
-- **Efficiency and Quality Improvement Metrics**: Definition and measurement of KPIs demonstrating system impact on operational efficiency and output quality.
-
-#### Documentation and Presentation
-- **Technical Documentation and System Architecture**: Comprehensive documentation of system architecture, components, implementation decisions, and potential future improvements.
-- **Project Presentation and Demonstration**: Clarity, professionalism, and effectiveness in presenting the solution, including live demonstration of functionality.
-
-### Achievement Levels
-
-Total Points: 100
-- **Exceptional**: 80-100 points
-- **Proficient**: 65-79 points
-- **Basic**: 50-64 points
-- **Needs Improvement**: 0-49 points
-
-#### Exceptional (80-100%)
-Solution demonstrates outstanding mastery of generative AI agent implementation, innovative application to business problems, professional-grade implementation, and quantifiable business impact.
-
-#### Proficient (60-79%)
-Solution shows solid understanding of generative AI concepts, competent implementation of agent-based system, good business integration, and clear potential for business improvement.
-
-#### Basic (40-59%)
-Solution implements fundamental generative AI capabilities with functional but limited agent capabilities, basic business application, and minimal integration with business processes.
-
-### Needs Improvement (0-39%)
-Solution has significant gaps in implementation, limited AI agent functionality, poor business relevance, or inadequate technical quality.
-
-
-
-### Final Grade Conversion
-
-|  Grade       | Final Course Grade |
-|--------------|--------------------|
-| 1.0          | 96 - 100           |
-| 1.3          | 91 - 95            |
-| 1.7          | 85 - 90            |
-| 2.0          | 80 - 84            |
-| 2.3          | 75 - 79            |
-| 2.7          | 70 - 74            |
-| 3.0          | 65 - 69            |
-| 3.3          | 60 - 64            |
-| 3.7          | 55 - 59            |
-| 4.0          | 50 - 54            |
-| 4.7          | 15 - 49            |
-| 5.0          | 0 - 14             |
-
-
-
-
-## Resources
-
-- Course materials and lecture notes
-- [OpenAI API Documentation](https://platform.openai.com/docs/api-reference)
-- [Anthropic Claude API Documentation](https://docs.anthropic.com/claude/reference/getting-started-with-the-api)
-- [HuggingFace Transformers Documentation](https://huggingface.co/docs/transformers/index)
-- [Streamlit Documentation](https://docs.streamlit.io/)
-- [Gradio Documentation](https://www.gradio.app/docs/)
-- [NextJS Documentation](https://nextjs.org/docs)
-- Additional resources will be shared throughout the course
