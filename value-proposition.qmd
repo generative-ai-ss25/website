@@ -1,0 +1,109 @@
+---
+title: "Value Proposition Canvas"
+toc: true
+---
+
+
+The Value Proposition Canvas is a valuable tool in business model design. It helps align a company's offering (the "Value Map") with the needs and desires of a specific customer segment. For our Global Bike Inc. (GBI) AI agent implementation project, this canvas will help ensure our solution addresses real business pain points and creates measurable value.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ReM1uqmVfP0?si=JTsaqJfNlw8UFos5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Using this concept is particularly useful as a first step for creating [User Personas](user-persona.qmd), as the profiles help identify important goals and needs of users. For our GBI project, this will help identify which business units and roles will benefit most from our generative AI agent implementation.
+
+# Customer Segment Profile for GBI
+
+## Customer Jobs
+
+- **Functional Jobs**: Specific tasks or problems of GBI stakeholders, such as processing customer orders, managing inventory, forecasting production needs, or handling customer service inquiries.
+
+- **Social Jobs**: Needs related to social status within GBI, such as being recognized as an efficient department, demonstrating innovation, or being perceived as a technological leader in the bicycle industry.
+
+- **Personal/Emotional Jobs**: Pursuit of emotional states like security in decision-making, confidence in data accuracy, or satisfaction with workflow efficiency.
+
+## Customer Pains
+
+- **Functional Pains**: Problems GBI staff experience when performing tasks, such as manual data entry errors, slow response times, communication gaps between departments, or inefficient access to business intelligence.
+
+- **Social Pains**: Negative social impacts, such as poor departmental reputation due to delays, missed KPIs, or customer complaints about service quality.
+
+- **Emotional Pains**: Negative emotional experiences such as stress from information overload, uncertainty in decision-making, or frustration with outdated processes.
+
+## Customer Gains
+
+- **Required Gains**: Basic expectations GBI stakeholders have for an AI solution, such as process automation, data accuracy, or system reliability.
+
+- **Expected Gains**: Additional but predictable benefits that GBI expects from an AI solution, such as time savings, improved reporting, or better customer interactions.
+
+- **Desired Gains**: Benefits that exceed expectations and would be highly valued by GBI, such as predictive analytics capabilities, intelligent recommendations, or seamless integration with existing SQL Server infrastructure.
+
+# Value Map for GBI AI Implementation
+
+Before creating the Value Map, it's advisable to first develop [User Personas](user-persona.qmd), as this can provide helpful insights for identifying relevant product features. For our GBI project, understanding the specific needs of sales representatives, supply chain managers, production planners, financial analysts, or HR specialists will be crucial.
+
+## Products and Services
+
+- **Offering**: A comprehensive Python-based generative AI agent system that supports GBI stakeholders in fulfilling their functional, social, or emotional jobs across business areas:
+  - Sales and distribution automation
+  - Inventory and materials management intelligence
+  - Production planning optimization
+  - Financial analysis assistance
+  - HR process enhancement
+
+## Pain Relievers
+
+- **Problem Solving**: Concrete measures showing how our AI agent solution alleviates functional, social, and emotional pain points of GBI stakeholders:
+  - Automation of repetitive tasks to reduce manual errors
+  - Real-time data processing to eliminate delays
+  - Intelligent recommendations to improve decision-making
+  - Integration with SQL Server to ensure data consistency
+
+- **Avoiding Negative Experiences**: Strategies to prevent frustration, stress, or negative social consequences:
+  - User-friendly interfaces (via Gradio, Streamlit, or NextJS)
+  - Clear explanation of AI-generated recommendations
+  - Reliable error handling to prevent system failures
+  - Comprehensive documentation and training
+
+- **Risk Reduction**: Ways to minimize risk for GBI regarding financial losses, breaches of trust, or technical problems:
+  - Security-focused implementation
+  - Ethical AI guidelines and transparency
+  - Phased rollout approach
+  - Continuous performance monitoring
+
+## Gain Creators
+
+- **Exceeding Expectations**: Description of how our AI agent solution goes beyond GBI's basic expectations and creates additional value:
+  - Predictive analytics for anticipating business trends
+  - Automated insights discovery from SQL Server data
+  - Personalized user experiences based on role requirements
+  - Cross-departmental process optimization
+
+- **Increasing Customer Satisfaction**: Methods to achieve positive emotional and social outcomes that delight GBI stakeholders:
+  - Reduced workload for staff through automation
+  - Recognition for departments that effectively leverage AI
+  - Improved communication between business units
+  - Enhanced customer service through AI-assisted interactions
+
+- **Performance Enhancement**: Demonstration of how the solution can improve GBI's performance or efficiency:
+  - Quantifiable KPIs tracking business impact
+  - Faster cycle times for key business processes
+  - Higher accuracy in forecasting and planning
+  - Cost reduction through optimized resource allocation
+
+# Project Implementation Considerations
+
+When developing your AI agent solution for GBI, use this Value Proposition Canvas to:
+
+1. **Identify Priority Use Cases**: Focus on areas where pain points are most severe and gain potential is highest
+2. **Select Appropriate AI Technology**: Choose between OpenAI, Anthropic, or HuggingFace based on which best addresses the identified customer jobs
+3. **Design Intuitive User Interfaces**: Ensure your Gradio, Streamlit, or NextJS implementation aligns with user needs
+4. **Develop Metrics**: Create specific KPIs that measure both pain relief and gain creation
+5. **Plan Integration Strategy**: Determine how your solution will connect with GBI's SQL Server data and existing processes
+
+# Resources
+
+- [Value Proposition Design Book Chapter](https://issuu.com/business.model.innovation/docs/vpd_sneakpeek)
+
+- [Miro Customer Value Proposition Map](https://miro.com/miroverse/customer-value-proposition-map/)
+
+- The [Jobs-to-be-Done Template](https://miro.com/de/templates/jobs-to-be-done/) from Miro can help document how and why customers use and purchase a product.
+

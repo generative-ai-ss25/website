@@ -1,0 +1,82 @@
+---
+title: "Jobs to be Done"
+toc: true
+---
+
+
+Jobs-to-be-Done (JTBD) is a concept aimed at understanding the true reasons behind customers' decisions, particularly regarding the purchase and use of products or services. For our Global Bike Inc. (GBI) AI implementation project, this framework helps identify the core business needs that drive stakeholders to adopt new technology solutions.
+
+The concept focuses on understanding the progress that users seek to make in specific situations, rather than just the tasks or activities that a product supports. In GBI's context, this means looking beyond simple automation to understand how AI can help employees achieve meaningful business outcomes.
+
+Jobs-to-be-Done provides a comprehensive framework for understanding the needs and motivations of GBI stakeholders and developing AI solutions that deliver real value. It serves as a valuable complement to the Business User Persona approach by integrating specific jobs into the persona description.
+
+# Social, Emotional, and Functional Aspects in Business Context
+
+Focusing on *user progress* within the Jobs-to-be-Done framework means considering all aspects of an AI solution that contribute to improving the business situation of GBI stakeholders. This includes not only functional aspects but also social and emotional elements within the professional environment.
+
+- **Functional Aspects**: An AI agent that automates data analysis doesn't just process information faster; it creates more time for GBI staff to focus on strategic activities and high-value tasks that require human judgment.
+
+- **Emotional Aspects**: A well-designed AI solution doesn't just provide insights; it reduces workplace stress by eliminating tedious manual processes and increasing confidence in business decisions through data-backed recommendations.
+
+- **Social Aspects**: An AI implementation doesn't just optimize individual workflows; it enhances collaboration between departments by creating shared understanding of data and standardizing business processes across teams.
+
+In our AI development for GBI, it's important to understand and consider these aspects to create solutions that enable real progress in the business lives of users and contribute to GBI's overall business objectives.
+
+Applying the JTBD Approach to GBI's AI Implementation:
+
+1. **Exploring User Needs**: Developing a deep understanding of GBI stakeholders and their business context across sales, materials management, production planning, finance, and HR departments.
+
+2. **Development and Innovation**: Creating AI solutions that enable real progress for GBI staff by addressing their most critical business needs using appropriate frameworks (OpenAI, Anthropic, or HuggingFace).
+
+3. **Focus on User Progress**: Considering social, emotional, and functional aspects in the development of our Python-based AI agent with an intuitive frontend (Gradio, Streamlit, or NextJS).
+
+# JTBD Example in Business Context
+
+What is the "job" of a production planning system at a bicycle manufacturer like GBI? This question, similar to Clayton Christensen's McDonald's milkshake example, helps us understand the real purpose of business systems beyond their apparent functions.
+
+A traditional view might suggest that a production planning system's job is simply to schedule manufacturing activities. However, by applying the JTBD framework, we might discover that the system's true jobs include:
+
+1. **Providing confidence** to managers that they're making optimal use of manufacturing resources
+2. **Reducing stress** by handling unexpected supply chain disruptions smoothly
+3. **Creating professional satisfaction** by allowing planners to demonstrate their strategic value
+4. **Improving work-life balance** by automating routine calculations and freeing up time
+5. **Enhancing departmental reputation** by ensuring on-time delivery and efficient resource usage
+
+By uncovering these deeper jobs, our AI implementation can address not just the functional requirements but also the emotional and social needs of GBI staff, potentially making our solution many times more valuable than one focused solely on technical capabilities.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Stc0beAxavY?si=5Wi0S1W5pJPAStuH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+# Practical Application for GBI AI Project Phases
+
+## Use Case Identification 
+When exploring potential business use cases for your AI implementation, apply the JTBD framework to identify:
+- What progress are various GBI departments trying to make?
+- What functional, emotional, and social outcomes are they seeking?
+- Which jobs are currently underserved by existing systems?
+
+## Business Context Development 
+When creating your comprehensive business context presentation:
+- Include specific jobs-to-be-done in your Value Proposition Canvas
+- Ensure your User Personas include the key jobs they're trying to accomplish
+- Define KPIs that measure progress on important jobs, not just technical metrics
+
+## Agent System Design 
+When designing your AI agent system:
+- Structure your agent architecture around key jobs-to-be-done
+- Select AI frameworks (OpenAI, Anthropic, or HuggingFace) based on their ability to address specific jobs
+- Design prompts that target the progress users are trying to make
+
+## Technical Implementation 
+During implementation:
+- Prioritize features that address the most important jobs
+- Design your user interface (Gradio, Streamlit, or NextJS) to facilitate progress on key jobs
+- Ensure SQL Server integration focuses on data most relevant to critical jobs
+
+# Resources
+
+- Customer jobs and needs/pain points can be identified using the Customer Segment Profile of the [Value Proposition Canvas](value-proposition.qmd).
+
+- The [Jobs-to-be-Done Framework](https://strategyn.com/jobs-to-be-done/) provides additional guidance on identifying and prioritizing jobs in business contexts.
+
+- [Outcome-Driven Innovation](https://jobs-to-be-done.com/outcome-driven-innovation-odi-is-jobs-to-be-done-theory-in-practice-2944c6ebc40e) offers a structured approach to applying JTBD in product development.
+

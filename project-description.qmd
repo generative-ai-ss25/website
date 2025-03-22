@@ -53,14 +53,12 @@ Submit a brief analysis (1-2 pages) of your three ideas with justification for e
 
 Once your use case is approved, develop a comprehensive business context presentation using [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an appropriate [business template](https://slidesgo.com/themes). Your 10-minute presentation should include:
 
-- Business Model Canvas for the organization
-- Strategy Map showing how the AI solution supports organizational goals
-- Value Creation Optimization analysis (if applicable)
-- Value Proposition Canvas for the AI solution
-- User Personas for primary stakeholders/users
+- [Business Model Canvas](bmc.qmd) for the organization
+- [User Personas](user-persona.qmd) for primary stakeholders/users
+- [Value Proposition Canvas](value-proposition.qmd) and the [Jobs-to-be-done Framework](jobs-to-be-done.qmd) for the AI solution
 - Specific KPIs that will measure success
 
-### 3. Agent System Design (Weeks 4-5)
+### 3. Agent System Design (Weeks 4-6)
 
 Design your generative AI agent system, focusing on:
 
@@ -73,7 +71,7 @@ Design your generative AI agent system, focusing on:
 
 Submit a design document (3-5 pages) and architecture diagram for feedback before proceeding to implementation.
 
-### 4. Technical Implementation (Weeks 6-9)
+### 4. Technical Implementation (Weeks 7-11)
 
 Implement your generative AI agent system for GBI following these guidelines:
 
@@ -92,7 +90,7 @@ Your solution should either integrate with GBI's existing data structure or prop
 
 Weekly code reviews will be conducted to provide feedback and guidance.
 
-### 5. Testing and Evaluation (Weeks 10-11)
+### 5. Testing and Evaluation (Weeks 12-13)
 
 Thoroughly test your system and evaluate its performance:
 
@@ -105,7 +103,7 @@ Thoroughly test your system and evaluate its performance:
 
 Submit a testing report (2-3 pages) documenting your findings.
 
-### 6. Final Documentation and Presentation (Weeks 12-13)
+### 6. Final Documentation and Presentation (Weeks 14-15)
 
 Prepare comprehensive documentation and a final presentation:
 
