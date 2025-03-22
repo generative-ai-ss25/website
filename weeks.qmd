@@ -4,31 +4,31 @@ toc: true
 ---
 
 
-# Week 1
+## Week 1
 
 Introduction and project overview.
 
 - Make sure to read the [syllabus](course-syllabus.qmd) and [project description](project-description.qmd).
 
 
-# Week 2
+## Week 2
 
 
-## Theoretical frameworks 
+### Theoretical frameworks 
 
 - Business model canvas
 - User persona
 - Value proposition canvas
 - Jobs to be Done
 
-## Python Setup with uv
+### Python Setup with uv
 
 Welcome to this guide on setting up your Python development environment using the powerful package manager called `uv`. 
 
 A properly configured development environment is crucial for efficient coding. It helps manage dependencies, keeps your projects organized, and provides powerful tools that make coding easier and more enjoyable. The `uv` package manager we'll be using is a modern, fast alternative to traditional Python package managers.
 
 
-### Step 1: Apply for GitHub Student Developer Pack 🎓
+#### Step 1: Apply for GitHub Student Developer Pack 🎓
 
 The GitHub Student Developer Pack provides students with free access to the best developer tools.
 
@@ -41,7 +41,7 @@ The GitHub Student Developer Pack provides students with free access to the best
 
 **Why this matters:** The pack includes free access to GitHub Copilot, which is an AI pair programmer that will help you write better code faster.
 
-### Step 2: Install Visual Studio Code 💻
+#### Step 2: Install Visual Studio Code 💻
 
 VS Code is a lightweight but powerful source code editor.
 
@@ -75,7 +75,7 @@ To be able to open VS Code from the command line interface using `code .` comman
 4. Restart your terminal for changes to take effect
 
 
-### Step 3: Install Essential VS Code Extensions 🧩
+#### Step 3: Install Essential VS Code Extensions 🧩
 
 Extensions enhance VS Code with additional features. We'll install three key extensions.
 
@@ -105,7 +105,7 @@ In VS Code, click on the Extensions icon in the sidebar (or press: Windows `Ctrl
 **Note:** GitHub Copilot requires a subscription, but it's free with the GitHub Student Developer Pack you applied for in Step 1.
 :::
 
-### Step 4: Install uv Package Manager ⚡
+#### Step 4: Install uv Package Manager ⚡
 
 `uv` is a fast, modern Python package manager and resolver.
 
@@ -138,7 +138,7 @@ wget -qO- https://astral.sh/uv/install.sh | sh
 
 **Verify installation:** Type `uv --version` in your command line interface. You should see the version number of `uv` displayed.
 
-### Step 5: Initialize Your First Project 
+#### Step 5: Initialize Your First Project 
 
 Now let's create a new Python project structure using `uv`:
 
@@ -156,7 +156,7 @@ uv init genai-app --python 3.11
 - Creates initial configuration files
 :::
 
-### Step 6: Navigate to Your Project Directory 📁
+#### Step 6: Navigate to Your Project Directory 📁
 
 Let's move into your newly created project directory:
 
@@ -166,7 +166,7 @@ cd genai-app
 
 **Check the directory contents:** You can use `dir` (Windows) or `ls` (macOS/Linux) to see what files were created.
 
-### Step 7: Activate your Virtual Python Environment 🔄
+#### Step 7: Activate your Virtual Python Environment 🔄
 
 A virtual environment is an isolated space where you can install packages without affecting your global Python installation. We can create and activate this environment with:
 
@@ -188,7 +188,7 @@ python3 main.py
 
 You should see a "Hello, world" message.
 
-### Step 8: Install Required Packages 📦
+#### Step 8: Install Required Packages 📦
 
 Let's add some commonly used packages for AI and data science projects:
 
@@ -204,7 +204,7 @@ uv add pandas python-dotenv openai gradio streamlit
 - `streamlit`: Turns your Python scripts into interactive web apps with just a few lines of code
 :::
 
-### Step 9: Open your project in VS Code
+#### Step 9: Open your project in VS Code
 
 Now let's open your new project in VS Code where we'll write our code:
 
@@ -221,7 +221,7 @@ If this command doesn't work, don't worry! You can also:
 4. Find and select your `genai-app` folder
 
 
-### Step 10: Run Your First Python Program 🏃‍♀️
+#### Step 10: Run Your First Python Program 🏃‍♀️
 
 Let's make sure everything is working by running the example file:
 
@@ -235,7 +235,7 @@ You should see a "Hello, world!" message appear. This confirms that:
 3. You're ready to start coding!
 
 
-### Troubleshooting Common Issues 🔧
+#### Troubleshooting Common Issues 🔧
 
 **Package Installation Problems**  
 If you see errors when adding packages:
@@ -259,13 +259,13 @@ If the extensions we installed aren't behaving correctly:
 3. You can reinstall extensions by uninstalling them first, then installing again
 
 
-### Additional Resources 📖
+#### Additional Resources 📖
 
 - [uv Documentation](https://docs.astral.sh/uv/)
 - [VS Code Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
 
 
-### Conclusion 🎯
+#### Conclusion 🎯
 
 Congratulations! You've successfully set up a Python development environment using `uv`. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.
 

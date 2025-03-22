@@ -15,8 +15,9 @@ This schedule will be updated as the semester progresses.
 |     |	0	|	Project overview	|	[📑 Slides](https://docs.google.com/presentation/d/1_8gaysH0zhJ5HK4VG989ONsF5uSb99HKvTbhCn1fCew/edit?usp=sharing)	|
 |     | 1	|	Introduction        |	[📄 PDF](slides/01-intro-genai.pdf)                                                                           |	
 |     |	2	|	Agentic Systems	    |	[📑 Web](https://kirenz.github.io/agents/agents-systems#/title-slide)	|
-
-
+|  2  |		|	**Business Frameworks & Python Setup** 	|		
+|     |	3	|	Business Frameworks	|	[BMC](bmc.qmd), [User Persona](user-persona.qmd), [Value Proposition Canvas](value-proposition.qmd), [Jobts-to-be-done](jobs-to-be-done.qmd)	|
+|     | 4	|	Python Setup        |	[Setup with uv](weeks#python-setup-with-uv.qmd)                                                                   |	
 
 <!-- 
 |	2	|	Generative AI	|	[🖥️ Slides](https://kirenz.github.io/slides/genai/genai)	|		|	

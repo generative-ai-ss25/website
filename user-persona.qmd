@@ -8,7 +8,7 @@ A Business User Persona is a fictional representation of an ideal or typical use
 
 Unlike traditional consumer-focused user personas, Business User Personas emphasize professional goals, organizational responsibilities, technical proficiency, and business process knowledge. They focus on how users operate within their business context rather than personal preferences alone.
 
-# Importance of Detailed Business User Personas
+## Importance of Detailed Business User Personas
 
 Business User Personas are crucial for designing and developing effective enterprise solutions. They help implementation teams understand the real-world business context in which their solution will operate, ensuring that:
 
@@ -19,7 +19,7 @@ Business User Personas are crucial for designing and developing effective enterp
 
 For our GBI AI implementation, detailed business user personas will guide our technical decisions regarding AI capabilities, interface design, and integration points with existing systems.
 
-# Integration of the Jobs-to-be-Done Approach
+## Integration of the Jobs-to-be-Done Approach
 
 The [JTBD approach](jobs-to-be-done.qmd) is particularly valuable for Business User Personas, as it focuses on the specific business tasks users need to accomplish rather than just their characteristics. This helps identify:
 
@@ -28,7 +28,7 @@ The [JTBD approach](jobs-to-be-done.qmd) is particularly valuable for Business U
 - Decision points that require better data or insights
 - Repetitive tasks that could be automated
 
-# Creating Business User Personas for GBI
+## Creating Business User Personas for GBI
 
 1. **Research**: Conduct interviews with GBI staff across departments, observe workflow processes, and analyze current system usage patterns to gather data about potential users of our AI solution.  
 
@@ -49,7 +49,7 @@ The [JTBD approach](jobs-to-be-done.qmd) is particularly valuable for Business U
    - Impact of their efficiency on overall business performance
    - Relationships with customers, suppliers, or other stakeholders
 
-# Components of a GBI Business User Persona
+## Components of a GBI Business User Persona
 
 A comprehensive Business User Persona for our GBI AI implementation should include:
 
@@ -89,9 +89,9 @@ A comprehensive Business User Persona for our GBI AI implementation should inclu
    - Time-saving or quality improvement thresholds
    - Features that would significantly improve their work
 
-# Sample Business User Personas for GBI
+## Sample Business User Personas for GBI
 
-## Production Planner Persona
+### Production Planner Persona
 
 **Name**: Michael Weber  
 **Role**: Production Planning Specialist  
@@ -129,7 +129,7 @@ A comprehensive Business User Persona for our GBI AI implementation should inclu
 - Earlier identification of potential production bottlenecks
 - More responsive adjustments to changing market conditions
 
-## Sales Representative Persona
+### Sales Representative Persona
 
 **Name**: Sophia Müller  
 **Role**: Regional Sales Representative  
@@ -167,7 +167,7 @@ A comprehensive Business User Persona for our GBI AI implementation should inclu
 - Intelligent product recommendations based on customer history
 - More accurate delivery date predictions
 
-# Technical Implementation Considerations
+## Technical Implementation Considerations
 
 These Business User Personas will directly inform:
 
@@ -177,7 +177,7 @@ These Business User Personas will directly inform:
 4. **Integration Points**: Which systems and data sources from the SQL Server are most critical
 5. **Success Metrics**: What KPIs will demonstrate business value to both users and leadership
 
-# Resources
+## Resources
 
 - [Miro Business User Persona Template](https://miro.com/templates/personas/) 
 

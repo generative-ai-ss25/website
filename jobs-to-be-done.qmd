@@ -10,7 +10,7 @@ The concept focuses on understanding the progress that users seek to make in spe
 
 Jobs-to-be-Done provides a comprehensive framework for understanding the needs and motivations of GBI stakeholders and developing AI solutions that deliver real value. It serves as a valuable complement to the Business User Persona approach by integrating specific jobs into the persona description.
 
-# Social, Emotional, and Functional Aspects in Business Context
+## Social, Emotional, and Functional Aspects in Business Context
 
 Focusing on *user progress* within the Jobs-to-be-Done framework means considering all aspects of an AI solution that contribute to improving the business situation of GBI stakeholders. This includes not only functional aspects but also social and emotional elements within the professional environment.
 
@@ -30,7 +30,7 @@ Applying the JTBD Approach to GBI's AI Implementation:
 
 3. **Focus on User Progress**: Considering social, emotional, and functional aspects in the development of our Python-based AI agent with an intuitive frontend (Gradio, Streamlit, or NextJS).
 
-# JTBD Example in Business Context
+## JTBD Example in Business Context
 
 What is the "job" of a production planning system at a bicycle manufacturer like GBI? This question, similar to Clayton Christensen's McDonald's milkshake example, helps us understand the real purpose of business systems beyond their apparent functions.
 
@@ -46,33 +46,33 @@ By uncovering these deeper jobs, our AI implementation can address not just the 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Stc0beAxavY?si=5Wi0S1W5pJPAStuH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Practical Application for GBI AI Project Phases
+## Practical Application for GBI AI Project Phases
 
-## Use Case Identification 
+### Use Case Identification 
 When exploring potential business use cases for your AI implementation, apply the JTBD framework to identify:
 - What progress are various GBI departments trying to make?
 - What functional, emotional, and social outcomes are they seeking?
 - Which jobs are currently underserved by existing systems?
 
-## Business Context Development 
+### Business Context Development 
 When creating your comprehensive business context presentation:
 - Include specific jobs-to-be-done in your Value Proposition Canvas
 - Ensure your User Personas include the key jobs they're trying to accomplish
 - Define KPIs that measure progress on important jobs, not just technical metrics
 
-## Agent System Design 
+### Agent System Design 
 When designing your AI agent system:
 - Structure your agent architecture around key jobs-to-be-done
 - Select AI frameworks (OpenAI, Anthropic, or HuggingFace) based on their ability to address specific jobs
 - Design prompts that target the progress users are trying to make
 
-## Technical Implementation 
+### Technical Implementation 
 During implementation:
 - Prioritize features that address the most important jobs
 - Design your user interface (Gradio, Streamlit, or NextJS) to facilitate progress on key jobs
 - Ensure SQL Server integration focuses on data most relevant to critical jobs
 
-# Resources
+## Resources
 
 - Customer jobs and needs/pain points can be identified using the Customer Segment Profile of the [Value Proposition Canvas](value-proposition.qmd).
 
