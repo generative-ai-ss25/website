@@ -351,7 +351,18 @@
     "href": "weeks.html",
     "title": "Weekly overview",
     "section": "",
-    "text": "Introduction and project overview.",
+    "text": "Introduction and project overview.\n\nMake sure to read the syllabus and project description.",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#theoretical-frameworks",
+    "href": "weeks.html#theoretical-frameworks",
+    "title": "Weekly overview",
+    "section": "Theoretical frameworks",
+    "text": "Theoretical frameworks\n\nBusiness model canvas\nUser persona\nValue proposition canvas\nJobs to be Done",
     "crumbs": [
       "Course information",
       "Weekly Overview"
