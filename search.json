@@ -82,7 +82,7 @@
     "href": "project-tips-resources.html#gen-ai-code-examples",
     "title": "Project tips + resources",
     "section": "Gen AI Code examples",
-    "text": "Gen AI Code examples\nOpenAI (2023a). Explore what’s possible with some example applications.\nOpenAI (2023b). Creating an automated meeting minutes generator with Whisper and GPT-4.\nLangChain (2023). Reference implementations of several LangChain agents as Streamlit apps\nCurated list of tools and projects using LangChain.",
+    "text": "Gen AI Code examples\nAnthropic (2025). Build with Claude\nOpenAI (2025). Agents SDK.\nOpenAI (2025). Responses API.\nOpenAI (2023a). Explore what’s possible with some example applications.\nOpenAI (2023b). Creating an automated meeting minutes generator with Whisper and GPT-4.",
     "crumbs": [
       "Project",
       "Tips + resources"
@@ -93,7 +93,7 @@
     "href": "project-tips-resources.html#about-gen-ai",
     "title": "Project tips + resources",
     "section": "About Gen AI",
-    "text": "About Gen AI\nGartner (2023a). Gartner Experts Answer the Top Generative AI Questions for Your Enterprise\nGartner (2023b) How Can Generative AI Be Used to Improve Customer Service and Support?\nMcKinsey (2023). The economic potential of generative AI: The next productivity frontier. White paper\nMicrosoft (2023). Responsible AI and Semantic Kernel.\nSequoia (2023). Generative AI’s Act Two.\nWIRED (2023). How WIRED Will Use Generative AI Tools.",
+    "text": "About Gen AI\nGartner (2023a). Gartner Experts Answer the Top Generative AI Questions for Your Enterprise\nGartner (2023b) How Can Generative AI Be Used to Improve Customer Service and Support?\nMcKinsey (2023). The economic potential of generative AI: The next productivity frontier. White paper\nSequoia (2023). Generative AI’s Act Two.\nWIRED (2023). How WIRED Will Use Generative AI Tools.",
     "crumbs": [
       "Project",
       "Tips + resources"
@@ -238,7 +238,7 @@
     "href": "project-description.html#about-global-bike-inc.-gbi",
     "title": "Project Description",
     "section": "About Global Bike Inc. (GBI)",
-    "text": "About Global Bike Inc. (GBI)\nSAP’s Global Bike Inc. (GBI) is a comprehensive case study designed for enterprise resource planning (ERP) education. This fictional company manufactures high-quality bicycles and accessories, serving as an ideal model for our AI implementation project.\nCompany Profile:\n- Industry: Bicycle manufacturing and accessories - Market Position: Premium high-quality bikes for professional and recreational use - Global Presence: Manufacturing and sales operations across multiple regions\nKey Business Areas:\n- Sales and Distribution: Customer relationship management, order processing, delivery, and billing - Materials Management: Procurement, inventory management, and warehouse operations - Production Planning: Demand forecasting, manufacturing resource planning, and production order management - Finance and Controlling: Financial accounting, cost center accounting, and profitability analysis - Human Resources: Personnel management, time management, and payroll\nAvailable Resources:\nFor this project, you will have access to GBI’s Microsost SQL server containing sample data across these business domains. This will serve as the foundation for identifying promising AI agent implementation opportunities and developing your solution.",
+    "text": "About Global Bike Inc. (GBI)\nSAP’s Global Bike Inc. (GBI) is a comprehensive case study designed for enterprise resource planning (ERP) education. This fictional company manufactures high-quality bicycles and accessories, serving as an ideal model for our AI implementation project.\nCompany Profile:\n\nIndustry: Bicycle manufacturing and accessories\n\nMarket Position: Premium high-quality bikes for professional and recreational use\nGlobal Presence: Manufacturing and sales operations across multiple regions\n\nKey Business Areas:\n\nSales and Distribution: Customer relationship management, order processing, delivery, and billing\nMaterials Management: Procurement, inventory management, and warehouse operations\nProduction Planning: Demand forecasting, manufacturing resource planning, and production order management\nFinance and Controlling: Financial accounting, cost center accounting, and profitability analysis\nHuman Resources: Personnel management, time management, and payroll\n\nAvailable Resources:\nFor this project, you will have access to GBI’s Microsost SQL server containing sample data across these business domains. This will serve as the foundation for identifying promising AI agent implementation opportunities and developing your solution.",
     "crumbs": [
       "Project",
       "Description"
@@ -271,7 +271,7 @@
     "href": "project-description.html#evaluation",
     "title": "Project Description",
     "section": "Evaluation",
-    "text": "Evaluation\nYour project will be evaluated according to the grading criteria provided in the syllabus, which includes assessment of:\n\nBusiness use case definition\nGenerative AI system design\nTechnical implementation\nUser interface implementation\nBusiness process integration\nDocumentation and presentation",
+    "text": "Evaluation\nYour project will be evaluated according to the grading criteria provided in the syllabus.",
     "crumbs": [
       "Project",
       "Description"
