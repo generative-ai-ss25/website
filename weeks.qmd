@@ -1,0 +1,261 @@
+---
+title: "Weekly overview"
+toc: true
+---
+
+
+# Week 1
+
+Introduction and project overview.
+
+# Week 2
+
+## Python Setup with uv
+
+Welcome to this guide on setting up your Python development environment using the powerful package manager called `uv`. 
+
+A properly configured development environment is crucial for efficient coding. It helps manage dependencies, keeps your projects organized, and provides powerful tools that make coding easier and more enjoyable. The `uv` package manager we'll be using is a modern, fast alternative to traditional Python package managers.
+
+
+### Step 1: Apply for GitHub Student Developer Pack 🎓
+
+The GitHub Student Developer Pack provides students with free access to the best developer tools.
+
+1. Visit [GitHub Student Developer Pack](https://education.github.com/pack?)  
+2. Click on "Get your pack"  
+3. Sign in with your GitHub account (or create one if you don't have it)
+4. Verify your student status using your school-issued email
+5. Complete the application form
+6. Wait for approval (usually takes 1-7 days)
+
+**Why this matters:** The pack includes free access to GitHub Copilot, which is an AI pair programmer that will help you write better code faster.
+
+### Step 2: Install Visual Studio Code 💻
+
+VS Code is a lightweight but powerful source code editor.
+
+1. Go to [VS Code download page](https://code.visualstudio.com)
+2. Download the appropriate version for your operating system
+3. Run the installer and follow the on-screen instructions
+4. Launch VS Code after installation
+
+
+:::{.callout-note title="Pro Tip for Microsoft" collapse="true"}
+During installation on Windows, check the options "Add 'Open with Code' action to Windows Explorer file context menu" and "Add 'Open with Code' action to Windows Explorer directory context menu" for easier access.
+:::
+
+
+**Adding VS Code to PATH (Command Line Access)**
+
+To be able to open VS Code from the command line interface using `code .` command:
+
+**For Windows:**
+
+1. Open VS Code
+2. Press `Ctrl+Shift+P` to open the Command Palette
+3. Type "shell command" and select "Shell Command: Install 'code' command in PATH"
+4. Restart your terminal for changes to take effect
+
+**For macOS:**
+
+1. Open VS Code
+2. Press `Cmd+Shift+P` to open the Command Palette
+3. Type "shell command" and select "Shell Command: Install 'code' command in PATH"
+4. Restart your terminal for changes to take effect
+
+
+### Step 3: Install Essential VS Code Extensions 🧩
+
+Extensions enhance VS Code with additional features. We'll install three key extensions.
+
+In VS Code, click on the Extensions icon in the sidebar (or press: Windows `Ctrl+Shift+X` / mac: `Cmd+Shift+X`).
+
+**Python Extension**  
+
+1. Search for "Python"
+2. Find the extension by Microsoft (usually the first result)
+3. Click "Install"
+
+**GitHub Copilot**  
+
+1. Search for "GitHub Copilot" in the Extensions marketplace
+2. Click "Install"
+3. After installation, sign in with your GitHub account using the account icon in the lower left sidebar
+4. You'll be prompted to authorize VS Code to use GitHub Copilot
+
+**GitHub Copilot Chat**  
+
+1. Search for "GitHub Copilot Chat" in the Extensions marketplace
+2. Click "Install"
+3. This extension works alongside GitHub Copilot to provide conversational AI assistance
+
+
+:::{.callout-note appearance="minimal"}
+**Note:** GitHub Copilot requires a subscription, but it's free with the GitHub Student Developer Pack you applied for in Step 1.
+:::
+
+### Step 4: Install uv Package Manager ⚡
+
+`uv` is a fast, modern Python package manager and resolver.
+
+**For Windows (PowerShell):**  
+
+1. Open PowerShell
+2. Run the following command:  
+
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+3. Restart your PowerShell session to ensure `uv` is in your PATH
+
+**For macOS/Linux (Terminal):**
+
+1. Open Terminal
+2. Run the following command:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+If your system doesn't have curl, you can use wget:
+
+```bash
+wget -qO- https://astral.sh/uv/install.sh | sh
+```
+
+3. Close and reopen your terminal to ensure `uv` is in your PATH
+
+**Verify installation:** Type `uv --version` in your command line interface. You should see the version number of `uv` displayed.
+
+### Step 5: Initialize Your First Project 
+
+Now let's create a new Python project structure using `uv`:
+
+1. Open your command line interface (PowerShell on Windows or Terminal on Mac/Linux)
+2. Simply type the following command directly in your command line or first navigate to the directory where you want to create your project (e.g., `cd Documents`)
+3. Run the following command to initialize a new project named "genai-app" with Python 3.11:
+
+```bash
+uv init genai-app --python 3.11
+```
+
+:::{.callout-tip title="What this does" collapse="true"}
+- Creates a new directory called `genai-app`
+- Sets up a project structure with Python 3.11
+- Creates initial configuration files
+:::
+
+### Step 6: Navigate to Your Project Directory 📁
+
+Let's move into your newly created project directory:
+
+```bash
+cd genai-app
+```
+
+**Check the directory contents:** You can use `dir` (Windows) or `ls` (macOS/Linux) to see what files were created.
+
+### Step 7: Activate your Virtual Python Environment 🔄
+
+A virtual environment is an isolated space where you can install packages without affecting your global Python installation. We can create and activate this environment with:
+
+```bash
+uv sync
+```
+
+:::{.callout-tip title="What this does" collapse="true"}
+- Creates a virtual environment for your project
+- Sets up the environment based on your project's specifications
+- This environment is isolated from your system Python installation
+:::
+
+Let's execute the example Python file main.py to make sure everything is working:
+
+```bash
+python3 main.py
+```
+
+You should see a "Hello, world" message.
+
+### Step 8: Install Required Packages 📦
+
+Let's add some commonly used packages for AI and data science projects:
+
+```bash
+uv add pandas python-dotenv openai gradio streamlit
+```
+
+:::{.callout-tip title="What these packages do" collapse="true"}
+- `pandas`: A beginner-friendly library that helps you work with data tables (like Excel spreadsheets)
+- `python-dotenv`: Helps keep your passwords and API keys safe by storing them in a separate file
+- `openai`: Connects your code to AI services like ChatGPT
+- `gradio`: Creates simple web interfaces for your AI projects with minimal coding
+- `streamlit`: Turns your Python scripts into interactive web apps with just a few lines of code
+:::
+
+### Step 9: Open your project in VS Code
+
+Now let's open your new project in VS Code where we'll write our code:
+
+```bash
+code .
+```
+
+This command tells your computer to open VS Code in your current folder (the `.` means "here").
+
+If this command doesn't work, don't worry! You can also:
+1. Open VS Code manually
+2. Click on "File" in the top menu
+3. Select "Open Folder..."
+4. Find and select your `genai-app` folder
+
+
+### Step 10: Run Your First Python Program 🏃‍♀️
+
+Let's make sure everything is working by running the example file:
+
+```bash
+python3 main.py
+```
+
+You should see a "Hello, world!" message appear. This confirms that:
+1. Your Python is working correctly
+2. Your virtual environment is active
+3. You're ready to start coding!
+
+
+### Troubleshooting Common Issues 🔧
+
+**Package Installation Problems**  
+If you see errors when adding packages:
+
+1. Check that you're connected to the internet
+2. Try running `uv sync` again to refresh your environment
+3. Read the error message carefully - it often tells you exactly what went wrong
+
+**"Command Not Found" Error**  
+If your computer can't find the `uv` command:
+
+1. Close your terminal completely and open a new one
+2. If that doesn't work, you might need to add uv to your PATH (the list of places your computer looks for programs)
+3. As a last resort, try reinstalling using the commands from Step 4
+
+**VS Code Extensions Not Working**  
+If the extensions we installed aren't behaving correctly:
+
+1. Make sure you've signed in to your GitHub account in VS Code
+2. Try updating VS Code to the latest version
+3. You can reinstall extensions by uninstalling them first, then installing again
+
+
+### Additional Resources 📖
+
+- [uv Documentation](https://docs.astral.sh/uv/)
+- [VS Code Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
+
+
+### Conclusion 🎯
+
+Congratulations! You've successfully set up a Python development environment using `uv`. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.
+
+Happy coding! 💻✨

@@ -53,8 +53,8 @@ website:
         contents:
           - href: index.qmd
             text: Schedule        
-          - href: course-overview.qmd
-            text: Overview
+          - href: weeks.qmd
+            text: Weekly Overview
           - href: course-syllabus.qmd
             text: Syllabus
           - href: course-support.qmd
