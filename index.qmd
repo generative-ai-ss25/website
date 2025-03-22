@@ -9,16 +9,19 @@ This page contains an outline of the topics and content for the course.
 This schedule will be updated as the semester progresses.
 :::
 
-|	Nr	|	Topic 	|	Material	|	More resources	|	
-|	---	|	---	|	---	|	---	|	
-|		|	**Introduction** 	|		|		|	
-|	1	|	Project introduction	|	[📑](https://docs.google.com/presentation/d/1_8gaysH0zhJ5HK4VG989ONsF5uSb99HKvTbhCn1fCew/edit?usp=sharing)	|		|	
+|Week |	Nr	|	Topic            	|	Material	                                                                                                |
+| --- |	---	|	---	                |	---	                                                                                                        |	
+|  1  |		|	**Introduction** 	|		                                                                                                        |
+|     |	0	|	Project overview	|	[📑](https://docs.google.com/presentation/d/1_8gaysH0zhJ5HK4VG989ONsF5uSb99HKvTbhCn1fCew/edit?usp=sharing)	|
+|     | 1	|	Introduction        |	[📄 PDF](slides/01-intro-genai.pdf)                                                                           |	
+|     |	2	|	Agentic Systems	    |	[📑](https://kirenz.github.io/agents/agents-systems#/title-slide)	|
+
+
+
+<!-- 
 |	2	|	Generative AI	|	[🖥️ Slides](https://kirenz.github.io/slides/genai/genai)	|		|	
 |	3	|	Large Language Models	|	[🖥️ Slides](https://kirenz.github.io/slides/llm/llm)	|		|	
-|	4	|	Programming toolkit lab	|	[💻 Online-Book](https://kirenz.github.io/toolkit-de/)	|		|	
-|		|	**Agents** 	|		|		|	
-|	5	|	Agentic Systems	|	[📑](https://kirenz.github.io/agents/agents-systems#/title-slide)	|		|	
-
+|	4	|	Programming toolkit lab	|	[💻 Online-Book](https://kirenz.github.io/toolkit-de/)	|		|	 -->
 
 <!-- 
 |		|	**Use Case Definition** (3.11.23)	|		|		|	
