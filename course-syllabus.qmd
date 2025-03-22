@@ -36,7 +36,7 @@ Assessment for the course is comprised of two components:
 )
 
 
-**Skill badge**
+**Skill badge**:
 
 Earn a Google Cloud skill badge by completing the [Introduction to Generative AI, Introduction to Large Language Models and Introduction to Responsible AI](https://www.cloudskillsboost.google/course_templates/556) courses. 
 
@@ -44,14 +44,12 @@ By passing the final quiz, you'll demonstrate your understanding of foundational
 
 A skill badge is a digital badge issued by Google Cloud in recognition of your knowledge of Google Cloud products and services. 
 
-## Project
+**Project**:  
 
 The purpose of the project is to build and present an agentic LLM application. The project will be completed in teams.
 
 
-
-
-## Grade
+## Project grade
 
 The final course grade will be calculated based on the following criteria:
 
@@ -107,7 +105,7 @@ The final course grade will be calculated based on the following criteria:
 
 ## Achievement Levels
 
-Total Points: 100
+Total Points: 100  
 - **Exceptional**: 80-100 points
 - **Proficient**: 65-79 points
 - **Basic**: 50-64 points
@@ -122,7 +120,7 @@ Solution shows solid understanding of generative AI concepts, competent implemen
 ### Basic (40-59%)
 Solution implements fundamental generative AI capabilities with functional but limited agent capabilities, basic business application, and minimal integration with business processes.
 
-## Needs Improvement (0-39%)
+### Needs Improvement (0-39%)
 Solution has significant gaps in implementation, limited AI agent functionality, poor business relevance, or inadequate technical quality.
 
 
