@@ -285,12 +285,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="step-2-install-visual-studio-code" class="level4">
 <h4 class="anchored" data-anchor-id="step-2-install-visual-studio-code">Step 2: Install Visual Studio Code 💻</h4>
 <p>VS Code is a lightweight but powerful source code editor.</p>
-<ol type="1">
-<li>Go to <a href="https://code.visualstudio.com">VS Code download page</a></li>
-<li>Download the appropriate version for your operating system</li>
-<li>Run the installer and follow the on-screen instructions</li>
-<li>Launch VS Code after installation</li>
-</ol>
 <div class="callout callout-style-simple callout-note callout-titled" title="Pro Tip for Microsoft">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -307,22 +301,34 @@ Pro Tip for Microsoft
 </div>
 </div>
 </div>
-<p><strong>Adding VS Code to PATH (Command Line Access)</strong></p>
-<p>To be able to open VS Code from the command line interface using <code>code .</code> command:</p>
-<p><strong>For Windows:</strong></p>
 <ol type="1">
-<li>Open VS Code</li>
-<li>Press <code>Ctrl+Shift+P</code> to open the Command Palette</li>
-<li>Type “shell command” and select “Shell Command: Install ‘code’ command in PATH”</li>
-<li>Restart your terminal for changes to take effect</li>
+<li>Go to <a href="https://code.visualstudio.com">VS Code download page</a></li>
+<li>Download the appropriate version for your operating system</li>
+<li>Run the installer and follow the on-screen instructions</li>
+<li>Launch VS Code after installation</li>
 </ol>
-<p><strong>For macOS:</strong></p>
+<div class="callout callout-style-simple callout-note callout-titled" title="Pro Tip for Mac">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pro Tip for Mac
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>To be able to open VS Code from the command line interface using <code>code .</code> command:</p>
 <ol type="1">
 <li>Open VS Code</li>
 <li>Press <code>Cmd+Shift+P</code> to open the Command Palette</li>
 <li>Type “shell command” and select “Shell Command: Install ‘code’ command in PATH”</li>
 <li>Restart your terminal for changes to take effect</li>
 </ol>
+</div>
+</div>
+</div>
 </section>
 <section id="step-3-install-essential-vs-code-extensions" class="level4">
 <h4 class="anchored" data-anchor-id="step-3-install-essential-vs-code-extensions">Step 3: Install Essential VS Code Extensions 🧩</h4>
@@ -393,7 +399,7 @@ Pro Tip for Microsoft
 </ol>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> init genai-app <span class="at">--python</span> 3.11</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-style-simple callout-tip callout-titled" title="What this does">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -402,7 +408,7 @@ What this does
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Creates a new directory called <code>genai-app</code></li>
@@ -424,7 +430,7 @@ What this does
 <p>A virtual environment is an isolated space where you can install packages without affecting your global Python installation. We can create and activate this environment with:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> sync</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-style-simple callout-tip callout-titled" title="What this does">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -433,7 +439,7 @@ What this does
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Creates a virtual environment for your project</li>
@@ -444,15 +450,17 @@ What this does
 </div>
 </div>
 <p>Let’s execute the example Python file main.py to make sure everything is working:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> main.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> main.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>You should see a “Hello, world” message.</p>
+<p>If you get an error, try using python3 instead of python:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> main.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="step-8-install-required-packages" class="level4">
 <h4 class="anchored" data-anchor-id="step-8-install-required-packages">Step 8: Install Required Packages 📦</h4>
 <p>Let’s add some commonly used packages for AI and data science projects:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add pandas python-dotenv openai gradio streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add pandas python-dotenv openai gradio streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-style-simple callout-tip callout-titled" title="What these packages do">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -461,7 +469,7 @@ What these packages do
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li><code>pandas</code>: A beginner-friendly library that helps you work with data tables (like Excel spreadsheets)</li>
@@ -477,14 +485,34 @@ What these packages do
 <section id="step-9-open-your-project-in-vs-code" class="level4">
 <h4 class="anchored" data-anchor-id="step-9-open-your-project-in-vs-code">Step 9: Open your project in VS Code</h4>
 <p>Now let’s open your new project in VS Code where we’ll write our code:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">code</span> .</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This command tells your computer to open VS Code in your current folder (the <code>.</code> means “here”).</p>
-<p>If this command doesn’t work, don’t worry! You can also: 1. Open VS Code manually 2. Click on “File” in the top menu 3. Select “Open Folder…” 4. Find and select your <code>genai-app</code> folder</p>
+<ol type="1">
+<li>Open VS Code</li>
+<li>Click on “File” in the top menu on the left</li>
+<li>Select “Open Folder…”</li>
+<li>Find and select your <code>genai-app</code> folder</li>
+</ol>
+<div class="callout callout-style-simple callout-note callout-titled" title="Pro Tip">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pro Tip
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>When you’re in your command line, this command opens VS Code in your current directory (the <code>.</code> represents “current location”).</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">code</span> .</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
 </section>
 <section id="step-10-run-your-first-python-program" class="level4">
 <h4 class="anchored" data-anchor-id="step-10-run-your-first-python-program">Step 10: Run Your First Python Program 🏃‍♀️</h4>
 <p>Let’s make sure everything is working by running the example file:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> main.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> main.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>You should see a “Hello, world!” message appear. This confirms that: 1. Your Python is working correctly 2. Your virtual environment is active 3. You’re ready to start coding!</p>
 </section>
 <section id="troubleshooting-common-issues" class="level4">
