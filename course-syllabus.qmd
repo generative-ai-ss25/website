@@ -38,7 +38,7 @@ Assessment for the course is comprised of two components:
 
 **Skill badge**:
 
-Earn a Google Cloud skill badge by completing the [Introduction to Generative AI, Introduction to Large Language Models and Introduction to Responsible AI](https://www.cloudskillsboost.google/course_templates/556) courses. 
+Earn a Google Cloud skill badge by completing the [Introduction to Generative AI, Introduction to Large Language Models and Introduction to Responsible AI](https://www.cloudskillsboost.google/course_templates/536) courses. 
 
 By passing the final quiz, you'll demonstrate your understanding of foundational concepts in generative AI.
 
