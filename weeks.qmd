@@ -45,35 +45,25 @@ The GitHub Student Developer Pack provides students with free access to the best
 
 VS Code is a lightweight but powerful source code editor.
 
+:::{.callout-note title="Pro Tip for Microsoft" collapse="true"}
+During installation on Windows, check the options "Add 'Open with Code' action to Windows Explorer file context menu" and "Add 'Open with Code' action to Windows Explorer directory context menu" for easier access.
+:::
+
+
 1. Go to [VS Code download page](https://code.visualstudio.com)
 2. Download the appropriate version for your operating system
 3. Run the installer and follow the on-screen instructions
 4. Launch VS Code after installation
 
 
-:::{.callout-note title="Pro Tip for Microsoft" collapse="true"}
-During installation on Windows, check the options "Add 'Open with Code' action to Windows Explorer file context menu" and "Add 'Open with Code' action to Windows Explorer directory context menu" for easier access.
-:::
-
-
-**Adding VS Code to PATH (Command Line Access)**
-
+:::{.callout-note title="Pro Tip for Mac" collapse="true"}
 To be able to open VS Code from the command line interface using `code .` command:
-
-**For Windows:**
-
-1. Open VS Code
-2. Press `Ctrl+Shift+P` to open the Command Palette
-3. Type "shell command" and select "Shell Command: Install 'code' command in PATH"
-4. Restart your terminal for changes to take effect
-
-**For macOS:**
 
 1. Open VS Code
 2. Press `Cmd+Shift+P` to open the Command Palette
 3. Type "shell command" and select "Shell Command: Install 'code' command in PATH"
 4. Restart your terminal for changes to take effect
-
+:::
 
 #### Step 3: Install Essential VS Code Extensions 🧩
 
@@ -183,10 +173,17 @@ uv sync
 Let's execute the example Python file main.py to make sure everything is working:
 
 ```bash
-python3 main.py
+python main.py
 ```
 
 You should see a "Hello, world" message.
+
+If you get an error, try using python3 instead of python: 
+
+```bash
+python3 main.py
+```
+
 
 #### Step 8: Install Required Packages 📦
 
@@ -208,17 +205,23 @@ uv add pandas python-dotenv openai gradio streamlit
 
 Now let's open your new project in VS Code where we'll write our code:
 
+1. Open VS Code 
+2. Click on "File" in the top menu on the left
+3. Select "Open Folder..."
+4. Find and select your `genai-app` folder
+
+
+:::{.callout-note title="Pro Tip" collapse="true"}
+
+When you're in your command line, this command opens VS Code in your current directory (the `.` represents "current location").
+
 ```bash
 code .
 ```
 
-This command tells your computer to open VS Code in your current folder (the `.` means "here").
+:::
 
-If this command doesn't work, don't worry! You can also:
-1. Open VS Code manually
-2. Click on "File" in the top menu
-3. Select "Open Folder..."
-4. Find and select your `genai-app` folder
+
 
 
 #### Step 10: Run Your First Python Program 🏃‍♀️
