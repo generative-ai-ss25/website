@@ -328,4 +328,11 @@ odbcinst -j
 ### mssql VS Code extension
 
 
-Install mssql extension in VS Code: [mssql](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
+
+1. Install the [mssql](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) extension in VS Code
+2. Open the extension panel (Ctrl+Shift+D or ⌘+Shift+D)
+3. Click "Add Connection" or the "+" icon
+4. Enter your database credentials (see .env file)
+5. Name the connection "bike_database"
+6. Important: Select "Trust server certificate" option
+7. Click "Connect"
