@@ -222,7 +222,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#week-3" id="toc-week-3" class="nav-link" data-scroll-target="#week-3">Week 3</a>
   <ul class="collapse">
-  <li><a href="#database-setup" id="toc-database-setup" class="nav-link" data-scroll-target="#database-setup">Database setup</a></li>
+  <li><a href="#uv" id="toc-uv" class="nav-link" data-scroll-target="#uv">uv</a></li>
+  <li><a href="#microsoft-odbc-driver" id="toc-microsoft-odbc-driver" class="nav-link" data-scroll-target="#microsoft-odbc-driver">Microsoft ODBC Driver</a></li>
+  <li><a href="#mssql-vs-code-extension" id="toc-mssql-vs-code-extension" class="nav-link" data-scroll-target="#mssql-vs-code-extension">mssql VS Code extension</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -559,10 +561,14 @@ If the extensions we installed aren’t behaving correctly:</p>
 </section>
 <section id="week-3" class="level2">
 <h2 class="anchored" data-anchor-id="week-3">Week 3</h2>
-<section id="database-setup" class="level3">
-<h3 class="anchored" data-anchor-id="database-setup">Database setup</h3>
+<p>Database setup</p>
+<section id="uv" class="level3">
+<h3 class="anchored" data-anchor-id="uv">uv</h3>
 <p>Use uv to add sqlalchemy:</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add sqlalchemy</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="microsoft-odbc-driver" class="level3">
+<h3 class="anchored" data-anchor-id="microsoft-odbc-driver">Microsoft ODBC Driver</h3>
 <section id="windows" class="level4">
 <h4 class="anchored" data-anchor-id="windows">Windows</h4>
 <ul>
@@ -573,20 +579,25 @@ If the extensions we installed aren’t behaving correctly:</p>
 <h4 class="anchored" data-anchor-id="mac">Mac</h4>
 <ol type="1">
 <li><p><a href="https://brew.sh">Install homebrew</a></p></li>
-<li><p>Install Microsoft ODBC Driver for SQL Server:</p></li>
+<li><p>Update brew:</p></li>
 </ol>
-<div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install msodbcsql17 mssql-tools</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> update</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="4" type="1">
+<li>Install Microsoft ODBC Driver for SQL Server:</li>
+</ol>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install msodbcsql17 mssql-tools</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ol start="3" type="1">
 <li>Test installation</li>
 </ol>
-<div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="ex">odbcinst</span> <span class="at">-j</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ol start="4" type="1">
-<li>Install mssql extension in VS Code: <a href="https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql">mssql</a></li>
-</ol>
-
-
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">odbcinst</span> <span class="at">-j</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
+</section>
+<section id="mssql-vs-code-extension" class="level3">
+<h3 class="anchored" data-anchor-id="mssql-vs-code-extension">mssql VS Code extension</h3>
+<p>Install mssql extension in VS Code: <a href="https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql">mssql</a></p>
+
+
 </section>
 </section>
 
