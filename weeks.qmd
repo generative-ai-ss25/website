@@ -95,6 +95,11 @@ In VS Code, click on the Extensions icon in the sidebar (or press: Windows `Ctrl
 **Note:** GitHub Copilot requires a subscription, but it's free with the GitHub Student Developer Pack you applied for in Step 1.
 :::
 
+
+You can enhance Copilot's chat responses by providing it with contextual details about your workflow, tools, or project specifics. Instead of manually including this context in every chat query, you can create a custom instructions file that automatically incorporates this information with every chat request.
+
+- [Custom instructions for GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/copilot-customization)
+
 #### Step 4: Install uv Package Manager ⚡
 
 `uv` is a fast, modern Python package manager and resolver.
@@ -366,3 +371,9 @@ ORDER BY
     t.TABLE_NAME,
     c.ORDINAL_POSITION;
 ```
+
+### Custom instructions in VS Code
+
+You can enhance Copilot's chat responses by providing it with contextual details about your workflow, tools, or project specifics. Instead of manually including this context in every chat query, you can create a custom instructions file that automatically incorporates this information with every chat request.
+
+- [Custom instructions for GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/copilot-customization)
