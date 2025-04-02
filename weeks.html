@@ -220,6 +220,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#business-frameworks" id="toc-business-frameworks" class="nav-link" data-scroll-target="#business-frameworks">Business frameworks</a></li>
   <li><a href="#python-setup-with-uv" id="toc-python-setup-with-uv" class="nav-link" data-scroll-target="#python-setup-with-uv">Python Setup with uv</a></li>
   </ul></li>
+  <li><a href="#week-3" id="toc-week-3" class="nav-link" data-scroll-target="#week-3">Week 3</a>
+  <ul class="collapse">
+  <li><a href="#database-setup" id="toc-database-setup" class="nav-link" data-scroll-target="#database-setup">Database setup</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -550,6 +554,30 @@ If the extensions we installed aren’t behaving correctly:</p>
 <h4 class="anchored" data-anchor-id="conclusion">Conclusion 🎯</h4>
 <p>Congratulations! You’ve successfully set up a Python development environment using <code>uv</code>. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.</p>
 <p>Happy coding! 💻✨</p>
+</section>
+</section>
+</section>
+<section id="week-3" class="level2">
+<h2 class="anchored" data-anchor-id="week-3">Week 3</h2>
+<section id="database-setup" class="level3">
+<h3 class="anchored" data-anchor-id="database-setup">Database setup</h3>
+<p>Use uv to add sqlalchemy:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add sqlalchemy</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="windows" class="level4">
+<h4 class="anchored" data-anchor-id="windows">Windows</h4>
+<ul>
+<li>Install <a href="https://learn.microsoft.com/en-us/sql/connect/odbc/windows/microsoft-odbc-driver-for-sql-server-on-windows?view=sql-server-ver15">Microsoft ODBC Driver for SQL Server on Windows</a></li>
+</ul>
+</section>
+<section id="mac" class="level4">
+<h4 class="anchored" data-anchor-id="mac">Mac</h4>
+<ol type="1">
+<li><p><a href="https://brew.sh">Install homebrew</a></p></li>
+<li><p>Install Microsoft ODBC Driver for SQL Server:</p></li>
+</ol>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install msodbcsql17 mssql-tools</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="ex">odbcinst</span> <span class="at">-j</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

@@ -382,6 +382,17 @@
     ]
   },
   {
+    "objectID": "weeks.html#week-3",
+    "href": "weeks.html#week-3",
+    "title": "Weekly overview",
+    "section": "Week 3",
+    "text": "Week 3\n\nDatabase setup\nUse uv to add sqlalchemy:\nuv add sqlalchemy\n\nWindows\n\nInstall Microsoft ODBC Driver for SQL Server on Windows\n\n\n\nMac\n\nInstall homebrew\nInstall Microsoft ODBC Driver for SQL Server:\n\nbrew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release\nbrew install msodbcsql17 mssql-tools\nodbcinst -j",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
     "objectID": "bmc.html",
     "href": "bmc.html",
     "title": "Business Model Canvas",
