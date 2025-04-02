@@ -273,3 +273,39 @@ If the extensions we installed aren't behaving correctly:
 Congratulations! You've successfully set up a Python development environment using `uv`. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.
 
 Happy coding! 💻✨
+
+
+## Week 3
+
+### Database setup
+
+Use uv to add sqlalchemy:
+
+```bash
+uv add sqlalchemy
+```
+
+#### Windows
+
+- Install [Microsoft ODBC Driver for SQL Server on Windows](https://learn.microsoft.com/en-us/sql/connect/odbc/windows/microsoft-odbc-driver-for-sql-server-on-windows?view=sql-server-ver15)
+
+#### Mac
+
+1. [Install homebrew](https://brew.sh)
+
+
+2. Install Microsoft ODBC Driver for SQL Server:
+
+```bash
+brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
+```
+
+
+```bash
+brew install msodbcsql17 mssql-tools
+````
+
+
+```bash
+odbcinst -j
+```
