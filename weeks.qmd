@@ -336,3 +336,33 @@ odbcinst -j
 5. Name the connection "bike_database"
 6. Important: Select "Trust server certificate" option
 7. Click "Connect"
+
+
+Create a schema:
+
+```sql
+-- Query to list all tables and their columns
+SELECT 
+    t.TABLE_SCHEMA,
+    t.TABLE_NAME,
+    c.COLUMN_NAME,
+    c.DATA_TYPE,
+    c.CHARACTER_MAXIMUM_LENGTH,
+    c.IS_NULLABLE,
+    CASE WHEN kcu.COLUMN_NAME IS NOT NULL THEN 'YES' ELSE 'NO' END AS IS_PRIMARY_KEY
+FROM 
+    INFORMATION_SCHEMA.TABLES t
+INNER JOIN 
+    INFORMATION_SCHEMA.COLUMNS c ON t.TABLE_SCHEMA = c.TABLE_SCHEMA 
+    AND t.TABLE_NAME = c.TABLE_NAME
+LEFT JOIN 
+    INFORMATION_SCHEMA.KEY_COLUMN_USAGE kcu ON c.COLUMN_NAME = kcu.COLUMN_NAME 
+    AND c.TABLE_NAME = kcu.TABLE_NAME 
+    AND c.TABLE_SCHEMA = kcu.TABLE_SCHEMA
+WHERE 
+    t.TABLE_TYPE = 'BASE TABLE'
+ORDER BY 
+    t.TABLE_SCHEMA,
+    t.TABLE_NAME,
+    c.ORDINAL_POSITION;
+```
