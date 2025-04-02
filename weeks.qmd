@@ -277,7 +277,9 @@ Happy coding! 💻✨
 
 ## Week 3
 
-### Database setup
+Database setup
+
+### uv
 
 Use uv to add sqlalchemy:
 
@@ -285,16 +287,26 @@ Use uv to add sqlalchemy:
 uv add sqlalchemy
 ```
 
+### Microsoft ODBC Driver
+
 #### Windows
 
 - Install [Microsoft ODBC Driver for SQL Server on Windows](https://learn.microsoft.com/en-us/sql/connect/odbc/windows/microsoft-odbc-driver-for-sql-server-on-windows?view=sql-server-ver15)
+
+
 
 #### Mac
 
 1. [Install homebrew](https://brew.sh)
 
 
-2. Install Microsoft ODBC Driver for SQL Server:
+3. Update brew:
+
+```bash
+brew update
+```
+
+4. Install Microsoft ODBC Driver for SQL Server:
 
 ```bash
 brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
@@ -310,5 +322,7 @@ brew install msodbcsql17 mssql-tools
 ```bash
 odbcinst -j
 ```
+### mssql VS Code extension
 
-4. Install mssql extension in VS Code: [mssql](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
+
+Install mssql extension in VS Code: [mssql](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
