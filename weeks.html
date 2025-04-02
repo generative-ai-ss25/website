@@ -225,7 +225,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#uv" id="toc-uv" class="nav-link" data-scroll-target="#uv">uv</a></li>
   <li><a href="#microsoft-odbc-driver" id="toc-microsoft-odbc-driver" class="nav-link" data-scroll-target="#microsoft-odbc-driver">Microsoft ODBC Driver</a></li>
   <li><a href="#mssql-vs-code-extension" id="toc-mssql-vs-code-extension" class="nav-link" data-scroll-target="#mssql-vs-code-extension">mssql VS Code extension</a></li>
-  <li><a href="#custom-instructions-in-vs-code" id="toc-custom-instructions-in-vs-code" class="nav-link" data-scroll-target="#custom-instructions-in-vs-code">Custom instructions in VS Code</a></li>
+  <li><a href="#custom-instructions-in-vs-code" id="toc-custom-instructions-in-vs-code" class="nav-link" data-scroll-target="#custom-instructions-in-vs-code">Custom Instructions in VS Code</a></li>
+  <li><a href="#openais-resposnes-and-agents-sdk" id="toc-openais-resposnes-and-agents-sdk" class="nav-link" data-scroll-target="#openais-resposnes-and-agents-sdk">OpenAI’s Resposnes and Agents SDK</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -637,10 +638,37 @@ If the extensions we installed aren’t behaving correctly:</p>
 <span id="cb17-24"><a href="#cb17-24" aria-hidden="true" tabindex="-1"></a>    c.ORDINAL_POSITION;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="custom-instructions-in-vs-code" class="level3">
-<h3 class="anchored" data-anchor-id="custom-instructions-in-vs-code">Custom instructions in VS Code</h3>
-<p>You can enhance Copilot’s chat responses by providing it with contextual details about your workflow, tools, or project specifics. Instead of manually including this context in every chat query, you can create a custom instructions file that automatically incorporates this information with every chat request.</p>
+<h3 class="anchored" data-anchor-id="custom-instructions-in-vs-code">Custom Instructions in VS Code</h3>
+<p>Enhance Copilot’s chat responses by automatically providing contextual details about your workflow, tools, or project. Instead of repeating this context in every query, you can set up a custom instructions file.</p>
 <ul>
-<li><a href="https://code.visualstudio.com/docs/copilot/copilot-customization">Custom instructions for GitHub Copilot in VS Code</a></li>
+<li>📘 <a href="https://code.visualstudio.com/docs/copilot/copilot-customization">Custom instructions for GitHub Copilot in VS Code</a></li>
+</ul>
+<section id="setup-steps" class="level4">
+<h4 class="anchored" data-anchor-id="setup-steps">Setup Steps</h4>
+<ol type="1">
+<li><p>Open <a href="vscode://settings/github.copilot.chat.codeGeneration.instructions">settings</a> in VS Code.</p></li>
+<li><p>Click <strong>Edit in settings.json</strong>.</p></li>
+<li><p>Add the following entry:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="er">"github.copilot.chat.codeGeneration.instructions":</span> <span class="ot">[</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">{</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"file"</span><span class="fu">:</span> <span class="st">"code-style.md"</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="ot">]</span><span class="er">,</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>In your project root, create a <code>.github</code> folder.</p></li>
+<li><p>Inside <code>.github</code>, add two files:</p>
+<ul>
+<li><code>copilot-instructions.md</code></li>
+<li><code>code-style.md</code></li>
+</ul></li>
+<li><p>Write your custom instructions in these files to tailor Copilot’s responses.</p></li>
+</ol>
+</section>
+</section>
+<section id="openais-resposnes-and-agents-sdk" class="level3">
+<h3 class="anchored" data-anchor-id="openais-resposnes-and-agents-sdk">OpenAI’s Resposnes and Agents SDK</h3>
+<ul>
+<li>📘 <a href="https://openai.github.io/openai-agents-python/">Responses API documentation</a></li>
+<li>🛠️ <a href="https://github.com/openai/openai-agents-python">Agents SDK GitHub Repository</a></li>
 </ul>
 
 
