@@ -386,7 +386,7 @@
     "href": "weeks.html#week-3",
     "title": "Weekly overview",
     "section": "Week 3",
-    "text": "Week 3\nDatabase setup\n\nuv\nUse uv to add sqlalchemy:\nuv add sqlalchemy\n\n\nMicrosoft ODBC Driver\n\nWindows\n\nInstall Microsoft ODBC Driver for SQL Server on Windows\n\n\n\nMac\n\nInstall homebrew\nUpdate brew:\n\nbrew update\nIf updates are available, use brew upgrade\n\nInstall Microsoft ODBC Driver for SQL Server:\n\nbrew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release\nbrew install msodbcsql17 mssql-tools\n\nTest installation\n\nodbcinst -j\n\n\n\nmssql VS Code extension\nInstall mssql extension in VS Code: mssql",
+    "text": "Week 3\nDatabase setup\n\nuv\nUse uv to add sqlalchemy:\nuv add sqlalchemy\n\n\nMicrosoft ODBC Driver\n\nWindows\n\nInstall Microsoft ODBC Driver for SQL Server on Windows\n\n\n\nMac\n\nInstall homebrew\nUpdate brew:\n\nbrew update\nIf updates are available, use brew upgrade\n\nInstall Microsoft ODBC Driver for SQL Server:\n\nbrew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release\nbrew install msodbcsql17 mssql-tools\n\nTest installation\n\nodbcinst -j\n\n\n\nmssql VS Code extension\n\nInstall the mssql extension in VS Code\nOpen the extension panel (Ctrl+Shift+D or ⌘+Shift+D)\nClick “Add Connection” or the “+” icon\nEnter your database credentials (see .env file)\nName the connection “bike_database”\nImportant: Select “Trust server certificate” option\nClick “Connect”",
     "crumbs": [
       "Course information",
       "Weekly Overview"
