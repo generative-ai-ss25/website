@@ -300,13 +300,15 @@ uv add sqlalchemy
 1. [Install homebrew](https://brew.sh)
 
 
-3. Update brew:
+2. Update brew:
 
 ```bash
 brew update
 ```
 
-4. Install Microsoft ODBC Driver for SQL Server:
+If updates are available, use `brew upgrade`
+
+3. Install Microsoft ODBC Driver for SQL Server:
 
 ```bash
 brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
@@ -317,11 +319,12 @@ brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-rel
 brew install msodbcsql17 mssql-tools
 ```
 
-3. Test installation
+4. Test installation
 
 ```bash
 odbcinst -j
 ```
+
 ### mssql VS Code extension
 
 
