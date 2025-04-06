@@ -401,7 +401,7 @@ Enhance Copilot's chat responses by automatically providing contextual details a
 
 
 
-### OpenAI's Resposnes and Agents SDK
+### OpenAI's Responses and Agents SDK
 
 - 📘 [Responses API documentation](https://openai.github.io/openai-agents-python/)
 - 🛠️ [Agents SDK GitHub Repository](https://github.com/openai/openai-agents-python)
