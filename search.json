@@ -342,7 +342,7 @@
     "href": "index.html",
     "title": "GenAI Project",
     "section": "",
-    "text": "This page contains an outline of the topics and content for the course.\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses.\n\n\n\n\n\n\nWeek\nNr\nTopic\nMaterial\n\n\n\n\n1\n\nIntroduction\n\n\n\n\n0\nProject overview\n📑 Slides\n\n\n\n1\nIntroduction\n📄 PDF\n\n\n\n2\nAgentic Systems\n📑 Web\n\n\n2\n\nBusiness Frameworks & Python Setup\n\n\n\n\n3\nBusiness Frameworks\nBMC, User Persona, Value Proposition Canvas, Jobts-to-be-done\n\n\n\n4\nPython Setup\nSetup with uv\n\n\n3\n5\nDatabase Setup\nDatabse setup",
+    "text": "This page contains an outline of the topics and content for the course.\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses.\n\n\n\n\n\n\nWeek\nNr\nTopic\nMaterial\n\n\n\n\n1\n\nIntroduction\n\n\n\n\n0\nProject overview\n📑 Slides\n\n\n\n1\nIntroduction\n📄 PDF\n\n\n\n2\nAgentic Systems\n📑 Web\n\n\n2\n\nBusiness Frameworks & Python Setup\n\n\n\n\n3\nBusiness Frameworks\nBMC, User Persona, Value Proposition Canvas, Jobts-to-be-done\n\n\n\n4\nPython Setup\nSetup with uv\n\n\n3\n5\nDatabase & VS Code Setup\nWeek 3",
     "crumbs": [
       "Course information",
       "Schedule"
