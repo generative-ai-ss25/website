@@ -405,3 +405,32 @@ Enhance Copilot's chat responses by automatically providing contextual details a
 
 - 📘 [Responses API documentation](https://openai.github.io/openai-agents-python/)
 - 🛠️ [Agents SDK GitHub Repository](https://github.com/openai/openai-agents-python)
+
+
+## Week 4
+
+### Agents SDK
+
+- [API Documentation](https://openai.github.io/openai-agents-python/)
+
+We create a new project. Open your Terminal or PowerShell:
+
+```bash
+uv init . --python 3.11 
+```
+
+```bash
+uv sync  
+```
+```bash
+uv add openai python-dotenv gradio openai-agents
+```
+
+```bash
+uv add openai-agents
+```
+
+### NextJS
+
+### n8n
+
