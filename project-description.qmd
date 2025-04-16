@@ -33,7 +33,7 @@ For this project, you will have access to GBI's Microsost SQL server containing 
 
 ## Project Phases
 
-### Use Case Identification (Weeks 1-2)
+### Use Case Identification 
 
 Begin by exploring GBI's business operations through the provided SQL server data. Identify three potential business use cases where generative AI agents could provide significant value to GBI. Focus on areas such as:
 
@@ -52,16 +52,16 @@ Evaluate each option based on:
 
 Submit a brief analysis (1-2 pages) of your three ideas with justification for each, explaining how they could enhance GBI's operations. We will discuss the options and select one use case to pursue.
 
-### Business Context Development (Weeks 2-3)
+### Business Context Development
 
-Once your use case is approved, develop a comprehensive business context presentation using [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an appropriate [business template](https://slidesgo.com/themes). Your 10-minute presentation should include:
+Once your use case is approved, develop a comprehensive business context presentation using [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an appropriate [business template](https://slidesgo.com/themes). Your presentation should include:
 
 - [Business Model Canvas](bmc.qmd) for the organization
 - [User Personas](user-persona.qmd) for primary stakeholders/users
 - [Value Proposition Canvas](value-proposition.qmd) and the [Jobs-to-be-done Framework](jobs-to-be-done.qmd) for the AI solution
 - Specific KPIs that will measure success
 
-### Agent System Design (Weeks 4-6)
+### Agent System Design 
 
 Design your generative AI agent system, focusing on:
 
@@ -74,7 +74,7 @@ Design your generative AI agent system, focusing on:
 
 Submit a design document (3-5 pages) and architecture diagram for feedback before proceeding to implementation.
 
-### Technical Implementation (Weeks 7-11)
+### Technical Implementation
 
 Implement your generative AI agent system for GBI following these guidelines:
 
@@ -93,7 +93,7 @@ Your solution should either integrate with GBI's existing data structure or prop
 
 Weekly code reviews will be conducted to provide feedback and guidance.
 
-### Testing and Evaluation (Weeks 12-13)
+### Testing and Evaluation 
 
 Thoroughly test your system and evaluate its performance:
 
@@ -106,7 +106,7 @@ Thoroughly test your system and evaluate its performance:
 
 Submit a testing report (2-3 pages) documenting your findings.
 
-### Final Documentation and Presentation (Weeks 14-15)
+### Final Documentation and Presentation 
 
 Prepare comprehensive documentation and a final presentation:
 
