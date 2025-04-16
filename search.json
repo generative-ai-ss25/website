@@ -393,6 +393,17 @@
     ]
   },
   {
+    "objectID": "weeks.html#week-4",
+    "href": "weeks.html#week-4",
+    "title": "Weekly overview",
+    "section": "Week 4",
+    "text": "Week 4\n\nAgents SDK\n\nAPI Documentation\n\nWe create a new project. Open your Terminal or PowerShell:\nuv init . --python 3.11 \nuv sync  \nuv add openai python-dotenv gradio openai-agents\nuv add openai-agents\n\n\nNextJS\n\n\nn8n",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
     "objectID": "bmc.html",
     "href": "bmc.html",
     "title": "Business Model Canvas",
