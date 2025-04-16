@@ -413,10 +413,14 @@ Enhance Copilot's chat responses by automatically providing contextual details a
 
 - [API Documentation](https://openai.github.io/openai-agents-python/)
 - [Example Agents](https://github.com/openai/openai-agents-python/tree/main/examples)
+  - [Common Agent Patterns](https://github.com/openai/openai-agents-python/tree/main/examples/agent_patterns)
 
 
+#### agents-sdk Project
 
 We create a new project. Open your Terminal or PowerShell:
+
+
 
 ```bash
 uv init . --python 3.11 
@@ -425,6 +429,7 @@ uv init . --python 3.11
 ```bash
 uv sync  
 ```
+
 ```bash
 uv add openai python-dotenv gradio openai-agents
 ```
@@ -447,11 +452,6 @@ agent = Agent(name="Assistant",
 result = Runner.run_sync(agent, "Write a haiku about recursion in programming.")
 print(result.final_output)
 ```
-
-
-
-
-
 
 
 
