@@ -684,12 +684,18 @@ If the extensions we installed aren’t behaving correctly:</p>
 <h3 class="anchored" data-anchor-id="agents-sdk">Agents SDK</h3>
 <ul>
 <li><a href="https://openai.github.io/openai-agents-python/">API Documentation</a></li>
-<li><a href="https://github.com/openai/openai-agents-python/tree/main/examples">Example Agents</a></li>
+<li><a href="https://github.com/openai/openai-agents-python/tree/main/examples">Example Agents</a>
+<ul>
+<li><a href="https://github.com/openai/openai-agents-python/tree/main/examples/agent_patterns">Common Agent Patterns</a></li>
+</ul></li>
 </ul>
+<section id="agents-sdk-project" class="level4">
+<h4 class="anchored" data-anchor-id="agents-sdk-project">agents-sdk Project</h4>
 <p>We create a new project. Open your Terminal or PowerShell:</p>
 <div class="sourceCode" id="cb19"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> init . <span class="at">--python</span> 3.11 </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb20"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> sync  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb21"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add openai python-dotenv gradio openai-agents</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
 <section id="hello-world" class="level4">
 <h4 class="anchored" data-anchor-id="hello-world">Hello World</h4>
 <p>Open the project in VS Code and copy the .env file in your project</p>
