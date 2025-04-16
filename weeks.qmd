@@ -407,7 +407,20 @@ Enhance Copilot's chat responses by automatically providing contextual details a
 - 🛠️ [Agents SDK GitHub Repository](https://github.com/openai/openai-agents-python)
 
 
+
 ## Week 4
+
+This repository contains the source code and materials used in the lecture for building and understanding the Responses API. You can explore the codebase, follow along with examples, and review implementation details to deepen your understanding:
+
+- [Responses API GitHub Repo (lecture)](https://github.com/kirenz/responses-api)
+
+
+The official OpenAI documentation provides comprehensive information about the Responses API endpoints, parameters, and usage examples. Refer to this resource for detailed technical reference, best practices, and guidance on integrating the API into your own projects:
+
+- [Responses API documentation](https://platform.openai.com/docs/api-reference/responses)
+
+
+## Week 5
 
 ### Agents SDK
 
@@ -456,6 +469,58 @@ print(result.final_output)
 
 
 ### NextJS
+
+- [Lee Robinson](https://github.com/leerob)
+
+- [Download Node v23.11](https://nodejs.org/en/download)
+
+
+```bash
+npx create-next-app@latest my-next-app
+```
+
+#### Mac
+
+Verify the Node.js version:
+
+```bash
+node -v 
+```
+
+Should print "v23.11.0".
+
+Verify npm version:
+
+```bash
+npm -v 
+```
+
+Should print "10.9.2".
+
+#### Mac
+
+
+Option 1: Homwbrew
+
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Update
+
+```bash
+brew update
+```
+
+Upgrade
+
+```bash
+brew upgrade
+```
+
+#### Windows
+
 
 ### n8n
 

@@ -19,7 +19,8 @@ This schedule will be updated as the semester progresses.
 |     |	3	|	Business Frameworks	|	[BMC](bmc.qmd), [User Persona](user-persona.qmd), [Value Proposition Canvas](value-proposition.qmd), [Jobts-to-be-done](jobs-to-be-done.qmd)	|
 |     | 4	|	Python Setup        |	[Setup with uv](weeks#python-setup-with-uv.qmd)                                                                   |	
 |  3  | 5	|	Database & VS Code Setup        |	[Week 3](weeks#week-3.qmd)                                                                   |	
-
+|  4  | 6	|	Responses API        |	[Week 4](weeks#week-4.qmd)                                                                   |	
+|  5  | 7	|	Agents SDK & NextJS       |	[Week 5](weeks#week-5.qmd)                                                                   |	
 
 
 <!-- 
