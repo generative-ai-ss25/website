@@ -397,7 +397,7 @@
     "href": "weeks.html#week-4",
     "title": "Weekly overview",
     "section": "Week 4",
-    "text": "Week 4\n\nAgents SDK\n\nAPI Documentation\n\nWe create a new project. Open your Terminal or PowerShell:\nuv init . --python 3.11 \nuv sync  \nuv add openai python-dotenv gradio openai-agents\nuv add openai-agents\n\n\nNextJS\n\n\nn8n",
+    "text": "Week 4\n\nAgents SDK\n\nAPI Documentation\nExample Agents\n\nWe create a new project. Open your Terminal or PowerShell:\nuv init . --python 3.11 \nuv sync  \nuv add openai python-dotenv gradio openai-agents\n\nHello World\nOpen the project in VS Code and copy the .env file in your project\nfrom agents import Agent, Runner\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\nagent = Agent(name=\"Assistant\",\n              model=\"gpt-4o-mini\", \n              instructions=\"You are a helpful assistant\")\n\nresult = Runner.run_sync(agent, \"Write a haiku about recursion in programming.\")\nprint(result.final_output)\n\n\n\nNextJS\n\n\nn8n",
     "crumbs": [
       "Course information",
       "Weekly Overview"
