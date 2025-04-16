@@ -412,6 +412,9 @@ Enhance Copilot's chat responses by automatically providing contextual details a
 ### Agents SDK
 
 - [API Documentation](https://openai.github.io/openai-agents-python/)
+- [Example Agents](https://github.com/openai/openai-agents-python/tree/main/examples)
+
+
 
 We create a new project. Open your Terminal or PowerShell:
 
@@ -426,9 +429,31 @@ uv sync
 uv add openai python-dotenv gradio openai-agents
 ```
 
-```bash
-uv add openai-agents
+#### Hello World
+
+Open the project in VS Code and copy the .env file in your project
+
+
+```python
+from agents import Agent, Runner
+from dotenv import load_dotenv
+
+load_dotenv()
+
+agent = Agent(name="Assistant",
+              model="gpt-4o-mini", 
+              instructions="You are a helpful assistant")
+
+result = Runner.run_sync(agent, "Write a haiku about recursion in programming.")
+print(result.final_output)
 ```
+
+
+
+
+
+
+
 
 ### NextJS
 
