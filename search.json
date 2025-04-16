@@ -342,7 +342,7 @@
     "href": "index.html",
     "title": "GenAI Project",
     "section": "",
-    "text": "This page contains an outline of the topics and content for the course.\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses.\n\n\n\n\n\n\nWeek\nNr\nTopic\nMaterial\n\n\n\n\n1\n\nIntroduction\n\n\n\n\n0\nProject overview\n📑 Slides\n\n\n\n1\nIntroduction\n📄 PDF\n\n\n\n2\nAgentic Systems\n📑 Web\n\n\n2\n\nBusiness Frameworks & Python Setup\n\n\n\n\n3\nBusiness Frameworks\nBMC, User Persona, Value Proposition Canvas, Jobts-to-be-done\n\n\n\n4\nPython Setup\nSetup with uv\n\n\n3\n5\nDatabase & VS Code Setup\nWeek 3",
+    "text": "This page contains an outline of the topics and content for the course.\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses.\n\n\n\n\n\n\nWeek\nNr\nTopic\nMaterial\n\n\n\n\n1\n\nIntroduction\n\n\n\n\n0\nProject overview\n📑 Slides\n\n\n\n1\nIntroduction\n📄 PDF\n\n\n\n2\nAgentic Systems\n📑 Web\n\n\n2\n\nBusiness Frameworks & Python Setup\n\n\n\n\n3\nBusiness Frameworks\nBMC, User Persona, Value Proposition Canvas, Jobts-to-be-done\n\n\n\n4\nPython Setup\nSetup with uv\n\n\n3\n5\nDatabase & VS Code Setup\nWeek 3\n\n\n4\n6\nResponses API\nWeek 4\n\n\n5\n7\nAgents SDK & NextJS\nWeek 5",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -397,7 +397,18 @@
     "href": "weeks.html#week-4",
     "title": "Weekly overview",
     "section": "Week 4",
-    "text": "Week 4\n\nAgents SDK\n\nAPI Documentation\nExample Agents\n\nCommon Agent Patterns\n\n\n\nagents-sdk Project\nWe create a new project. Open your Terminal or PowerShell:\nuv init . --python 3.11 \nuv sync  \nuv add openai python-dotenv gradio openai-agents\n\n\nHello World\nOpen the project in VS Code and copy the .env file in your project\nfrom agents import Agent, Runner\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\nagent = Agent(name=\"Assistant\",\n              model=\"gpt-4o-mini\", \n              instructions=\"You are a helpful assistant\")\n\nresult = Runner.run_sync(agent, \"Write a haiku about recursion in programming.\")\nprint(result.final_output)\n\n\n\nNextJS\n\n\nn8n",
+    "text": "Week 4\nThis repository contains the source code and materials used in the lecture for building and understanding the Responses API. You can explore the codebase, follow along with examples, and review implementation details to deepen your understanding:\n\nResponses API GitHub Repo (lecture)\n\nThe official OpenAI documentation provides comprehensive information about the Responses API endpoints, parameters, and usage examples. Refer to this resource for detailed technical reference, best practices, and guidance on integrating the API into your own projects:\n\nResponses API documentation",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#week-5",
+    "href": "weeks.html#week-5",
+    "title": "Weekly overview",
+    "section": "Week 5",
+    "text": "Week 5\n\nAgents SDK\n\nAPI Documentation\nExample Agents\n\nCommon Agent Patterns\n\n\n\nagents-sdk Project\nWe create a new project. Open your Terminal or PowerShell:\nuv init . --python 3.11 \nuv sync  \nuv add openai python-dotenv gradio openai-agents\n\n\nHello World\nOpen the project in VS Code and copy the .env file in your project\nfrom agents import Agent, Runner\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\nagent = Agent(name=\"Assistant\",\n              model=\"gpt-4o-mini\", \n              instructions=\"You are a helpful assistant\")\n\nresult = Runner.run_sync(agent, \"Write a haiku about recursion in programming.\")\nprint(result.final_output)\n\n\n\nNextJS\n\nLee Robinson\nDownload Node v23.11\n\nnpx create-next-app@latest my-next-app\n\nMac\nVerify the Node.js version:\nnode -v \nShould print “v23.11.0”.\nVerify npm version:\nnpm -v \nShould print “10.9.2”.\n\n\nMac\nOption 1: Homwbrew\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nUpdate\nbrew update\nUpgrade\nbrew upgrade\n\n\nWindows\n\n\n\nn8n",
     "crumbs": [
       "Course information",
       "Weekly Overview"
