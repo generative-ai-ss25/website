@@ -470,16 +470,13 @@ print(result.final_output)
 
 ### NextJS
 
-- [Lee Robinson](https://github.com/leerob)
+[Next.js](https://nextjs.org/) is a React framework for building full-stack web applications. Let's set up a Next.js project from scratch.
+
+#### Prerequisites
+
+First, make sure you have Node.js installed:
 
 - [Download Node v23.11](https://nodejs.org/en/download)
-
-
-```bash
-npx create-next-app@latest my-next-app
-```
-
-#### Mac
 
 Verify the Node.js version:
 
@@ -497,11 +494,109 @@ npm -v
 
 Should print "10.9.2".
 
-#### Mac
+#### Creating a Next.js App
+
+Create a new Next.js application using the following command:
+
+```bash
+npx create-next-app@latest my-next-app
+```
+
+During setup, you'll be asked several configuration questions:
+
+![](images/nextjs.png)
+
+#### Project Structure
+
+After creation, your Next.js app will have the following structure:
+
+```
+my-next-app/
+├── .next/
+├── node_modules/
+├── public/
+├── src/
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+├── .eslintrc.json
+├── .gitignore
+├── next.config.js
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json
+```
+
+#### Running Your Application
+
+Navigate to your project directory:
+
+```bash
+cd my-next-app
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Your Next.js application will be running at [http://localhost:3000](http://localhost:3000).
+
+#### Key Next.js Features
+
+1. **File-based Routing**: 
+   - Create pages by adding files to the `src/app` directory 
+   - For example, `src/app/about/page.tsx` creates a route at `/about`
+
+2. **Server Components**:
+   - By default, components are React Server Components
+   - Add `"use client"` at the top of a file to make it a Client Component
+
+3. **Data Fetching**:
+   - Server Components can fetch data directly:
+
+   ```tsx
+   async function getData() {
+     const res = await fetch('https://api.example.com/data')
+     return res.json()
+   }
+   
+   export default async function Page() {
+     const data = await getData()
+     return <main>...</main>
+   }
+   ```
+
+4. **API Routes**:
+   - Create API endpoints in `src/app/api` directory
+   - For example, `src/app/api/hello/route.ts`:
+
+   ```typescript
+   export async function GET() {
+     return Response.json({ message: 'Hello World!' })
+   }
+   ```
+
+#### Learning Resources
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn) - Interactive tutorial
+- [Next.js Examples](https://github.com/vercel/next.js/tree/canary/examples)
+- [Lee Robinson's GitHub](https://github.com/leerob) - Useful example code
 
 
-Option 1: Homwbrew
+<!-- 
+#### Mac Installation Notes
 
+For Mac users, you might want to use Homebrew for managing packages:
+
+Option 1: Homebrew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -519,8 +614,5 @@ Upgrade
 brew upgrade
 ```
 
-#### Windows
-
-
-### n8n
+ -->
 
