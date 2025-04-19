@@ -233,7 +233,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#agents-sdk" id="toc-agents-sdk" class="nav-link" data-scroll-target="#agents-sdk">Agents SDK</a></li>
   <li><a href="#nextjs" id="toc-nextjs" class="nav-link" data-scroll-target="#nextjs">NextJS</a></li>
-  <li><a href="#n8n" id="toc-n8n" class="nav-link" data-scroll-target="#n8n">n8n</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -726,37 +725,129 @@ If the extensions we installed aren’t behaving correctly:</p>
 </section>
 <section id="nextjs" class="level3">
 <h3 class="anchored" data-anchor-id="nextjs">NextJS</h3>
+<p><a href="https://nextjs.org/">Next.js</a> is a React framework for building full-stack web applications. Let’s set up a Next.js project from scratch.</p>
+<section id="prerequisites" class="level4">
+<h4 class="anchored" data-anchor-id="prerequisites">Prerequisites</h4>
+<p>First, make sure you have Node.js installed:</p>
 <ul>
-<li><p><a href="https://github.com/leerob">Lee Robinson</a></p></li>
-<li><p><a href="https://nodejs.org/en/download">Download Node v23.11</a></p></li>
+<li><a href="https://nodejs.org/en/download">Download Node v23.11</a></li>
 </ul>
-<div class="sourceCode" id="cb23"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npx</span> create-next-app@latest my-next-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<section id="mac-1" class="level4">
-<h4 class="anchored" data-anchor-id="mac-1">Mac</h4>
 <p>Verify the Node.js version:</p>
-<div class="sourceCode" id="cb24"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="ex">node</span> <span class="at">-v</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="ex">node</span> <span class="at">-v</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Should print “v23.11.0”.</p>
 <p>Verify npm version:</p>
-<div class="sourceCode" id="cb25"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> <span class="at">-v</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> <span class="at">-v</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Should print “10.9.2”.</p>
 </section>
-<section id="mac-2" class="level4">
-<h4 class="anchored" data-anchor-id="mac-2">Mac</h4>
-<p>Option 1: Homwbrew</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Update</p>
-<div class="sourceCode" id="cb27"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> update</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Upgrade</p>
-<div class="sourceCode" id="cb28"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> upgrade</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="creating-a-next.js-app" class="level4">
+<h4 class="anchored" data-anchor-id="creating-a-next.js-app">Creating a Next.js App</h4>
+<p>Create a new Next.js application using the following command:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npx</span> create-next-app@latest my-next-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>During setup, you’ll be asked several configuration questions:</p>
+<p><img src="images/nextjs.png" class="img-fluid"></p>
 </section>
-<section id="windows-1" class="level4">
-<h4 class="anchored" data-anchor-id="windows-1">Windows</h4>
+<section id="project-structure" class="level4">
+<h4 class="anchored" data-anchor-id="project-structure">Project Structure</h4>
+<p>After creation, your Next.js app will have the following structure:</p>
+<pre><code>my-next-app/
+├── .next/
+├── node_modules/
+├── public/
+├── src/
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+├── .eslintrc.json
+├── .gitignore
+├── next.config.js
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json</code></pre>
 </section>
+<section id="running-your-application" class="level4">
+<h4 class="anchored" data-anchor-id="running-your-application">Running Your Application</h4>
+<p>Navigate to your project directory:</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> my-next-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Start the development server:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> run dev</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Your Next.js application will be running at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
 </section>
-<section id="n8n" class="level3">
-<h3 class="anchored" data-anchor-id="n8n">n8n</h3>
+<section id="key-next.js-features" class="level4">
+<h4 class="anchored" data-anchor-id="key-next.js-features">Key Next.js Features</h4>
+<ol type="1">
+<li><strong>File-based Routing</strong>:
+<ul>
+<li>Create pages by adding files to the <code>src/app</code> directory</li>
+<li>For example, <code>src/app/about/page.tsx</code> creates a route at <code>/about</code></li>
+</ul></li>
+<li><strong>Server Components</strong>:
+<ul>
+<li>By default, components are React Server Components</li>
+<li>Add <code>"use client"</code> at the top of a file to make it a Client Component</li>
+</ul></li>
+<li><strong>Data Fetching</strong>:
+<ul>
+<li>Server Components can fetch data directly:</li>
+</ul>
+<pre class="tsx"><code>async function getData() {
+  const res = await fetch('https://api.example.com/data')
+  return res.json()
+}
+
+export default async function Page() {
+  const data = await getData()
+  return &lt;main&gt;...&lt;/main&gt;
+}</code></pre></li>
+<li><strong>API Routes</strong>:
+<ul>
+<li>Create API endpoints in <code>src/app/api</code> directory</li>
+<li>For example, <code>src/app/api/hello/route.ts</code>:</li>
+</ul>
+<div class="sourceCode" id="cb30"><pre class="sourceCode typescript code-with-copy"><code class="sourceCode typescript"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="im">export</span> <span class="kw">async</span> <span class="kw">function</span> <span class="fu">GET</span>() {</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> Response<span class="op">.</span><span class="fu">json</span>({ message<span class="op">:</span> <span class="st">'Hello World!'</span> })</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ol>
+</section>
+<section id="learning-resources" class="level4">
+<h4 class="anchored" data-anchor-id="learning-resources">Learning Resources</h4>
+<ul>
+<li><a href="https://nextjs.org/docs">Next.js Documentation</a></li>
+<li><a href="https://nextjs.org/learn">Learn Next.js</a> - Interactive tutorial</li>
+<li><a href="https://github.com/vercel/next.js/tree/canary/examples">Next.js Examples</a></li>
+<li><a href="https://github.com/leerob">Lee Robinson’s GitHub</a> - Useful example code</li>
+</ul>
+<!-- 
+#### Mac Installation Notes
+
+For Mac users, you might want to use Homebrew for managing packages:
+
+Option 1: Homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Update
+
+```bash
+brew update
+```
+
+Upgrade
+
+```bash
+brew upgrade
+```
+
+ -->
 
 
+</section>
 </section>
 </section>
 
