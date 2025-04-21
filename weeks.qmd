@@ -474,6 +474,42 @@ print(result.final_output)
 
 #### Prerequisites
 
+
+
+:::{.callout-note title="Mac Installation Notes" collapse="true"}
+
+If you’re using a Mac, Homebrew is a great tool to install and manage software packages. It makes things much easier when working with tools like Python, Git, Node.js, and many more.
+
+✅ Step 1: Install Homebrew
+
+Open your Terminal and paste the following command to install Homebrew:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Just press Enter and follow the instructions.
+
+⸻
+
+🔄 Step 2: Keep Homebrew Up to Date
+
+After installing, you’ll want to keep Homebrew and your packages up to date:
+
+Update Homebrew itself (checks for the latest version):
+
+```bash
+brew update
+```
+
+Upgrade your installed packages (installs newer versions):
+
+```bash
+brew upgrade
+```
+
+:::
+
 First, make sure you have Node.js installed:
 
 - [Download Node v23.11](https://nodejs.org/en/download)
@@ -591,28 +627,15 @@ Your Next.js application will be running at [http://localhost:3000](http://local
 - [Lee Robinson's GitHub](https://github.com/leerob) - Useful example code
 
 
-<!-- 
-#### Mac Installation Notes
 
-For Mac users, you might want to use Homebrew for managing packages:
+## Week 6
 
-Option 1: Homebrew
+### Agents
 
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+OpenAI resources:
 
-Update
+- [A practical guide to building AI agents](
+https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf)
 
-```bash
-brew update
-```
 
-Upgrade
-
-```bash
-brew upgrade
-```
-
- -->
-
+- [Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide)
