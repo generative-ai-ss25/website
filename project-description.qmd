@@ -100,8 +100,7 @@ Thoroughly test your system and evaluate its performance:
 - Conduct functional testing across various scenarios
 - Measure performance against established KPIs
 - Document limitations and edge cases
-- Gather feedback from potential users
-- Quantify business impact (time savings, quality improvements, etc.)
+- Estimate business impact (time savings, quality improvements, etc.)
 - Identify potential improvements and future enhancements
 
 Submit a testing report (2-3 pages) documenting your findings.
