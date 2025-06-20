@@ -1,61 +1,5 @@
 [
   {
-    "objectID": "user-persona.html",
-    "href": "user-persona.html",
-    "title": "User Persona",
-    "section": "",
-    "text": "A Business User Persona is a fictional representation of an ideal or typical user of a business system or enterprise solution within an organization. Based on research and analysis of actual employee data, it enables development teams to better understand the needs of internal stakeholders who will interact with their solution. For our Global Bike Inc. (GBI) AI agent implementation, these personas represent the employees and managers who will directly use our AI system in their daily work.\nUnlike traditional consumer-focused user personas, Business User Personas emphasize professional goals, organizational responsibilities, technical proficiency, and business process knowledge. They focus on how users operate within their business context rather than personal preferences alone."
-  },
-  {
-    "objectID": "user-persona.html#importance-of-detailed-business-user-personas",
-    "href": "user-persona.html#importance-of-detailed-business-user-personas",
-    "title": "User Persona",
-    "section": "Importance of Detailed Business User Personas",
-    "text": "Importance of Detailed Business User Personas\nBusiness User Personas are crucial for designing and developing effective enterprise solutions. They help implementation teams understand the real-world business context in which their solution will operate, ensuring that:\n\nThe system addresses actual business needs and pain points\nThe interface aligns with users’ technical abilities and preferences\nThe functionality supports existing business processes and workflows\nThe solution delivers measurable business value to both users and the organization\n\nFor our GBI AI implementation, detailed business user personas will guide our technical decisions regarding AI capabilities, interface design, and integration points with existing systems."
-  },
-  {
-    "objectID": "user-persona.html#integration-of-the-jobs-to-be-done-approach",
-    "href": "user-persona.html#integration-of-the-jobs-to-be-done-approach",
-    "title": "User Persona",
-    "section": "Integration of the Jobs-to-be-Done Approach",
-    "text": "Integration of the Jobs-to-be-Done Approach\nThe JTBD approach is particularly valuable for Business User Personas, as it focuses on the specific business tasks users need to accomplish rather than just their characteristics. This helps identify:\n\nCritical business processes that could benefit from AI assistance\nEfficiency bottlenecks that impact productivity\nDecision points that require better data or insights\nRepetitive tasks that could be automated"
-  },
-  {
-    "objectID": "user-persona.html#creating-business-user-personas-for-gbi",
-    "href": "user-persona.html#creating-business-user-personas-for-gbi",
-    "title": "User Persona",
-    "section": "Creating Business User Personas for GBI",
-    "text": "Creating Business User Personas for GBI\n\nResearch: Conduct interviews with GBI staff across departments, observe workflow processes, and analyze current system usage patterns to gather data about potential users of our AI solution.\nIdentifying Business ‘Jobs’: Document the specific business tasks and responsibilities these users manage daily, including:\n\nRequired inputs and outputs for each process\nTime spent on different activities\nDependencies on other departments or systems\nKey performance indicators they’re measured by\n\nTechnical Context Assessment: Understand users’ current technology environment:\n\nFamiliarity with existing systems (including the SQL Server)\nTechnical proficiency and comfort with new technologies\nCurrent tools used to accomplish tasks\nAccess permissions and security considerations\n\nBusiness Value Mapping: Connect user activities to organizational value:\n\nHow their work contributes to GBI’s business objectives\nImpact of their efficiency on overall business performance\nRelationships with customers, suppliers, or other stakeholders"
-  },
-  {
-    "objectID": "user-persona.html#components-of-a-gbi-business-user-persona",
-    "href": "user-persona.html#components-of-a-gbi-business-user-persona",
-    "title": "User Persona",
-    "section": "Components of a GBI Business User Persona",
-    "text": "Components of a GBI Business User Persona\nA comprehensive Business User Persona for our GBI AI implementation should include:\n\nProfessional Profile:\n\nRole and position within GBI (e.g., “Inventory Manager in Materials Management”)\nResponsibilities and scope of authority\nDepartment context and team structure\nYears of experience in the role and industry\n\nBusiness Objectives:\n\nKey performance indicators they’re responsible for\nBusiness goals they need to achieve\nHow their work connects to GBI’s overall success\nPressures and constraints they operate under\n\nTechnical Profile:\n\nSystems and tools currently used\nTechnical proficiency and comfort with technology\nData access needs and frequency\nReporting requirements\n\nBusiness Jobs-to-be-Done:\n\nCritical daily tasks and processes\nDecision-making responsibilities\nInformation needs and sources\nCollaboration requirements with other departments\n\nPain Points and Challenges:\n\nProcess inefficiencies and bottlenecks\nData accessibility or quality issues\nTime-consuming manual tasks\nCommunication or coordination difficulties\n\nSuccess Criteria:\n\nHow they measure success in their role\nWhat would make a new solution valuable to them\nTime-saving or quality improvement thresholds\nFeatures that would significantly improve their work"
-  },
-  {
-    "objectID": "user-persona.html#sample-business-user-personas-for-gbi",
-    "href": "user-persona.html#sample-business-user-personas-for-gbi",
-    "title": "User Persona",
-    "section": "Sample Business User Personas for GBI",
-    "text": "Sample Business User Personas for GBI\n\nProduction Planner Persona\nName: Michael Weber\nRole: Production Planning Specialist\nDepartment: Manufacturing Operations\nExperience: 8 years at GBI, 12 years in bicycle manufacturing\nBusiness Objectives:\n- Optimize production schedules to meet demand while minimizing inventory costs - Ensure manufacturing resources are allocated efficiently - Maintain production quality standards - Coordinate with sales and inventory departments\nTechnical Profile:\n- Moderate technical proficiency - Daily user of GBI’s ERP system and SQL database for production data - Creates weekly production reports in Excel - Limited experience with AI or advanced analytics tools\nBusiness Jobs-to-be-Done:\n- Forecast production needs based on sales data and seasonal trends - Schedule manufacturing resources (equipment, materials, personnel) - Monitor production efficiency metrics - Adjust production plans in response to supply chain disruptions - Generate reports for management review\nPain Points:\n- Time-consuming manual data consolidation from multiple sources - Difficulty predicting seasonal demand fluctuations accurately - Limited visibility into supply chain disruptions until they occur - Cumbersome process for schedule adjustments when priorities change\nSuccess Criteria:\n- Reduction in time spent on manual data processing - Improved forecast accuracy - Earlier identification of potential production bottlenecks - More responsive adjustments to changing market conditions\n\n\nSales Representative Persona\nName: Sophia Müller\nRole: Regional Sales Representative\nDepartment: Sales & Distribution\nExperience: 4 years at GBI, 7 years in bicycle sales\nBusiness Objectives:\n- Meet or exceed quarterly sales targets - Maintain strong relationships with retail partners - Expand GBI’s market presence in assigned territory - Provide accurate information on product availability and delivery timelines\nTechnical Profile:\n- Basic technical proficiency - Uses GBI’s CRM system for customer management - Accesses inventory and order data via mobile sales app - Comfortable with digital communication tools\nBusiness Jobs-to-be-Done:\n- Process customer orders efficiently - Check product availability and delivery timelines - Provide product recommendations based on customer needs - Track sales pipeline and forecast quarterly performance - Report competitive intelligence back to marketing\nPain Points:\n- Delayed responses on product availability questions - Limited access to inventory data when visiting customers - Manual process for customized product configurations - Difficulty predicting accurate delivery dates during busy seasons\nSuccess Criteria:\n- Faster order processing time - Real-time access to accurate inventory and production information - Intelligent product recommendations based on customer history - More accurate delivery date predictions"
-  },
-  {
-    "objectID": "user-persona.html#technical-implementation-considerations",
-    "href": "user-persona.html#technical-implementation-considerations",
-    "title": "User Persona",
-    "section": "Technical Implementation Considerations",
-    "text": "Technical Implementation Considerations\nThese Business User Personas will directly inform:\n\nUse Case Prioritization: Which business processes offer the greatest potential value for AI enhancement\nFeature Selection: Which AI capabilities would most benefit each user type\nInterface Design: How to create an appropriate user experience in Gradio, Streamlit, or NextJS\nIntegration Points: Which systems and data sources from the SQL Server are most critical\nSuccess Metrics: What KPIs will demonstrate business value to both users and leadership"
-  },
-  {
-    "objectID": "user-persona.html#resources",
-    "href": "user-persona.html#resources",
-    "title": "User Persona",
-    "section": "Resources",
-    "text": "Resources\n\nMiro Business User Persona Template"
-  },
-  {
     "objectID": "project-tips-resources.html",
     "href": "project-tips-resources.html",
     "title": "Project tips + resources",
@@ -119,6 +63,233 @@
     "crumbs": [
       "Project",
       "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "bmc.html",
+    "href": "bmc.html",
+    "title": "Business Model Canvas",
+    "section": "",
+    "text": "The Business Model Canvas (BMC) is a powerful tool for visualizing and analyzing a business model in a clear, structured format. For the Global Bike Inc. (GBI) AI agent implementation project, this framework will help us identify how generative AI solutions can create value across the company’s operations. The canvas enables a holistic view of GBI’s business aspects, from value propositions to revenue streams, and helps understand relationships between these elements.\nAs AI consultants to GBI, using the BMC will facilitate evaluating potential AI agent implementations, reconsidering existing business processes, and planning strategic adjustments. This approach promotes innovative thinking and helps identify optimization opportunities across GBI’s bicycle manufacturing and accessories business, ensuring our AI solution design is customer-oriented and aligns with GBI’s strategic objectives.\nIn the rapidly changing landscape of both bicycle manufacturing and AI implementation, the Business Model Canvas offers the flexibility needed to adapt to new circumstances while maintaining focus on long-term business value."
+  },
+  {
+    "objectID": "bmc.html#fields-of-the-bmc",
+    "href": "bmc.html#fields-of-the-bmc",
+    "title": "Business Model Canvas",
+    "section": "9 Fields of the BMC",
+    "text": "9 Fields of the BMC\nLet’s explore how each component of the Business Model Canvas applies to Global Bike Inc. and our generative AI agent implementation project.\n\nCustomer Segments\n\nExplanation: The different groups of people or organizations that GBI serves.\nGBI Application: Premium bicycle market customers, professional cyclists, recreational users, retail partners, and internal business units (potential users of our AI solution).\nKey Project Questions:\n\nWhich GBI customer segments will benefit most from our AI agent implementation?\nWhich internal users within sales, materials management, production planning, finance, or HR will be primary users?\n\n\n\n\nValue Propositions\n\nExplanation: The products, services, or benefits GBI offers to its customers.\nGBI Application: High-quality bicycles and accessories, combined with improved operational efficiency through our AI agent solution.\nKey Project Questions:\n\nHow will our AI system enhance GBI’s existing value propositions?\nWhat new value can be created through automation of business processes?\nWhich KPIs will best measure the business impact of our solution?\n\n\n\n\nCustomer Relationships\n\nExplanation: The types of relationships GBI establishes and maintains with customers.\nGBI Application: Premium service, warranty support, customer loyalty programs, potentially enhanced through AI.\nKey Project Questions:\n\nHow can our AI agent improve GBI’s customer relationships?\nCan we enhance personalization, response time, or service quality?\nHow will users interact with our AI system (UI considerations)?\n\n\n\n\nChannels\n\nExplanation: How GBI reaches and communicates with its customers.\nGBI Application: Direct sales, retail partnerships, online channels, trade shows.\nKey Project Questions:\n\nWhich channels could be enhanced through our AI implementation?\nHow will our solution integrate with existing systems (SQL server data)?\n\n\n\n\nKey Resources\n\nExplanation: The assets essential to GBI’s business model.\nGBI Application: Manufacturing facilities, skilled workforce, brand reputation, product designs, and data systems (SQL server).\nKey Project Questions:\n\nWhat data resources from GBI’s SQL server are critical for our AI agent?\nWhich additional resources might be needed (API access, computing infrastructure)?\nHow can we leverage existing resources while implementing new capabilities?\n\n\n\n\nKey Activities\n\nExplanation: The most important tasks GBI must perform to operate successfully.\nGBI Application: Product development, manufacturing, quality control, sales, marketing, inventory management.\nKey Project Questions:\n\nWhich business activities should our AI agent optimize (sales process, supply chain, production, customer service, product development)?\nHow will our Python-based implementation enhance these activities?\nWhat metrics will demonstrate improved efficiency or quality?\n\n\n\n\nKey Partners\n\nExplanation: External entities that help GBI operate its business model.\nGBI Application: Suppliers, distributors, retailers, service providers.\nKey Project Questions:\n\nHow might our AI agent improve partner relationships or communications?\nCould our solution enhance supply chain collaboration?\nWhich partners might be affected by our implementation?\n\n\n\n\nRevenue Streams\n\nExplanation: How GBI generates financial income.\nGBI Application: Bicycle sales, accessories, potential service or subscription revenues.\nKey Project Questions:\n\nHow will our AI implementation impact GBI’s revenue streams?\nCan we create new revenue opportunities or enhance existing ones?\nHow will we quantify financial benefits of our solution?\n\n\n\n\nCost Structure\n\nExplanation: The primary costs incurred in GBI’s operation.\nGBI Application: Manufacturing costs, material procurement, labor, marketing, distribution.\nKey Project Questions:\n\nHow will our AI agent implementation affect GBI’s cost structure?\nWhat implementation costs should be considered (API usage, infrastructure)?\nWhat potential cost reductions can be achieved through process automation?"
+  },
+  {
+    "objectID": "bmc.html#project-specific-applications",
+    "href": "bmc.html#project-specific-applications",
+    "title": "Business Model Canvas",
+    "section": "Project-Specific Applications",
+    "text": "Project-Specific Applications\nWhen developing your generative AI agent for GBI, use this Business Model Canvas to:\n\nIdentify Optimal Use Cases: Evaluate the three potential business applications based on their impact across the canvas.\nDesign System Architecture: Ensure your agent system aligns with GBI’s key activities and resources.\nDevelop Integration Strategy: Map how your Python-based solution using OpenAI, Anthropic, or HuggingFace will connect with existing business processes.\nDefine Success Metrics: Develop KPIs that demonstrate business impact across relevant canvas elements.\nCreate Implementation Roadmap: Plan development phases that consider all business model components."
+  },
+  {
+    "objectID": "bmc.html#resources",
+    "href": "bmc.html#resources",
+    "title": "Business Model Canvas",
+    "section": "Resources",
+    "text": "Resources\n\nMiro Business Model Canvas Template"
+  },
+  {
+    "objectID": "project-description.html",
+    "href": "project-description.html",
+    "title": "Project Description",
+    "section": "",
+    "text": "TL;DR: As AI consultants to Global Bike Inc. (GBI), identify a business process that can be enhanced through generative AI agents, design and implement a Python-based solution using modern AI frameworks and frontend technologies, and demonstrate its business impact.\nThe goal of this project is to develop a generative AI solution that leverages agent-based systems to automate operational business tasks for Global Bike Inc. (GBI). You will act as AI consultants to this company, applying concepts and technologies covered in our course to create a functional prototype that demonstrates integration with GBI’s business processes and provides measurable improvements in efficiency or quality.\nYour project should utilize Python as the primary programming language and incorporate frameworks from leading AI providers (OpenAI, Anthropic, or HuggingFace) along with modern frontend solutions (Gradio, Streamlit, or NextJS). All components of your project must be reproducible and should be included in your GitHub repository, with the exception of the final presentation.",
+    "crumbs": [
+      "Project",
+      "Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#about-global-bike-inc.-gbi",
+    "href": "project-description.html#about-global-bike-inc.-gbi",
+    "title": "Project Description",
+    "section": "About Global Bike Inc. (GBI)",
+    "text": "About Global Bike Inc. (GBI)\nSAP’s Global Bike Inc. (GBI) is a comprehensive case study designed for enterprise resource planning (ERP) education. This fictional company manufactures high-quality bicycles and accessories, serving as an ideal model for our AI implementation project.\nCompany Profile:\n\nIndustry: Bicycle manufacturing and accessories\n\nMarket Position: Premium high-quality bikes for professional and recreational use\nGlobal Presence: Manufacturing and sales operations across multiple regions\n\nKey Business Areas:\n\nSales and Distribution: Customer relationship management, order processing, delivery, and billing\nMaterials Management: Procurement, inventory management, and warehouse operations\nProduction Planning: Demand forecasting, manufacturing resource planning, and production order management\nFinance and Controlling: Financial accounting, cost center accounting, and profitability analysis\nHuman Resources: Personnel management, time management, and payroll\n\nAvailable Resources:\nFor this project, you will have access to GBI’s Microsost SQL server containing sample data across these business domains. This will serve as the foundation for identifying promising AI agent implementation opportunities and developing your solution.",
+    "crumbs": [
+      "Project",
+      "Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#project-phases",
+    "href": "project-description.html#project-phases",
+    "title": "Project Description",
+    "section": "Project Phases",
+    "text": "Project Phases\n\nUse Case Identification\nBegin by exploring GBI’s business operations through the provided SQL server data. Identify three potential business use cases where generative AI agents could provide significant value to GBI. Focus on areas such as:\n\nSales process optimization: Enhancing customer interactions, order processing, or sales forecasting\nSupply chain intelligence: Improving inventory management, procurement, or supplier communications\nProduction efficiency: Optimizing manufacturing processes, quality control, or maintenance scheduling\nCustomer service automation: Creating intelligent support systems for customer inquiries or warranty claims\nProduct development: Assisting in market analysis, design feedback, or feature prioritization\n\nEvaluate each option based on:\n\nBusiness relevance and potential impact for GBI\nTechnical feasibility within the course timeframe\nAvailability of necessary data in the GBI SQL server\nAlignment with course concepts\n\nSubmit a brief analysis (1-2 pages) of your three ideas with justification for each, explaining how they could enhance GBI’s operations. We will discuss the options and select one use case to pursue.\n\n\nBusiness Context Development\nOnce your use case is approved, develop a comprehensive business context presentation using Google Slides with an appropriate business template. Your presentation should include:\n\nBusiness Model Canvas for the organization\nUser Personas for primary stakeholders/users\nValue Proposition Canvas and the Jobs-to-be-done Framework for the AI solution\nSpecific KPIs that will measure success\n\n\n\nAgent System Design\nDesign your generative AI agent system, focusing on:\n\nAgent architecture (perception, reasoning, action, learning components)\nLLM selection strategy with justification (OpenAI, Anthropic, or HuggingFace)\nPrompt engineering approach\nIntegration points with existing business processes\nData flow and system boundaries\nSecurity and ethical considerations\n\nSubmit a design document (3-5 pages) and architecture diagram for feedback before proceeding to implementation.\n\n\nTechnical Implementation\nImplement your generative AI agent system for GBI following these guidelines:\n\nDevelop in Python with modular, well-documented code\nImplement using selected AI frameworks (OpenAI, Anthropic, or HuggingFace)\nCreate an intuitive user interface using one of the specified frontend solutions\nInclude comprehensive error handling and robustness measures\nEstablish integration points with GBI’s business processes\nImplement connection to the GBI SQL Server to access and process relevant business data\nDesign database queries that efficiently extract the necessary information\nConsider implementation of new systems (like CRM, analytics dashboards, etc.) if appropriate for your solution\nImplement metrics tracking for performance evaluation\nSet up a GitHub repository with clear documentation\n\nYour solution should either integrate with GBI’s existing data structure or propose new systems that would enhance their operations. While you will use the SQL Server as your primary data source, you are encouraged to explore implementing complementary systems that would address gaps in GBI’s current operations.\nWeekly code reviews will be conducted to provide feedback and guidance.\n\n\nTesting and Evaluation\nThoroughly test your system and evaluate its performance:\n\nConduct functional testing across various scenarios\nMeasure performance against established KPIs\nDocument limitations and edge cases\nEstimate business impact (time savings, quality improvements, etc.)\nIdentify potential improvements and future enhancements\n\nSubmit a testing report (2-3 pages) documenting your findings.\n\n\nFinal Documentation and Presentation\nPrepare comprehensive documentation and a final presentation:\n\nComplete technical documentation including:\n\nSystem architecture\nImplementation details\nUser manual\nInstallation and setup instructions\nAPI documentation (if applicable)\nFuture enhancement roadmap\n\nDeliver a 15-minute final presentation that:\n\nExplains the business use case and value proposition\nDemonstrates the working prototype\nPresents evaluation results and impact metrics\nDiscusses challenges and lessons learned\nOutlines potential future developments",
+    "crumbs": [
+      "Project",
+      "Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#technical-requirements",
+    "href": "project-description.html#technical-requirements",
+    "title": "Project Description",
+    "section": "Technical Requirements",
+    "text": "Technical Requirements\nYour project must include:\n\nPython-based implementation with clean, well-documented code\nIntegration of at least one LLM from OpenAI, Anthropic, or HuggingFace\nAgent-based architecture for task automation within GBI’s business context\nUser interface built with Gradio, Streamlit, or NextJS that aligns with GBI’s business users’ needs\nData integration with the GBI SQL Server\nBusiness process integration points that demonstrate how the solution would connect with GBI’s operations\nMetrics tracking for performance evaluation and business impact measurement\nConsideration of new complementary systems (CRM, Analytics, etc.) where appropriate\nComprehensive documentation in the GitHub repository including:\n\nTechnical implementation details\nBusiness process analysis\nRecommendations for GBI’s AI strategy beyond this specific solution\n\nReproducible setup that can be deployed by others\n\nAs AI consultants to GBI, your solution should demonstrate not only technical proficiency but also an understanding of how your solution adds value to GBI’s business operations. You are encouraged to propose and implement new systems that would complement the existing SQL Server data when appropriate for your chosen use case.",
+    "crumbs": [
+      "Project",
+      "Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#evaluation",
+    "href": "project-description.html#evaluation",
+    "title": "Project Description",
+    "section": "Evaluation",
+    "text": "Evaluation\nYour project will be evaluated according to the grading criteria provided in the syllabus.",
+    "crumbs": [
+      "Project",
+      "Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#resources",
+    "href": "project-description.html#resources",
+    "title": "Project Description",
+    "section": "Resources",
+    "text": "Resources\n\nOpenAI API Documentation\nAnthropic Claude API Documentation\nHuggingFace Transformers Documentation\nStreamlit Documentation\nGradio Documentation\nNextJS Documentation\n\nAdditional resources will be shared throughout the course",
+    "crumbs": [
+      "Project",
+      "Description"
+    ]
+  },
+  {
+    "objectID": "user-persona.html",
+    "href": "user-persona.html",
+    "title": "User Persona",
+    "section": "",
+    "text": "A Business User Persona is a fictional representation of an ideal or typical user of a business system or enterprise solution within an organization. Based on research and analysis of actual employee data, it enables development teams to better understand the needs of internal stakeholders who will interact with their solution. For our Global Bike Inc. (GBI) AI agent implementation, these personas represent the employees and managers who will directly use our AI system in their daily work.\nUnlike traditional consumer-focused user personas, Business User Personas emphasize professional goals, organizational responsibilities, technical proficiency, and business process knowledge. They focus on how users operate within their business context rather than personal preferences alone."
+  },
+  {
+    "objectID": "user-persona.html#importance-of-detailed-business-user-personas",
+    "href": "user-persona.html#importance-of-detailed-business-user-personas",
+    "title": "User Persona",
+    "section": "Importance of Detailed Business User Personas",
+    "text": "Importance of Detailed Business User Personas\nBusiness User Personas are crucial for designing and developing effective enterprise solutions. They help implementation teams understand the real-world business context in which their solution will operate, ensuring that:\n\nThe system addresses actual business needs and pain points\nThe interface aligns with users’ technical abilities and preferences\nThe functionality supports existing business processes and workflows\nThe solution delivers measurable business value to both users and the organization\n\nFor our GBI AI implementation, detailed business user personas will guide our technical decisions regarding AI capabilities, interface design, and integration points with existing systems."
+  },
+  {
+    "objectID": "user-persona.html#integration-of-the-jobs-to-be-done-approach",
+    "href": "user-persona.html#integration-of-the-jobs-to-be-done-approach",
+    "title": "User Persona",
+    "section": "Integration of the Jobs-to-be-Done Approach",
+    "text": "Integration of the Jobs-to-be-Done Approach\nThe JTBD approach is particularly valuable for Business User Personas, as it focuses on the specific business tasks users need to accomplish rather than just their characteristics. This helps identify:\n\nCritical business processes that could benefit from AI assistance\nEfficiency bottlenecks that impact productivity\nDecision points that require better data or insights\nRepetitive tasks that could be automated"
+  },
+  {
+    "objectID": "user-persona.html#creating-business-user-personas-for-gbi",
+    "href": "user-persona.html#creating-business-user-personas-for-gbi",
+    "title": "User Persona",
+    "section": "Creating Business User Personas for GBI",
+    "text": "Creating Business User Personas for GBI\n\nResearch: Conduct interviews with GBI staff across departments, observe workflow processes, and analyze current system usage patterns to gather data about potential users of our AI solution.\nIdentifying Business ‘Jobs’: Document the specific business tasks and responsibilities these users manage daily, including:\n\nRequired inputs and outputs for each process\nTime spent on different activities\nDependencies on other departments or systems\nKey performance indicators they’re measured by\n\nTechnical Context Assessment: Understand users’ current technology environment:\n\nFamiliarity with existing systems (including the SQL Server)\nTechnical proficiency and comfort with new technologies\nCurrent tools used to accomplish tasks\nAccess permissions and security considerations\n\nBusiness Value Mapping: Connect user activities to organizational value:\n\nHow their work contributes to GBI’s business objectives\nImpact of their efficiency on overall business performance\nRelationships with customers, suppliers, or other stakeholders"
+  },
+  {
+    "objectID": "user-persona.html#components-of-a-gbi-business-user-persona",
+    "href": "user-persona.html#components-of-a-gbi-business-user-persona",
+    "title": "User Persona",
+    "section": "Components of a GBI Business User Persona",
+    "text": "Components of a GBI Business User Persona\nA comprehensive Business User Persona for our GBI AI implementation should include:\n\nProfessional Profile:\n\nRole and position within GBI (e.g., “Inventory Manager in Materials Management”)\nResponsibilities and scope of authority\nDepartment context and team structure\nYears of experience in the role and industry\n\nBusiness Objectives:\n\nKey performance indicators they’re responsible for\nBusiness goals they need to achieve\nHow their work connects to GBI’s overall success\nPressures and constraints they operate under\n\nTechnical Profile:\n\nSystems and tools currently used\nTechnical proficiency and comfort with technology\nData access needs and frequency\nReporting requirements\n\nBusiness Jobs-to-be-Done:\n\nCritical daily tasks and processes\nDecision-making responsibilities\nInformation needs and sources\nCollaboration requirements with other departments\n\nPain Points and Challenges:\n\nProcess inefficiencies and bottlenecks\nData accessibility or quality issues\nTime-consuming manual tasks\nCommunication or coordination difficulties\n\nSuccess Criteria:\n\nHow they measure success in their role\nWhat would make a new solution valuable to them\nTime-saving or quality improvement thresholds\nFeatures that would significantly improve their work"
+  },
+  {
+    "objectID": "user-persona.html#sample-business-user-personas-for-gbi",
+    "href": "user-persona.html#sample-business-user-personas-for-gbi",
+    "title": "User Persona",
+    "section": "Sample Business User Personas for GBI",
+    "text": "Sample Business User Personas for GBI\n\nProduction Planner Persona\nName: Michael Weber\nRole: Production Planning Specialist\nDepartment: Manufacturing Operations\nExperience: 8 years at GBI, 12 years in bicycle manufacturing\nBusiness Objectives:\n- Optimize production schedules to meet demand while minimizing inventory costs - Ensure manufacturing resources are allocated efficiently - Maintain production quality standards - Coordinate with sales and inventory departments\nTechnical Profile:\n- Moderate technical proficiency - Daily user of GBI’s ERP system and SQL database for production data - Creates weekly production reports in Excel - Limited experience with AI or advanced analytics tools\nBusiness Jobs-to-be-Done:\n- Forecast production needs based on sales data and seasonal trends - Schedule manufacturing resources (equipment, materials, personnel) - Monitor production efficiency metrics - Adjust production plans in response to supply chain disruptions - Generate reports for management review\nPain Points:\n- Time-consuming manual data consolidation from multiple sources - Difficulty predicting seasonal demand fluctuations accurately - Limited visibility into supply chain disruptions until they occur - Cumbersome process for schedule adjustments when priorities change\nSuccess Criteria:\n- Reduction in time spent on manual data processing - Improved forecast accuracy - Earlier identification of potential production bottlenecks - More responsive adjustments to changing market conditions\n\n\nSales Representative Persona\nName: Sophia Müller\nRole: Regional Sales Representative\nDepartment: Sales & Distribution\nExperience: 4 years at GBI, 7 years in bicycle sales\nBusiness Objectives:\n- Meet or exceed quarterly sales targets - Maintain strong relationships with retail partners - Expand GBI’s market presence in assigned territory - Provide accurate information on product availability and delivery timelines\nTechnical Profile:\n- Basic technical proficiency - Uses GBI’s CRM system for customer management - Accesses inventory and order data via mobile sales app - Comfortable with digital communication tools\nBusiness Jobs-to-be-Done:\n- Process customer orders efficiently - Check product availability and delivery timelines - Provide product recommendations based on customer needs - Track sales pipeline and forecast quarterly performance - Report competitive intelligence back to marketing\nPain Points:\n- Delayed responses on product availability questions - Limited access to inventory data when visiting customers - Manual process for customized product configurations - Difficulty predicting accurate delivery dates during busy seasons\nSuccess Criteria:\n- Faster order processing time - Real-time access to accurate inventory and production information - Intelligent product recommendations based on customer history - More accurate delivery date predictions"
+  },
+  {
+    "objectID": "user-persona.html#technical-implementation-considerations",
+    "href": "user-persona.html#technical-implementation-considerations",
+    "title": "User Persona",
+    "section": "Technical Implementation Considerations",
+    "text": "Technical Implementation Considerations\nThese Business User Personas will directly inform:\n\nUse Case Prioritization: Which business processes offer the greatest potential value for AI enhancement\nFeature Selection: Which AI capabilities would most benefit each user type\nInterface Design: How to create an appropriate user experience in Gradio, Streamlit, or NextJS\nIntegration Points: Which systems and data sources from the SQL Server are most critical\nSuccess Metrics: What KPIs will demonstrate business value to both users and leadership"
+  },
+  {
+    "objectID": "user-persona.html#resources",
+    "href": "user-persona.html#resources",
+    "title": "User Persona",
+    "section": "Resources",
+    "text": "Resources\n\nMiro Business User Persona Template"
+  },
+  {
+    "objectID": "weeks.html",
+    "href": "weeks.html",
+    "title": "Weekly overview",
+    "section": "",
+    "text": "Introduction and project overview.\n\nMake sure to read the syllabus and project description.",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#week-1",
+    "href": "weeks.html#week-1",
+    "title": "Weekly overview",
+    "section": "",
+    "text": "Introduction and project overview.\n\nMake sure to read the syllabus and project description.",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#week-2",
+    "href": "weeks.html#week-2",
+    "title": "Weekly overview",
+    "section": "Week 2",
+    "text": "Week 2\n\nBusiness frameworks\n\nBusiness model canvas\nUser persona\nValue proposition canvas\nJobs to be Done\n\n\n\nPython Setup with uv\nWelcome to this guide on setting up your Python development environment using the powerful package manager called uv.\nA properly configured development environment is crucial for efficient coding. It helps manage dependencies, keeps your projects organized, and provides powerful tools that make coding easier and more enjoyable. The uv package manager we’ll be using is a modern, fast alternative to traditional Python package managers.\n\nStep 1: Apply for GitHub Student Developer Pack 🎓\nThe GitHub Student Developer Pack provides students with free access to the best developer tools.\n\nVisit GitHub Student Developer Pack\n\nClick on “Get your pack”\n\nSign in with your GitHub account (or create one if you don’t have it)\nVerify your student status using your school-issued email\nComplete the application form\nWait for approval (usually takes 1-7 days)\n\nWhy this matters: The pack includes free access to GitHub Copilot, which is an AI pair programmer that will help you write better code faster.\n\n\nStep 2: Install Visual Studio Code 💻\nVS Code is a lightweight but powerful source code editor.\n\n\n\n\n\n\nPro Tip for Microsoft\n\n\n\n\n\nDuring installation on Windows, check the options “Add ‘Open with Code’ action to Windows Explorer file context menu” and “Add ‘Open with Code’ action to Windows Explorer directory context menu” for easier access.\n\n\n\n\nGo to VS Code download page\nDownload the appropriate version for your operating system\nRun the installer and follow the on-screen instructions\nLaunch VS Code after installation\n\n\n\n\n\n\n\nPro Tip for Mac\n\n\n\n\n\nTo be able to open VS Code from the command line interface using code . command:\n\nOpen VS Code\nPress Cmd+Shift+P to open the Command Palette\nType “shell command” and select “Shell Command: Install ‘code’ command in PATH”\nRestart your terminal for changes to take effect\n\n\n\n\n\n\nStep 3: Install Essential VS Code Extensions 🧩\nExtensions enhance VS Code with additional features. We’ll install three key extensions.\nIn VS Code, click on the Extensions icon in the sidebar (or press: Windows Ctrl+Shift+X / mac: Cmd+Shift+X).\nPython Extension\n\nSearch for “Python”\nFind the extension by Microsoft (usually the first result)\nClick “Install”\n\nGitHub Copilot\n\nSearch for “GitHub Copilot” in the Extensions marketplace\nClick “Install”\nAfter installation, sign in with your GitHub account using the account icon in the lower left sidebar\nYou’ll be prompted to authorize VS Code to use GitHub Copilot\n\nGitHub Copilot Chat\n\nSearch for “GitHub Copilot Chat” in the Extensions marketplace\nClick “Install”\nThis extension works alongside GitHub Copilot to provide conversational AI assistance\n\n\n\n\n\n\n\nNote: GitHub Copilot requires a subscription, but it’s free with the GitHub Student Developer Pack you applied for in Step 1.\n\n\n\nYou can enhance Copilot’s chat responses by providing it with contextual details about your workflow, tools, or project specifics. Instead of manually including this context in every chat query, you can create a custom instructions file that automatically incorporates this information with every chat request.\n\nCustom instructions for GitHub Copilot in VS Code\n\n\n\nStep 4: Install uv Package Manager ⚡\nuv is a fast, modern Python package manager and resolver.\nFor Windows (PowerShell):\n\nOpen PowerShell\nRun the following command:\n\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n\nRestart your PowerShell session to ensure uv is in your PATH\n\nFor macOS/Linux (Terminal):\n\nOpen Terminal\nRun the following command:\n\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nIf your system doesn’t have curl, you can use wget:\nwget -qO- https://astral.sh/uv/install.sh | sh\n\nClose and reopen your terminal to ensure uv is in your PATH\n\nVerify installation: Type uv --version in your command line interface. You should see the version number of uv displayed.\n\n\nStep 5: Initialize Your First Project\nNow let’s create a new Python project structure using uv:\n\nOpen your command line interface (PowerShell on Windows or Terminal on Mac/Linux)\nSimply type the following command directly in your command line or first navigate to the directory where you want to create your project (e.g., cd Documents)\nRun the following command to initialize a new project named “genai-app” with Python 3.11:\n\nuv init genai-app --python 3.11\n\n\n\n\n\n\nWhat this does\n\n\n\n\n\n\nCreates a new directory called genai-app\nSets up a project structure with Python 3.11\nCreates initial configuration files\n\n\n\n\n\n\nStep 6: Navigate to Your Project Directory 📁\nLet’s move into your newly created project directory:\ncd genai-app\nCheck the directory contents: You can use dir (Windows) or ls (macOS/Linux) to see what files were created.\n\n\nStep 7: Activate your Virtual Python Environment 🔄\nA virtual environment is an isolated space where you can install packages without affecting your global Python installation. We can create and activate this environment with:\nuv sync\n\n\n\n\n\n\nWhat this does\n\n\n\n\n\n\nCreates a virtual environment for your project\nSets up the environment based on your project’s specifications\nThis environment is isolated from your system Python installation\n\n\n\n\nLet’s execute the example Python file main.py to make sure everything is working:\npython main.py\nYou should see a “Hello, world” message.\nIf you get an error, try using python3 instead of python:\npython3 main.py\n\n\nStep 8: Install Required Packages 📦\nLet’s add some commonly used packages for AI and data science projects:\nuv add pandas python-dotenv openai gradio streamlit\n\n\n\n\n\n\nWhat these packages do\n\n\n\n\n\n\npandas: A beginner-friendly library that helps you work with data tables (like Excel spreadsheets)\npython-dotenv: Helps keep your passwords and API keys safe by storing them in a separate file\nopenai: Connects your code to AI services like ChatGPT\ngradio: Creates simple web interfaces for your AI projects with minimal coding\nstreamlit: Turns your Python scripts into interactive web apps with just a few lines of code\n\n\n\n\n\n\nStep 9: Open your project in VS Code\nNow let’s open your new project in VS Code where we’ll write our code:\n\nOpen VS Code\nClick on “File” in the top menu on the left\nSelect “Open Folder…”\nFind and select your genai-app folder\n\n\n\n\n\n\n\nPro Tip\n\n\n\n\n\nWhen you’re in your command line, this command opens VS Code in your current directory (the . represents “current location”).\ncode .\n\n\n\n\n\nStep 10: Run Your First Python Program 🏃‍♀️\nLet’s make sure everything is working by running the example file:\npython3 main.py\nYou should see a “Hello, world!” message appear. This confirms that: 1. Your Python is working correctly 2. Your virtual environment is active 3. You’re ready to start coding!\n\n\nTroubleshooting Common Issues 🔧\nPackage Installation Problems\nIf you see errors when adding packages:\n\nCheck that you’re connected to the internet\nTry running uv sync again to refresh your environment\nRead the error message carefully - it often tells you exactly what went wrong\n\n“Command Not Found” Error\nIf your computer can’t find the uv command:\n\nClose your terminal completely and open a new one\nIf that doesn’t work, you might need to add uv to your PATH (the list of places your computer looks for programs)\nAs a last resort, try reinstalling using the commands from Step 4\n\nVS Code Extensions Not Working\nIf the extensions we installed aren’t behaving correctly:\n\nMake sure you’ve signed in to your GitHub account in VS Code\nTry updating VS Code to the latest version\nYou can reinstall extensions by uninstalling them first, then installing again\n\n\n\nAdditional Resources 📖\n\nuv Documentation\nVS Code Python Tutorial\n\n\n\nConclusion 🎯\nCongratulations! You’ve successfully set up a Python development environment using uv. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.\nHappy coding! 💻✨",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#week-3",
+    "href": "weeks.html#week-3",
+    "title": "Weekly overview",
+    "section": "Week 3",
+    "text": "Week 3\nDatabase setup\n\nuv\nUse uv to add sqlalchemy:\nuv add sqlalchemy\n\n\nMicrosoft ODBC Driver\n\nWindows\n\nInstall Microsoft ODBC Driver for SQL Server on Windows\n\n\n\nMac\n\nInstall homebrew\nUpdate brew:\n\nbrew update\nIf updates are available, use brew upgrade\n\nInstall Microsoft ODBC Driver for SQL Server:\n\nbrew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release\nbrew install msodbcsql17 mssql-tools\n\nTest installation\n\nodbcinst -j\n\n\n\nmssql VS Code extension\n\nInstall the mssql extension in VS Code\nOpen the extension panel (Ctrl+Shift+D or ⌘+Shift+D)\nClick “Add Connection” or the “+” icon\nEnter your database credentials (see .env file)\nName the connection “bike_database”\nImportant: Select “Trust server certificate” option\nClick “Connect”\n\nCreate a schema:\n-- Query to list all tables and their columns\nSELECT \n    t.TABLE_SCHEMA,\n    t.TABLE_NAME,\n    c.COLUMN_NAME,\n    c.DATA_TYPE,\n    c.CHARACTER_MAXIMUM_LENGTH,\n    c.IS_NULLABLE,\n    CASE WHEN kcu.COLUMN_NAME IS NOT NULL THEN 'YES' ELSE 'NO' END AS IS_PRIMARY_KEY\nFROM \n    INFORMATION_SCHEMA.TABLES t\nINNER JOIN \n    INFORMATION_SCHEMA.COLUMNS c ON t.TABLE_SCHEMA = c.TABLE_SCHEMA \n    AND t.TABLE_NAME = c.TABLE_NAME\nLEFT JOIN \n    INFORMATION_SCHEMA.KEY_COLUMN_USAGE kcu ON c.COLUMN_NAME = kcu.COLUMN_NAME \n    AND c.TABLE_NAME = kcu.TABLE_NAME \n    AND c.TABLE_SCHEMA = kcu.TABLE_SCHEMA\nWHERE \n    t.TABLE_TYPE = 'BASE TABLE'\nORDER BY \n    t.TABLE_SCHEMA,\n    t.TABLE_NAME,\n    c.ORDINAL_POSITION;\n\n\nCustom Instructions in VS Code\nEnhance Copilot’s chat responses by automatically providing contextual details about your workflow, tools, or project. Instead of repeating this context in every query, you can set up a custom instructions file.\n\n📘 Custom instructions for GitHub Copilot in VS Code\n\n\nSetup Steps\n\nOpen settings in VS Code.\nClick Edit in settings.json.\nAdd the following entry:\n\"github.copilot.chat.codeGeneration.instructions\": [\n  {\n    \"file\": \"code-style.md\"\n  }\n],\nIn your project root, create a .github folder.\nInside .github, add two files:\n\ncopilot-instructions.md\ncode-style.md\n\nWrite your custom instructions in these files to tailor Copilot’s responses.\n\n\n\n\nOpenAI’s Responses and Agents SDK\n\n📘 Responses API documentation\n🛠️ Agents SDK GitHub Repository",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#week-4",
+    "href": "weeks.html#week-4",
+    "title": "Weekly overview",
+    "section": "Week 4",
+    "text": "Week 4\nThis repository contains the source code and materials used in the lecture for building and understanding the Responses API. You can explore the codebase, follow along with examples, and review implementation details to deepen your understanding:\n\nResponses API GitHub Repo (lecture)\n\nThe official OpenAI documentation provides comprehensive information about the Responses API endpoints, parameters, and usage examples. Refer to this resource for detailed technical reference, best practices, and guidance on integrating the API into your own projects:\n\nResponses API documentation",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#week-5",
+    "href": "weeks.html#week-5",
+    "title": "Weekly overview",
+    "section": "Week 5",
+    "text": "Week 5\n\nAgents SDK\n\nAPI Documentation\nExample Agents\n\nCommon Agent Patterns\n\n\n\nagents-sdk Project\nWe create a new project. Open your Terminal or PowerShell:\nuv init . --python 3.11 \nuv sync  \nuv add openai python-dotenv gradio openai-agents\n\n\nHello World\nOpen the project in VS Code and copy the .env file in your project\nfrom agents import Agent, Runner\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\nagent = Agent(name=\"Assistant\",\n              model=\"gpt-4o-mini\", \n              instructions=\"You are a helpful assistant\")\n\nresult = Runner.run_sync(agent, \"Write a haiku about recursion in programming.\")\nprint(result.final_output)\n\n\n\nNextJS\nNext.js is a React framework for building full-stack web applications. Let’s set up a Next.js project from scratch.\n\nPrerequisites\n\n\n\n\n\n\nMac Installation Notes\n\n\n\n\n\nIf you’re using a Mac, Homebrew is a great tool to install and manage software packages. It makes things much easier when working with tools like Python, Git, Node.js, and many more.\n✅ Step 1: Install Homebrew\nOpen your Terminal and paste the following command to install Homebrew:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nJust press Enter and follow the instructions.\n⸻\n🔄 Step 2: Keep Homebrew Up to Date\nAfter installing, you’ll want to keep Homebrew and your packages up to date:\nUpdate Homebrew itself (checks for the latest version):\nbrew update\nUpgrade your installed packages (installs newer versions):\nbrew upgrade\n\n\n\nFirst, make sure you have Node.js installed:\n\nDownload Node v23.11\n\nVerify the Node.js version:\nnode -v \nShould print “v23.11.0”.\nVerify npm version:\nnpm -v \nShould print “10.9.2”.\n\n\nCreating a Next.js App\nCreate a new Next.js application using the following command:\nnpx create-next-app@latest my-next-app\nDuring setup, you’ll be asked several configuration questions:\n\n\n\nProject Structure\nAfter creation, your Next.js app will have the following structure:\nmy-next-app/\n├── .next/\n├── node_modules/\n├── public/\n├── src/\n│   ├── app/\n│   │   ├── favicon.ico\n│   │   ├── globals.css\n│   │   ├── layout.tsx\n│   │   └── page.tsx\n├── .eslintrc.json\n├── .gitignore\n├── next.config.js\n├── package.json\n├── package-lock.json\n├── postcss.config.js\n├── README.md\n├── tailwind.config.ts\n└── tsconfig.json\n\n\nRunning Your Application\nNavigate to your project directory:\ncd my-next-app\nStart the development server:\nnpm run dev\nYour Next.js application will be running at http://localhost:3000.\n\n\nKey Next.js Features\n\nFile-based Routing:\n\nCreate pages by adding files to the src/app directory\nFor example, src/app/about/page.tsx creates a route at /about\n\nServer Components:\n\nBy default, components are React Server Components\nAdd \"use client\" at the top of a file to make it a Client Component\n\nData Fetching:\n\nServer Components can fetch data directly:\n\nasync function getData() {\n  const res = await fetch('https://api.example.com/data')\n  return res.json()\n}\n\nexport default async function Page() {\n  const data = await getData()\n  return &lt;main&gt;...&lt;/main&gt;\n}\nAPI Routes:\n\nCreate API endpoints in src/app/api directory\nFor example, src/app/api/hello/route.ts:\n\nexport async function GET() {\n  return Response.json({ message: 'Hello World!' })\n}\n\n\n\nLearning Resources\n\nNext.js Documentation\nLearn Next.js - Interactive tutorial\nNext.js Examples\nLee Robinson’s GitHub - Useful example code",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#week-6",
+    "href": "weeks.html#week-6",
+    "title": "Weekly overview",
+    "section": "Week 6",
+    "text": "Week 6\n\nAgents\nOpenAI resources:\n\nA practical guide to building AI agents\nPrompting Guide",
+    "crumbs": [
+      "Course information",
+      "Weekly Overview"
     ]
   },
   {
@@ -223,69 +394,58 @@
     ]
   },
   {
-    "objectID": "project-description.html",
-    "href": "project-description.html",
-    "title": "Project Description",
+    "objectID": "course-support.html",
+    "href": "course-support.html",
+    "title": "Course support",
     "section": "",
-    "text": "TL;DR: As AI consultants to Global Bike Inc. (GBI), identify a business process that can be enhanced through generative AI agents, design and implement a Python-based solution using modern AI frameworks and frontend technologies, and demonstrate its business impact.\nThe goal of this project is to develop a generative AI solution that leverages agent-based systems to automate operational business tasks for Global Bike Inc. (GBI). You will act as AI consultants to this company, applying concepts and technologies covered in our course to create a functional prototype that demonstrates integration with GBI’s business processes and provides measurable improvements in efficiency or quality.\nYour project should utilize Python as the primary programming language and incorporate frameworks from leading AI providers (OpenAI, Anthropic, or HuggingFace) along with modern frontend solutions (Gradio, Streamlit, or NextJS). All components of your project must be reproducible and should be included in your GitHub repository, with the exception of the final presentation.",
+    "text": "If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
     "crumbs": [
-      "Project",
-      "Description"
+      "Course information",
+      "Support"
     ]
   },
   {
-    "objectID": "project-description.html#about-global-bike-inc.-gbi",
-    "href": "project-description.html#about-global-bike-inc.-gbi",
-    "title": "Project Description",
-    "section": "About Global Bike Inc. (GBI)",
-    "text": "About Global Bike Inc. (GBI)\nSAP’s Global Bike Inc. (GBI) is a comprehensive case study designed for enterprise resource planning (ERP) education. This fictional company manufactures high-quality bicycles and accessories, serving as an ideal model for our AI implementation project.\nCompany Profile:\n\nIndustry: Bicycle manufacturing and accessories\n\nMarket Position: Premium high-quality bikes for professional and recreational use\nGlobal Presence: Manufacturing and sales operations across multiple regions\n\nKey Business Areas:\n\nSales and Distribution: Customer relationship management, order processing, delivery, and billing\nMaterials Management: Procurement, inventory management, and warehouse operations\nProduction Planning: Demand forecasting, manufacturing resource planning, and production order management\nFinance and Controlling: Financial accounting, cost center accounting, and profitability analysis\nHuman Resources: Personnel management, time management, and payroll\n\nAvailable Resources:\nFor this project, you will have access to GBI’s Microsost SQL server containing sample data across these business domains. This will serve as the foundation for identifying promising AI agent implementation opportunities and developing your solution.",
+    "objectID": "course-support.html#lectures",
+    "href": "course-support.html#lectures",
+    "title": "Course support",
+    "section": "",
+    "text": "If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
     "crumbs": [
-      "Project",
-      "Description"
+      "Course information",
+      "Support"
     ]
   },
   {
-    "objectID": "project-description.html#project-phases",
-    "href": "project-description.html#project-phases",
-    "title": "Project Description",
-    "section": "Project Phases",
-    "text": "Project Phases\n\nUse Case Identification\nBegin by exploring GBI’s business operations through the provided SQL server data. Identify three potential business use cases where generative AI agents could provide significant value to GBI. Focus on areas such as:\n\nSales process optimization: Enhancing customer interactions, order processing, or sales forecasting\nSupply chain intelligence: Improving inventory management, procurement, or supplier communications\nProduction efficiency: Optimizing manufacturing processes, quality control, or maintenance scheduling\nCustomer service automation: Creating intelligent support systems for customer inquiries or warranty claims\nProduct development: Assisting in market analysis, design feedback, or feature prioritization\n\nEvaluate each option based on:\n\nBusiness relevance and potential impact for GBI\nTechnical feasibility within the course timeframe\nAvailability of necessary data in the GBI SQL server\nAlignment with course concepts\n\nSubmit a brief analysis (1-2 pages) of your three ideas with justification for each, explaining how they could enhance GBI’s operations. We will discuss the options and select one use case to pursue.\n\n\nBusiness Context Development\nOnce your use case is approved, develop a comprehensive business context presentation using Google Slides with an appropriate business template. Your presentation should include:\n\nBusiness Model Canvas for the organization\nUser Personas for primary stakeholders/users\nValue Proposition Canvas and the Jobs-to-be-done Framework for the AI solution\nSpecific KPIs that will measure success\n\n\n\nAgent System Design\nDesign your generative AI agent system, focusing on:\n\nAgent architecture (perception, reasoning, action, learning components)\nLLM selection strategy with justification (OpenAI, Anthropic, or HuggingFace)\nPrompt engineering approach\nIntegration points with existing business processes\nData flow and system boundaries\nSecurity and ethical considerations\n\nSubmit a design document (3-5 pages) and architecture diagram for feedback before proceeding to implementation.\n\n\nTechnical Implementation\nImplement your generative AI agent system for GBI following these guidelines:\n\nDevelop in Python with modular, well-documented code\nImplement using selected AI frameworks (OpenAI, Anthropic, or HuggingFace)\nCreate an intuitive user interface using one of the specified frontend solutions\nInclude comprehensive error handling and robustness measures\nEstablish integration points with GBI’s business processes\nImplement connection to the GBI SQL Server to access and process relevant business data\nDesign database queries that efficiently extract the necessary information\nConsider implementation of new systems (like CRM, analytics dashboards, etc.) if appropriate for your solution\nImplement metrics tracking for performance evaluation\nSet up a GitHub repository with clear documentation\n\nYour solution should either integrate with GBI’s existing data structure or propose new systems that would enhance their operations. While you will use the SQL Server as your primary data source, you are encouraged to explore implementing complementary systems that would address gaps in GBI’s current operations.\nWeekly code reviews will be conducted to provide feedback and guidance.\n\n\nTesting and Evaluation\nThoroughly test your system and evaluate its performance:\n\nConduct functional testing across various scenarios\nMeasure performance against established KPIs\nDocument limitations and edge cases\nGather feedback from potential users\nQuantify business impact (time savings, quality improvements, etc.)\nIdentify potential improvements and future enhancements\n\nSubmit a testing report (2-3 pages) documenting your findings.\n\n\nFinal Documentation and Presentation\nPrepare comprehensive documentation and a final presentation:\n\nComplete technical documentation including:\n\nSystem architecture\nImplementation details\nUser manual\nInstallation and setup instructions\nAPI documentation (if applicable)\nFuture enhancement roadmap\n\nDeliver a 15-minute final presentation that:\n\nExplains the business use case and value proposition\nDemonstrates the working prototype\nPresents evaluation results and impact metrics\nDiscusses challenges and lessons learned\nOutlines potential future developments",
+    "objectID": "course-support.html#discussion-forum",
+    "href": "course-support.html#discussion-forum",
+    "title": "Course support",
+    "section": "Discussion forum",
+    "text": "Discussion forum\nPrefer to write out your question in detail rather than asking in person? The online discussion forum is the best venue for these! We will use the Moodle forum as the online discussion forum.\nThere is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question that is posted, I encourage you to respond!",
     "crumbs": [
-      "Project",
-      "Description"
+      "Course information",
+      "Support"
     ]
   },
   {
-    "objectID": "project-description.html#technical-requirements",
-    "href": "project-description.html#technical-requirements",
-    "title": "Project Description",
-    "section": "Technical Requirements",
-    "text": "Technical Requirements\nYour project must include:\n\nPython-based implementation with clean, well-documented code\nIntegration of at least one LLM from OpenAI, Anthropic, or HuggingFace\nAgent-based architecture for task automation within GBI’s business context\nUser interface built with Gradio, Streamlit, or NextJS that aligns with GBI’s business users’ needs\nData integration with the GBI SQL Server\nBusiness process integration points that demonstrate how the solution would connect with GBI’s operations\nMetrics tracking for performance evaluation and business impact measurement\nConsideration of new complementary systems (CRM, Analytics, etc.) where appropriate\nComprehensive documentation in the GitHub repository including:\n\nTechnical implementation details\nBusiness process analysis\nRecommendations for GBI’s AI strategy beyond this specific solution\n\nReproducible setup that can be deployed by others\n\nAs AI consultants to GBI, your solution should demonstrate not only technical proficiency but also an understanding of how your solution adds value to GBI’s business operations. You are encouraged to propose and implement new systems that would complement the existing SQL Server data when appropriate for your chosen use case.",
+    "objectID": "course-support.html#email",
+    "href": "course-support.html#email",
+    "title": "Course support",
+    "section": "Email",
+    "text": "Email\nPlease refrain from emailing any course content questions (those should go to Moodle), and only use email for questions about personal matters that may not be appropriate for the public course forum. For such matters, you may email me at kirenz@hdm-stuttgart.de.\nIf there is a question that’s not appropriate for the public forum, you are welcome to email me directly. If you email me, please include the name of our course in the subject line.",
     "crumbs": [
-      "Project",
-      "Description"
+      "Course information",
+      "Support"
     ]
   },
   {
-    "objectID": "project-description.html#evaluation",
-    "href": "project-description.html#evaluation",
-    "title": "Project Description",
-    "section": "Evaluation",
-    "text": "Evaluation\nYour project will be evaluated according to the grading criteria provided in the syllabus.",
+    "objectID": "course-support.html#academic-support",
+    "href": "course-support.html#academic-support",
+    "title": "Course support",
+    "section": "Academic support",
+    "text": "Academic support\nThere are times you may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit the Center for Learning and Development: it offers free services to all students.",
     "crumbs": [
-      "Project",
-      "Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#resources",
-    "href": "project-description.html#resources",
-    "title": "Project Description",
-    "section": "Resources",
-    "text": "Resources\n\nOpenAI API Documentation\nAnthropic Claude API Documentation\nHuggingFace Transformers Documentation\nStreamlit Documentation\nGradio Documentation\nNextJS Documentation\n\nAdditional resources will be shared throughout the course",
-    "crumbs": [
-      "Project",
-      "Description"
+      "Course information",
+      "Support"
     ]
   },
   {
@@ -346,166 +506,6 @@
     "crumbs": [
       "Course information",
       "Schedule"
-    ]
-  },
-  {
-    "objectID": "weeks.html",
-    "href": "weeks.html",
-    "title": "Weekly overview",
-    "section": "",
-    "text": "Introduction and project overview.\n\nMake sure to read the syllabus and project description.",
-    "crumbs": [
-      "Course information",
-      "Weekly Overview"
-    ]
-  },
-  {
-    "objectID": "weeks.html#week-1",
-    "href": "weeks.html#week-1",
-    "title": "Weekly overview",
-    "section": "",
-    "text": "Introduction and project overview.\n\nMake sure to read the syllabus and project description.",
-    "crumbs": [
-      "Course information",
-      "Weekly Overview"
-    ]
-  },
-  {
-    "objectID": "weeks.html#week-2",
-    "href": "weeks.html#week-2",
-    "title": "Weekly overview",
-    "section": "Week 2",
-    "text": "Week 2\n\nBusiness frameworks\n\nBusiness model canvas\nUser persona\nValue proposition canvas\nJobs to be Done\n\n\n\nPython Setup with uv\nWelcome to this guide on setting up your Python development environment using the powerful package manager called uv.\nA properly configured development environment is crucial for efficient coding. It helps manage dependencies, keeps your projects organized, and provides powerful tools that make coding easier and more enjoyable. The uv package manager we’ll be using is a modern, fast alternative to traditional Python package managers.\n\nStep 1: Apply for GitHub Student Developer Pack 🎓\nThe GitHub Student Developer Pack provides students with free access to the best developer tools.\n\nVisit GitHub Student Developer Pack\n\nClick on “Get your pack”\n\nSign in with your GitHub account (or create one if you don’t have it)\nVerify your student status using your school-issued email\nComplete the application form\nWait for approval (usually takes 1-7 days)\n\nWhy this matters: The pack includes free access to GitHub Copilot, which is an AI pair programmer that will help you write better code faster.\n\n\nStep 2: Install Visual Studio Code 💻\nVS Code is a lightweight but powerful source code editor.\n\n\n\n\n\n\nPro Tip for Microsoft\n\n\n\n\n\nDuring installation on Windows, check the options “Add ‘Open with Code’ action to Windows Explorer file context menu” and “Add ‘Open with Code’ action to Windows Explorer directory context menu” for easier access.\n\n\n\n\nGo to VS Code download page\nDownload the appropriate version for your operating system\nRun the installer and follow the on-screen instructions\nLaunch VS Code after installation\n\n\n\n\n\n\n\nPro Tip for Mac\n\n\n\n\n\nTo be able to open VS Code from the command line interface using code . command:\n\nOpen VS Code\nPress Cmd+Shift+P to open the Command Palette\nType “shell command” and select “Shell Command: Install ‘code’ command in PATH”\nRestart your terminal for changes to take effect\n\n\n\n\n\n\nStep 3: Install Essential VS Code Extensions 🧩\nExtensions enhance VS Code with additional features. We’ll install three key extensions.\nIn VS Code, click on the Extensions icon in the sidebar (or press: Windows Ctrl+Shift+X / mac: Cmd+Shift+X).\nPython Extension\n\nSearch for “Python”\nFind the extension by Microsoft (usually the first result)\nClick “Install”\n\nGitHub Copilot\n\nSearch for “GitHub Copilot” in the Extensions marketplace\nClick “Install”\nAfter installation, sign in with your GitHub account using the account icon in the lower left sidebar\nYou’ll be prompted to authorize VS Code to use GitHub Copilot\n\nGitHub Copilot Chat\n\nSearch for “GitHub Copilot Chat” in the Extensions marketplace\nClick “Install”\nThis extension works alongside GitHub Copilot to provide conversational AI assistance\n\n\n\n\n\n\n\nNote: GitHub Copilot requires a subscription, but it’s free with the GitHub Student Developer Pack you applied for in Step 1.\n\n\n\nYou can enhance Copilot’s chat responses by providing it with contextual details about your workflow, tools, or project specifics. Instead of manually including this context in every chat query, you can create a custom instructions file that automatically incorporates this information with every chat request.\n\nCustom instructions for GitHub Copilot in VS Code\n\n\n\nStep 4: Install uv Package Manager ⚡\nuv is a fast, modern Python package manager and resolver.\nFor Windows (PowerShell):\n\nOpen PowerShell\nRun the following command:\n\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n\nRestart your PowerShell session to ensure uv is in your PATH\n\nFor macOS/Linux (Terminal):\n\nOpen Terminal\nRun the following command:\n\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nIf your system doesn’t have curl, you can use wget:\nwget -qO- https://astral.sh/uv/install.sh | sh\n\nClose and reopen your terminal to ensure uv is in your PATH\n\nVerify installation: Type uv --version in your command line interface. You should see the version number of uv displayed.\n\n\nStep 5: Initialize Your First Project\nNow let’s create a new Python project structure using uv:\n\nOpen your command line interface (PowerShell on Windows or Terminal on Mac/Linux)\nSimply type the following command directly in your command line or first navigate to the directory where you want to create your project (e.g., cd Documents)\nRun the following command to initialize a new project named “genai-app” with Python 3.11:\n\nuv init genai-app --python 3.11\n\n\n\n\n\n\nWhat this does\n\n\n\n\n\n\nCreates a new directory called genai-app\nSets up a project structure with Python 3.11\nCreates initial configuration files\n\n\n\n\n\n\nStep 6: Navigate to Your Project Directory 📁\nLet’s move into your newly created project directory:\ncd genai-app\nCheck the directory contents: You can use dir (Windows) or ls (macOS/Linux) to see what files were created.\n\n\nStep 7: Activate your Virtual Python Environment 🔄\nA virtual environment is an isolated space where you can install packages without affecting your global Python installation. We can create and activate this environment with:\nuv sync\n\n\n\n\n\n\nWhat this does\n\n\n\n\n\n\nCreates a virtual environment for your project\nSets up the environment based on your project’s specifications\nThis environment is isolated from your system Python installation\n\n\n\n\nLet’s execute the example Python file main.py to make sure everything is working:\npython main.py\nYou should see a “Hello, world” message.\nIf you get an error, try using python3 instead of python:\npython3 main.py\n\n\nStep 8: Install Required Packages 📦\nLet’s add some commonly used packages for AI and data science projects:\nuv add pandas python-dotenv openai gradio streamlit\n\n\n\n\n\n\nWhat these packages do\n\n\n\n\n\n\npandas: A beginner-friendly library that helps you work with data tables (like Excel spreadsheets)\npython-dotenv: Helps keep your passwords and API keys safe by storing them in a separate file\nopenai: Connects your code to AI services like ChatGPT\ngradio: Creates simple web interfaces for your AI projects with minimal coding\nstreamlit: Turns your Python scripts into interactive web apps with just a few lines of code\n\n\n\n\n\n\nStep 9: Open your project in VS Code\nNow let’s open your new project in VS Code where we’ll write our code:\n\nOpen VS Code\nClick on “File” in the top menu on the left\nSelect “Open Folder…”\nFind and select your genai-app folder\n\n\n\n\n\n\n\nPro Tip\n\n\n\n\n\nWhen you’re in your command line, this command opens VS Code in your current directory (the . represents “current location”).\ncode .\n\n\n\n\n\nStep 10: Run Your First Python Program 🏃‍♀️\nLet’s make sure everything is working by running the example file:\npython3 main.py\nYou should see a “Hello, world!” message appear. This confirms that: 1. Your Python is working correctly 2. Your virtual environment is active 3. You’re ready to start coding!\n\n\nTroubleshooting Common Issues 🔧\nPackage Installation Problems\nIf you see errors when adding packages:\n\nCheck that you’re connected to the internet\nTry running uv sync again to refresh your environment\nRead the error message carefully - it often tells you exactly what went wrong\n\n“Command Not Found” Error\nIf your computer can’t find the uv command:\n\nClose your terminal completely and open a new one\nIf that doesn’t work, you might need to add uv to your PATH (the list of places your computer looks for programs)\nAs a last resort, try reinstalling using the commands from Step 4\n\nVS Code Extensions Not Working\nIf the extensions we installed aren’t behaving correctly:\n\nMake sure you’ve signed in to your GitHub account in VS Code\nTry updating VS Code to the latest version\nYou can reinstall extensions by uninstalling them first, then installing again\n\n\n\nAdditional Resources 📖\n\nuv Documentation\nVS Code Python Tutorial\n\n\n\nConclusion 🎯\nCongratulations! You’ve successfully set up a Python development environment using uv. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.\nHappy coding! 💻✨",
-    "crumbs": [
-      "Course information",
-      "Weekly Overview"
-    ]
-  },
-  {
-    "objectID": "weeks.html#week-3",
-    "href": "weeks.html#week-3",
-    "title": "Weekly overview",
-    "section": "Week 3",
-    "text": "Week 3\nDatabase setup\n\nuv\nUse uv to add sqlalchemy:\nuv add sqlalchemy\n\n\nMicrosoft ODBC Driver\n\nWindows\n\nInstall Microsoft ODBC Driver for SQL Server on Windows\n\n\n\nMac\n\nInstall homebrew\nUpdate brew:\n\nbrew update\nIf updates are available, use brew upgrade\n\nInstall Microsoft ODBC Driver for SQL Server:\n\nbrew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release\nbrew install msodbcsql17 mssql-tools\n\nTest installation\n\nodbcinst -j\n\n\n\nmssql VS Code extension\n\nInstall the mssql extension in VS Code\nOpen the extension panel (Ctrl+Shift+D or ⌘+Shift+D)\nClick “Add Connection” or the “+” icon\nEnter your database credentials (see .env file)\nName the connection “bike_database”\nImportant: Select “Trust server certificate” option\nClick “Connect”\n\nCreate a schema:\n-- Query to list all tables and their columns\nSELECT \n    t.TABLE_SCHEMA,\n    t.TABLE_NAME,\n    c.COLUMN_NAME,\n    c.DATA_TYPE,\n    c.CHARACTER_MAXIMUM_LENGTH,\n    c.IS_NULLABLE,\n    CASE WHEN kcu.COLUMN_NAME IS NOT NULL THEN 'YES' ELSE 'NO' END AS IS_PRIMARY_KEY\nFROM \n    INFORMATION_SCHEMA.TABLES t\nINNER JOIN \n    INFORMATION_SCHEMA.COLUMNS c ON t.TABLE_SCHEMA = c.TABLE_SCHEMA \n    AND t.TABLE_NAME = c.TABLE_NAME\nLEFT JOIN \n    INFORMATION_SCHEMA.KEY_COLUMN_USAGE kcu ON c.COLUMN_NAME = kcu.COLUMN_NAME \n    AND c.TABLE_NAME = kcu.TABLE_NAME \n    AND c.TABLE_SCHEMA = kcu.TABLE_SCHEMA\nWHERE \n    t.TABLE_TYPE = 'BASE TABLE'\nORDER BY \n    t.TABLE_SCHEMA,\n    t.TABLE_NAME,\n    c.ORDINAL_POSITION;\n\n\nCustom Instructions in VS Code\nEnhance Copilot’s chat responses by automatically providing contextual details about your workflow, tools, or project. Instead of repeating this context in every query, you can set up a custom instructions file.\n\n📘 Custom instructions for GitHub Copilot in VS Code\n\n\nSetup Steps\n\nOpen settings in VS Code.\nClick Edit in settings.json.\nAdd the following entry:\n\"github.copilot.chat.codeGeneration.instructions\": [\n  {\n    \"file\": \"code-style.md\"\n  }\n],\nIn your project root, create a .github folder.\nInside .github, add two files:\n\ncopilot-instructions.md\ncode-style.md\n\nWrite your custom instructions in these files to tailor Copilot’s responses.\n\n\n\n\nOpenAI’s Responses and Agents SDK\n\n📘 Responses API documentation\n🛠️ Agents SDK GitHub Repository",
-    "crumbs": [
-      "Course information",
-      "Weekly Overview"
-    ]
-  },
-  {
-    "objectID": "weeks.html#week-4",
-    "href": "weeks.html#week-4",
-    "title": "Weekly overview",
-    "section": "Week 4",
-    "text": "Week 4\nThis repository contains the source code and materials used in the lecture for building and understanding the Responses API. You can explore the codebase, follow along with examples, and review implementation details to deepen your understanding:\n\nResponses API GitHub Repo (lecture)\n\nThe official OpenAI documentation provides comprehensive information about the Responses API endpoints, parameters, and usage examples. Refer to this resource for detailed technical reference, best practices, and guidance on integrating the API into your own projects:\n\nResponses API documentation",
-    "crumbs": [
-      "Course information",
-      "Weekly Overview"
-    ]
-  },
-  {
-    "objectID": "weeks.html#week-5",
-    "href": "weeks.html#week-5",
-    "title": "Weekly overview",
-    "section": "Week 5",
-    "text": "Week 5\n\nAgents SDK\n\nAPI Documentation\nExample Agents\n\nCommon Agent Patterns\n\n\n\nagents-sdk Project\nWe create a new project. Open your Terminal or PowerShell:\nuv init . --python 3.11 \nuv sync  \nuv add openai python-dotenv gradio openai-agents\n\n\nHello World\nOpen the project in VS Code and copy the .env file in your project\nfrom agents import Agent, Runner\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\nagent = Agent(name=\"Assistant\",\n              model=\"gpt-4o-mini\", \n              instructions=\"You are a helpful assistant\")\n\nresult = Runner.run_sync(agent, \"Write a haiku about recursion in programming.\")\nprint(result.final_output)\n\n\n\nNextJS\nNext.js is a React framework for building full-stack web applications. Let’s set up a Next.js project from scratch.\n\nPrerequisites\n\n\n\n\n\n\nMac Installation Notes\n\n\n\n\n\nIf you’re using a Mac, Homebrew is a great tool to install and manage software packages. It makes things much easier when working with tools like Python, Git, Node.js, and many more.\n✅ Step 1: Install Homebrew\nOpen your Terminal and paste the following command to install Homebrew:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nJust press Enter and follow the instructions.\n⸻\n🔄 Step 2: Keep Homebrew Up to Date\nAfter installing, you’ll want to keep Homebrew and your packages up to date:\nUpdate Homebrew itself (checks for the latest version):\nbrew update\nUpgrade your installed packages (installs newer versions):\nbrew upgrade\n\n\n\nFirst, make sure you have Node.js installed:\n\nDownload Node v23.11\n\nVerify the Node.js version:\nnode -v \nShould print “v23.11.0”.\nVerify npm version:\nnpm -v \nShould print “10.9.2”.\n\n\nCreating a Next.js App\nCreate a new Next.js application using the following command:\nnpx create-next-app@latest my-next-app\nDuring setup, you’ll be asked several configuration questions:\n\n\n\nProject Structure\nAfter creation, your Next.js app will have the following structure:\nmy-next-app/\n├── .next/\n├── node_modules/\n├── public/\n├── src/\n│   ├── app/\n│   │   ├── favicon.ico\n│   │   ├── globals.css\n│   │   ├── layout.tsx\n│   │   └── page.tsx\n├── .eslintrc.json\n├── .gitignore\n├── next.config.js\n├── package.json\n├── package-lock.json\n├── postcss.config.js\n├── README.md\n├── tailwind.config.ts\n└── tsconfig.json\n\n\nRunning Your Application\nNavigate to your project directory:\ncd my-next-app\nStart the development server:\nnpm run dev\nYour Next.js application will be running at http://localhost:3000.\n\n\nKey Next.js Features\n\nFile-based Routing:\n\nCreate pages by adding files to the src/app directory\nFor example, src/app/about/page.tsx creates a route at /about\n\nServer Components:\n\nBy default, components are React Server Components\nAdd \"use client\" at the top of a file to make it a Client Component\n\nData Fetching:\n\nServer Components can fetch data directly:\n\nasync function getData() {\n  const res = await fetch('https://api.example.com/data')\n  return res.json()\n}\n\nexport default async function Page() {\n  const data = await getData()\n  return &lt;main&gt;...&lt;/main&gt;\n}\nAPI Routes:\n\nCreate API endpoints in src/app/api directory\nFor example, src/app/api/hello/route.ts:\n\nexport async function GET() {\n  return Response.json({ message: 'Hello World!' })\n}\n\n\n\nLearning Resources\n\nNext.js Documentation\nLearn Next.js - Interactive tutorial\nNext.js Examples\nLee Robinson’s GitHub - Useful example code",
-    "crumbs": [
-      "Course information",
-      "Weekly Overview"
-    ]
-  },
-  {
-    "objectID": "weeks.html#week-6",
-    "href": "weeks.html#week-6",
-    "title": "Weekly overview",
-    "section": "Week 6",
-    "text": "Week 6\n\nAgents\nOpenAI resources:\n\nA practical guide to building AI agents\nPrompting Guide",
-    "crumbs": [
-      "Course information",
-      "Weekly Overview"
-    ]
-  },
-  {
-    "objectID": "bmc.html",
-    "href": "bmc.html",
-    "title": "Business Model Canvas",
-    "section": "",
-    "text": "The Business Model Canvas (BMC) is a powerful tool for visualizing and analyzing a business model in a clear, structured format. For the Global Bike Inc. (GBI) AI agent implementation project, this framework will help us identify how generative AI solutions can create value across the company’s operations. The canvas enables a holistic view of GBI’s business aspects, from value propositions to revenue streams, and helps understand relationships between these elements.\nAs AI consultants to GBI, using the BMC will facilitate evaluating potential AI agent implementations, reconsidering existing business processes, and planning strategic adjustments. This approach promotes innovative thinking and helps identify optimization opportunities across GBI’s bicycle manufacturing and accessories business, ensuring our AI solution design is customer-oriented and aligns with GBI’s strategic objectives.\nIn the rapidly changing landscape of both bicycle manufacturing and AI implementation, the Business Model Canvas offers the flexibility needed to adapt to new circumstances while maintaining focus on long-term business value."
-  },
-  {
-    "objectID": "bmc.html#fields-of-the-bmc",
-    "href": "bmc.html#fields-of-the-bmc",
-    "title": "Business Model Canvas",
-    "section": "9 Fields of the BMC",
-    "text": "9 Fields of the BMC\nLet’s explore how each component of the Business Model Canvas applies to Global Bike Inc. and our generative AI agent implementation project.\n\nCustomer Segments\n\nExplanation: The different groups of people or organizations that GBI serves.\nGBI Application: Premium bicycle market customers, professional cyclists, recreational users, retail partners, and internal business units (potential users of our AI solution).\nKey Project Questions:\n\nWhich GBI customer segments will benefit most from our AI agent implementation?\nWhich internal users within sales, materials management, production planning, finance, or HR will be primary users?\n\n\n\n\nValue Propositions\n\nExplanation: The products, services, or benefits GBI offers to its customers.\nGBI Application: High-quality bicycles and accessories, combined with improved operational efficiency through our AI agent solution.\nKey Project Questions:\n\nHow will our AI system enhance GBI’s existing value propositions?\nWhat new value can be created through automation of business processes?\nWhich KPIs will best measure the business impact of our solution?\n\n\n\n\nCustomer Relationships\n\nExplanation: The types of relationships GBI establishes and maintains with customers.\nGBI Application: Premium service, warranty support, customer loyalty programs, potentially enhanced through AI.\nKey Project Questions:\n\nHow can our AI agent improve GBI’s customer relationships?\nCan we enhance personalization, response time, or service quality?\nHow will users interact with our AI system (UI considerations)?\n\n\n\n\nChannels\n\nExplanation: How GBI reaches and communicates with its customers.\nGBI Application: Direct sales, retail partnerships, online channels, trade shows.\nKey Project Questions:\n\nWhich channels could be enhanced through our AI implementation?\nHow will our solution integrate with existing systems (SQL server data)?\n\n\n\n\nKey Resources\n\nExplanation: The assets essential to GBI’s business model.\nGBI Application: Manufacturing facilities, skilled workforce, brand reputation, product designs, and data systems (SQL server).\nKey Project Questions:\n\nWhat data resources from GBI’s SQL server are critical for our AI agent?\nWhich additional resources might be needed (API access, computing infrastructure)?\nHow can we leverage existing resources while implementing new capabilities?\n\n\n\n\nKey Activities\n\nExplanation: The most important tasks GBI must perform to operate successfully.\nGBI Application: Product development, manufacturing, quality control, sales, marketing, inventory management.\nKey Project Questions:\n\nWhich business activities should our AI agent optimize (sales process, supply chain, production, customer service, product development)?\nHow will our Python-based implementation enhance these activities?\nWhat metrics will demonstrate improved efficiency or quality?\n\n\n\n\nKey Partners\n\nExplanation: External entities that help GBI operate its business model.\nGBI Application: Suppliers, distributors, retailers, service providers.\nKey Project Questions:\n\nHow might our AI agent improve partner relationships or communications?\nCould our solution enhance supply chain collaboration?\nWhich partners might be affected by our implementation?\n\n\n\n\nRevenue Streams\n\nExplanation: How GBI generates financial income.\nGBI Application: Bicycle sales, accessories, potential service or subscription revenues.\nKey Project Questions:\n\nHow will our AI implementation impact GBI’s revenue streams?\nCan we create new revenue opportunities or enhance existing ones?\nHow will we quantify financial benefits of our solution?\n\n\n\n\nCost Structure\n\nExplanation: The primary costs incurred in GBI’s operation.\nGBI Application: Manufacturing costs, material procurement, labor, marketing, distribution.\nKey Project Questions:\n\nHow will our AI agent implementation affect GBI’s cost structure?\nWhat implementation costs should be considered (API usage, infrastructure)?\nWhat potential cost reductions can be achieved through process automation?"
-  },
-  {
-    "objectID": "bmc.html#project-specific-applications",
-    "href": "bmc.html#project-specific-applications",
-    "title": "Business Model Canvas",
-    "section": "Project-Specific Applications",
-    "text": "Project-Specific Applications\nWhen developing your generative AI agent for GBI, use this Business Model Canvas to:\n\nIdentify Optimal Use Cases: Evaluate the three potential business applications based on their impact across the canvas.\nDesign System Architecture: Ensure your agent system aligns with GBI’s key activities and resources.\nDevelop Integration Strategy: Map how your Python-based solution using OpenAI, Anthropic, or HuggingFace will connect with existing business processes.\nDefine Success Metrics: Develop KPIs that demonstrate business impact across relevant canvas elements.\nCreate Implementation Roadmap: Plan development phases that consider all business model components."
-  },
-  {
-    "objectID": "bmc.html#resources",
-    "href": "bmc.html#resources",
-    "title": "Business Model Canvas",
-    "section": "Resources",
-    "text": "Resources\n\nMiro Business Model Canvas Template"
-  },
-  {
-    "objectID": "course-support.html",
-    "href": "course-support.html",
-    "title": "Course support",
-    "section": "",
-    "text": "If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#lectures",
-    "href": "course-support.html#lectures",
-    "title": "Course support",
-    "section": "",
-    "text": "If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#discussion-forum",
-    "href": "course-support.html#discussion-forum",
-    "title": "Course support",
-    "section": "Discussion forum",
-    "text": "Discussion forum\nPrefer to write out your question in detail rather than asking in person? The online discussion forum is the best venue for these! We will use the Moodle forum as the online discussion forum.\nThere is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question that is posted, I encourage you to respond!",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#email",
-    "href": "course-support.html#email",
-    "title": "Course support",
-    "section": "Email",
-    "text": "Email\nPlease refrain from emailing any course content questions (those should go to Moodle), and only use email for questions about personal matters that may not be appropriate for the public course forum. For such matters, you may email me at kirenz@hdm-stuttgart.de.\nIf there is a question that’s not appropriate for the public forum, you are welcome to email me directly. If you email me, please include the name of our course in the subject line.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#academic-support",
-    "href": "course-support.html#academic-support",
-    "title": "Course support",
-    "section": "Academic support",
-    "text": "Academic support\nThere are times you may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit the Center for Learning and Development: it offers free services to all students.",
-    "crumbs": [
-      "Course information",
-      "Support"
     ]
   }
 ]
